@@ -4,8 +4,6 @@ export const PricingCard = ({
   price,
   type,
   subscription,
-  buttonText,
-  active,
 }: any) => {
   return (
     <>
