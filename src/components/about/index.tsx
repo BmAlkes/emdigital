@@ -2,7 +2,7 @@ const About1 = () => {
   return (
     <>
       <section
-        className="overflow-hidden pt-5 pb-12 lg:pt-[10px] lg:pb-[90px] bg-white dark:bg-dark"
+        className="overflow-hidden pt-5 pb-4   bg-white dark:bg-dark"
         id="about"
       >
         <div className="container mx-auto">
