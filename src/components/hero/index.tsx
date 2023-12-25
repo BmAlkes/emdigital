@@ -2,10 +2,15 @@ import bg from "../../assets/bg1.jpg";
 const Hero = () => {
   return (
     <section
-      className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0"
+      className="relative flex flex-col-reverse py-16 pt-44 lg:pt-2 lg:flex-col lg:pb-0"
       id="home"
     >
-      <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+      <div
+        className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-sine"
+      >
         <svg
           className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
           viewBox="0 0 100 100"
@@ -14,6 +19,7 @@ const Hero = () => {
         >
           <path d="M50 0H100L50 100H0L50 0Z" />
         </svg>
+
         <img
           className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
           src={bg}
@@ -40,15 +46,15 @@ const Hero = () => {
           </p>
           <div className="flex items-center">
             <a
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              href="#about"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-500 hover:bg-indigo-700  focus:shadow-outline focus:outline-none"
             >
               About US
             </a>
             <a
-              href="/"
+              href="#projects"
               aria-label=""
-              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-indigo-500"
             >
               Projects
             </a>

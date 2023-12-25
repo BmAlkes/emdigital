@@ -6,9 +6,14 @@ const About1 = () => {
         id="about"
       >
         <div className="container mx-auto">
-          <div className="flex flex-wrap items-center justify-between -mx-4">
+          <div className="flex flex-wrap items-center justify-between -mx-4 px-4">
             <div className="w-full px-4 lg:w-6/12">
-              <div className="flex items-center -mx-3 sm:-mx-4">
+              <div
+                className="flex items-center -mx-3 sm:-mx-4"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-easing="ease-in-sine"
+              >
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img

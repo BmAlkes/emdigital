@@ -2,7 +2,7 @@ import { PricingCard } from "../PrincingCard";
 
 const Pricing = () => {
   return (
-    <section className="relative z-10 overflow-hidden bg-white pb-12 pt-5 dark:bg-dark lg:pb-[90px] lg:pt-[20px]">
+    <section className="relative z-10 overflow-hidden bg-white px-4 pb-12 pt-5 dark:bg-dark lg:pb-[90px] lg:pt-[20px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -22,7 +22,7 @@ const Pricing = () => {
         </div>
 
         <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="mx-4 flex flex-wrap">
             <PricingCard
               type="Personal"
               price="$59"
