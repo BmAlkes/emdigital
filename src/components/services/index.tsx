@@ -1,6 +1,10 @@
 import web from "../../assets/web1.svg";
 import web2 from "../../assets/web2.svg";
 import web3 from "../../assets/web3.svg";
+import seo1 from "../../assets/seo1.png";
+import seo2 from "../../assets/seo2.png";
+import seo3 from "../../assets/seo3.png";
+import seo4 from "../../assets/seo4.png";
 import Pricing from "../pricingList";
 
 const Services = () => {
@@ -139,13 +143,19 @@ const Services = () => {
       </section>
 
       <section className="text-gray-600 body-font" id="projects">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                 A little bit of your Projects.
               </h1>
               <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+              <p className="mt-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi reiciendis nam ex tempore non nobis recusandae deserunt
+                tempora, id voluptate suscipit! Eligendi quibusdam earum
+                excepturi voluptatibus ut debitis ad eos.
+              </p>
             </div>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -245,6 +255,114 @@ const Services = () => {
                   className="cursor-pointer text-indigo-500 text-lg mt-3"
                 >
                   Check the projet
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font" id="projects">
+        <div className="container px-5 py-2 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+                About SEO
+              </h1>
+              <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+              <p className="mt-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi reiciendis nam ex tempore non nobis recusandae deserunt
+                tempora, id voluptate suscipit! Eligendi quibusdam earum
+                excepturi voluptatibus ut debitis ad eos.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-wrap -m-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-slate-50 p-6 rounded-lg">
+                <img
+                  className="h-40 rounded w-full object-cover object-top mb-6"
+                  src={seo1}
+                  alt="project eccomerce"
+                />
+                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  ""
+                </h3>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                  ""
+                </h2>
+                <p className="leading-relaxed text-base">""</p>
+                <a
+                  href="https://www.dror-tools.co.il/"
+                  className="cursor-pointer text-indigo-500 text-lg mt-3"
+                >
+                  Check Web site
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-slate-50 p-6 rounded-lg">
+                <img
+                  className="h-40 rounded w-full object-cover object-top mb-6"
+                  src={seo2}
+                  alt="Red store"
+                />
+                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  ""
+                </h3>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                  ""
+                </h2>
+                <p className="leading-relaxed text-base">""</p>
+                <a
+                  href="https://gamida.co.il/safety/"
+                  className="cursor-pointer text-indigo-500 text-lg mt-3"
+                >
+                  check Web site
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-slate-50 p-6 rounded-lg">
+                <img
+                  className="h-40 rounded w-full object-cover object-top mb-6"
+                  src={seo3}
+                  alt="content"
+                />
+                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  ""
+                </h3>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                  ""
+                </h2>
+                <p className="leading-relaxed text-base">""</p>
+                <a
+                  href="https://webcar-umber.vercel.app/"
+                  className="cursor-pointer text-indigo-500 text-lg mt-3"
+                >
+                  Check Web site
+                </a>
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-slate-50 p-6 rounded-lg">
+                <img
+                  className="h-40 rounded w-full object-cover object-center mb-6"
+                  src={seo4}
+                  alt="content"
+                />
+                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  ""
+                </h3>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                  ""
+                </h2>
+                <p className="leading-relaxed text-base">""</p>
+                <a
+                  href="https://www.hollo.co.il/"
+                  className="cursor-pointer text-indigo-500 text-lg mt-3"
+                >
+                  Check Web site
                 </a>
               </div>
             </div>
