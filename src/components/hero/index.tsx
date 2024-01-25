@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import bg from "../../assets/hero (2).jpg";
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section
-      className="relative flex flex-col-reverse py-16 pt-44 lg:pt-2 lg:flex-col lg:pb-0"
+      className="relative flex flex-col-reverse py-16  lg:pt-2 lg:flex-col lg:pb-0"
       id="home"
     >
       <div
@@ -32,7 +34,7 @@ const Hero = () => {
             E.M Digital
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Everything you
+            {t("titleHero")}
             <br className="hidden md:block" />
             can imagine{" "}
             <span className="inline-block text-deep-purple-accent-400">

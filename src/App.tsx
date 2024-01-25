@@ -8,10 +8,13 @@ import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
+import { useTranslation } from "react-i18next";
 
 AOS.init();
 
 function App() {
+  const { i18n } = useTranslation();
+  document.body.dir = i18n.dir();
   return (
     <BrowserRouter>
       <Routes>
