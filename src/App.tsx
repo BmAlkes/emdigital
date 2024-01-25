@@ -1,26 +1,29 @@
-import About1 from "./components/about";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import ScrollUp from "./components/scrollup";
-import Services from "./components/services";
-import WhatsApp from "./components/whatsappscroll";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Home from "./pages/Home";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./layout";
+import Contact from "./pages/Contact";
+import Team from "./pages/Team";
+import Projects from "./pages/Projects";
+import Services from "./pages/Services";
 
 AOS.init();
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <About1 />
-      <Services />
-      <Footer />
-      <ScrollUp />
-      <WhatsApp />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

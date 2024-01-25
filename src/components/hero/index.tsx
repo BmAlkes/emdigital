@@ -1,4 +1,4 @@
-import bg from "../../assets/bg1.jpg";
+import bg from "../../assets/hero (2).jpg";
 const Hero = () => {
   return (
     <section
