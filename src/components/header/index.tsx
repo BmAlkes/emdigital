@@ -22,7 +22,7 @@ const Header = () => {
   };
   const [direction, setDirection] = useState(document.body.dir);
   useEffect(() => {
-    const observer = new MutationObserver((mutationsList, observer) => {
+    const observer = new MutationObserver((mutationsList) => {
       if (mutationsList.some((mutation) => mutation.attributeName === "dir")) {
         setDirection(document.body.dir);
       }
