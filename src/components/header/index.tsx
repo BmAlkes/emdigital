@@ -32,7 +32,7 @@ const Header = () => {
     });
     return () => observer.disconnect();
   }, []);
-  console.log(direction);
+
   const languageOptions = [
     { name: "English", value: "en", flag: eua },
     { name: "Hebrew", value: "he", flag: israel },

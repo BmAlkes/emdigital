@@ -1,6 +1,22 @@
 import { useTranslation } from "react-i18next";
 import bg from "../../assets/hero (2).jpg";
+import { useEffect, useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
+  const [direction, setDirection] = useState(document.body.dir);
+  useEffect(() => {
+    const observer = new MutationObserver((mutationsList) => {
+      if (mutationsList.some((mutation) => mutation.attributeName === "dir")) {
+        setDirection(document.body.dir);
+      }
+    });
+    observer.observe(document.body, {
+      attributes: true,
+    });
+    return () => observer.disconnect();
+  }, []);
+  console.log(direction);
+
   const { t } = useTranslation();
   return (
     <section
@@ -8,13 +24,17 @@ const Hero = () => {
       id="home"
     >
       <div
-        className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0"
+        className={`inset-y-0 top-0 ${
+          direction === "rtl" ? "left-0" : "right-0"
+        } z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0`}
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-easing="ease-in-sine"
       >
         <svg
-          className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
+          className={`absolute left-0 hidden h-full text-white transform ${
+            direction === "ltr" ? "-translate-x-1/2" : "translate-x-[100%]"
+          }  lg:block`}
           viewBox="0 0 100 100"
           fill="currentColor"
           preserveAspectRatio="none slice"
@@ -35,30 +55,49 @@ const Hero = () => {
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             {t("titleHero")}
-            <br className="hidden md:block" />
-            can imagine{" "}
-            <span className="inline-block text-deep-purple-accent-400">
-              is real
-            </span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+            <Typewriter
+              words={
+                direction === "ltr"
+                  ? [
+                      "A website design and construction studio that makes a difference",
+                      "Your brand needs a website with advanced technology",
+                      "Your brand needs the highest performance",
+                      "Your brand needs customized development and advanced technologies such as: Wordpress, React, Google Analytics",
+                      "Your brand needs unique characterization and design",
+                      "Read more about us and understand why to choose us",
+                    ]
+                  : [
+                      "סטודיו לעיצוב ובניית אתרים שעושה את ההבדל",
+                      "המותג שלך צריך אתר בטכנולוגיה מתקדמת",
+                      "המותג שלך צריך את הביצועים הגבוהים ביותר",
+                      "המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות כגון:Wordpress, React, Google Analytics",
+                      "המותג שלך צריך אפיון ועיצוב ייחודי",
+                      "קרא עוד עלינו למה לבחור בנו",
+                    ]
+              }
+              loop={10}
+              cursor
+              cursorStyle="_"
+              typeSpeed={30}
+              deleteSpeed={30}
+              delaySpeed={1000}
+            />
           </p>
-          <div className="flex items-center">
+          <div className="flex gap-4 items-center">
             <a
               href="#about"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-500 hover:bg-indigo-700  focus:shadow-outline focus:outline-none"
             >
-              About US
+              {t("buttonAbout")}
             </a>
             <a
               href="#projects"
               aria-label=""
               className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-indigo-500"
             >
-              Projects
+              {t("buttonProject")}
             </a>
           </div>
         </div>
