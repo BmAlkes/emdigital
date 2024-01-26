@@ -1,8 +1,10 @@
 import why1 from "../../assets/why1.jpg";
 import seo from "../../assets/seo.jpg";
 import web from "../../assets/webdesign.jpg";
+import { useTranslation } from "react-i18next";
 
 const About1 = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section
@@ -607,26 +609,40 @@ const About1 = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-2xl font-semibold text-primary">
-                  Why Choose Us
+                  {t("whyus")}
                 </span>
                 <h2 className="mb-5 text-xl font-bold text-black opacity-60 sm:text-[40px]/[48px]">
                   Make your customers happy by giving services.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                  "Welcome to EM digital - the home of quality and innovation in
+                  website design and development. In our studio, we commit to
+                  being with you from the first step, guaranteeing that every
+                  project will not only be spectacular and advanced, but also
+                  beautifully organized and organized. Every project at EM
+                  digital begins with precise characterization and design, where
+                  we focus on every detail to ensure that the final product
+                  meets our high expectations and yours. After the design, we
+                  move to the development phase, where the most advanced
+                  technologies are applied to ensure that your site is not only
+                  beautiful, but also strong and high-performing.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                  But our service does not end here. At EM digital, we also
+                  provide full server-side support, storage, and maintenance, so
+                  you can focus on what's really important - your brand. And not
+                  only that, we also offer advanced marketing services, which
+                  include organic and sponsored advertising on social networks,
+                  to ensure that your website becomes a real lead and sales
+                  machine. At EM digital, we don't just guarantee quality - we
+                  deliver it. Join us and discover how the highest quality can
+                  change the way the world sees your business."
                 </p>
                 <a
-                  href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  href="#contact"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-indigo-500 hover:bg-opacity-90"
                 >
-                  Get Started
+                  Talk with us.
                 </a>
               </div>
             </div>

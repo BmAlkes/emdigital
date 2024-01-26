@@ -3,7 +3,7 @@
   left: 2.5rem;
   bottom: -20%;
   background-color: #8b5cf6;
-  opacity: 0.8;
+  opacity: 0.6;
   padding: 0.3rem 0.5rem;
   border-radius: 0.4rem;
   z-index: 1000;
@@ -17,7 +17,7 @@
 
 /* SHOW SCROLL */
 .show-scroll {
-  bottom: 3rem;
+  bottom: 4rem;
 }
 
 /* BREAK POINTS */

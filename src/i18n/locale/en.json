@@ -6,15 +6,8 @@
     "Team": "Team",
     "Contact": "Contact",
     "titleHero": "Turning dreams into creations on the Internet",
-    "textHero": [
-      "A website design and construction studio that makes a difference",
-      "Your brand needs a website with advanced technology",
-      "Your brand needs the highest performance",
-      "Your brand needs customized development and advanced technologies such as: Wordpress, React, Google Analytics",
-      "Your brand needs unique characterization and design",
-      "Read more about us and understand why to choose us"
-    ],
     "buttonAbout": "About US",
-    "buttonProject": " Projects"
+    "buttonProject": " Projects",
+    "whyus": " Why Choose Us"
   }
 }

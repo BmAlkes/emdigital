@@ -56,7 +56,7 @@ const Hero = () => {
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             {t("titleHero")}
           </h2>
-          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+          <p className="pr-5 mb-5 text-indigo-500 md:text-lg">
             <Typewriter
               words={
                 direction === "ltr"
@@ -77,7 +77,7 @@ const Hero = () => {
                       "קרא עוד עלינו למה לבחור בנו",
                     ]
               }
-              loop={10}
+              loop={50}
               cursor
               cursorStyle="_"
               typeSpeed={30}
