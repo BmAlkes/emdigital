@@ -3,6 +3,7 @@ import web2 from "../../assets/web2.svg";
 import web3 from "../../assets/web3.svg";
 import safe from "../../assets/logo (2) (1).jpg";
 import Pricing from "../pricingList";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -254,6 +255,13 @@ const Services = () => {
                   Check the projet
                 </a>
               </div>
+            </div>
+            <div className="flex w-full items-center justify-center">
+              <Link to="/projects">
+                <button className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-indigo-500 hover:bg-opacity-90">
+                  More Projects
+                </button>
+              </Link>
             </div>
           </div>
         </div>
