@@ -72,11 +72,11 @@ const Team = () => {
               alt=""
             />
 
-            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+            <h1 className="mt-4 text-2xl font-semibold text-gray-700  capitalize dark:text-white group-hover:text-white">
               Eden.Y. Charninski
             </h1>
 
-            <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+            <p className="mt-2 text-gray-500 capitalize text-center dark:text-gray-300 group-hover:text-gray-300">
               Founding partner and marketing manager
             </p>
 
@@ -109,7 +109,7 @@ const Team = () => {
               Aviv Avidar
             </h1>
 
-            <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+            <p className="mt-2 text-gray-500 capitalize text-center dark:text-gray-300 group-hover:text-gray-300">
               UX&UI and Graphic Desinger
             </p>
 
