@@ -12,7 +12,7 @@ const About1 = () => {
         id="about"
       >
         <div className="container mx-auto">
-          <div className="flex flex-wrap items-center justify-between -mx-4 px-4">
+          <div className="flex flex-wrap flex-col-reverse md:flex-row items-center justify-between -mx-4 px-4">
             <div className="w-full px-4 lg:w-6/12">
               <div
                 className="flex items-center -mx-3 sm:-mx-4"

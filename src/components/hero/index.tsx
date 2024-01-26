@@ -20,7 +20,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <section
-      className="relative flex flex-col-reverse py-16  lg:pt-2 lg:flex-col lg:pb-0"
+      className="relative flex flex-col-reverse lg:py-16 py-1  lg:pt-2 lg:flex-col lg:pb-0"
       id="home"
     >
       <div
