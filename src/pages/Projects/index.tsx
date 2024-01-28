@@ -2,15 +2,15 @@ import projectbg from "../../assets/brand.jpg";
 import safe from "../../assets/safe.png";
 import deliver from "../../assets/deliver.png";
 import bbuy from "../../assets/bbuy.png";
-import { seoData } from "./seoData";
+// import { seoData } from "./seoData";
 
-interface SeoType {
-  img: string;
-  name: string;
-  type: string;
-  about: string;
-  site: string;
-}
+// interface SeoType {
+//   img: string;
+//   name: string;
+//   type: string;
+//   about: string;
+//   site: string;
+// }
 
 const Projects = () => {
   return (
