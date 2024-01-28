@@ -1,7 +1,9 @@
 import { useTranslation } from "react-i18next";
-import bg from "../../assets/hero (2).jpg";
+
 import { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   const [direction, setDirection] = useState(document.body.dir);
   useEffect(() => {
@@ -19,44 +21,18 @@ const Hero = () => {
 
   const { t } = useTranslation();
   return (
-    <section
-      className="relative flex flex-col-reverse lg:py-16 py-1  lg:pt-2 lg:flex-col lg:pb-0"
-      id="home"
-    >
-      <div
-        className={`inset-y-0 top-0 ${
-          direction === "rtl" ? "left-0" : "right-0"
-        } z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0`}
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-sine"
-      >
-        <svg
-          className={`absolute left-0 hidden h-full text-white transform ${
-            direction === "ltr" ? "-translate-x-1/2" : "translate-x-[100%]"
-          }  lg:block`}
-          viewBox="0 0 100 100"
-          fill="currentColor"
-          preserveAspectRatio="none slice"
-        >
-          <path d="M50 0H100L50 100H0L50 0Z" />
-        </svg>
+    <section className="relative bg-[url(https://res.cloudinary.com/landingpage2/image/upload/v1706432924/hero_qtvaon.jpg)] bg-cover bg-center bg-no-repeat">
+      <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
-        <img
-          className="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src={bg}
-          alt="bg hero"
-        />
-      </div>
-      <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <p className="inline-block py-px mb-4 text-base font-semibold tracking-wider text-indigo-500 uppercase rounded-full bg-teal-accent-400">
-            E.M Digital
-          </p>
-          <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+      <div className="relative mx-auto max-w-screen-xl px-4  sm:px-6 flex  items-center lg:h-[1000px] lg:items-center lg:px-8 h-[500px]">
+        <div className="max-w-2xl text-center ltr:sm:text-left rtl:sm:text-right">
+          <h1 className="text-base font-extrabold sm:text-base text-indigo-500">
+            Studio 24
+          </h1>
+          <h2 className="block font-extrabold lg:my-20 my-4 lg:text-7xl text-2xl  text-gray-800">
             {t("titleHero")}
           </h2>
-          <p className="pr-5 mb-5 text-indigo-500 md:text-lg">
+          <p className="text-indigo-500 lg:text-3xl text-lg">
             <Typewriter
               words={
                 direction === "ltr"
@@ -79,25 +55,26 @@ const Hero = () => {
               }
               loop={50}
               cursor
-              cursorStyle="_"
+              cursorStyle=""
               typeSpeed={30}
               deleteSpeed={30}
               delaySpeed={1000}
             />
           </p>
-          <div className="flex gap-4 items-center">
+
+          <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a
               href="#about"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-500 hover:bg-indigo-700  focus:shadow-outline focus:outline-none"
+              className="block w-full rounded bg-indigo-500 px-12 py-3 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-indigo-500 sm:w-auto"
             >
               {t("buttonAbout")}
             </a>
+
             <a
-              href="#projects"
-              aria-label=""
-              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-indigo-500"
+              href=""
+              className="block w-full rounded bg-white px-12 py-3 text-base font-medium text-indigo-500 shadow hover:text-indigo-700 focus:outline-none focus:ring active:text-indigo-500 sm:w-auto"
             >
-              {t("buttonProject")}
+              <Link to="/projects">{t("buttonProject")}</Link>
             </a>
           </div>
         </div>

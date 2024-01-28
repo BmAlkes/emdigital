@@ -64,7 +64,8 @@ const Header = () => {
             </Link>
           </ul>
         </div>
-        <div className="flex gap-5 cursor-pointer">
+
+        {/* <div className="flex gap-5 cursor-pointer">
           {languageOptions.map((language) => (
             <button
               key={language.value}
@@ -76,7 +77,7 @@ const Header = () => {
               <img src={language.flag} alt={language.name} className="w-10" />
             </button>
           ))}
-        </div>
+        </div> */}
         <div className="lg:hidden cursor-pointer">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger>
