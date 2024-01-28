@@ -22,49 +22,52 @@ const Services = () => {
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/2 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src={web} alt="" className="h-5" />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Design of web pages
+                  Website Design
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  "Experience the fusion of aesthetics and functionality with
+                  our website design solutions, tailored to present your brand's
+                  digital presence with flair and efficiency."
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/2 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src={web2} alt="" className="object-cover h-6" />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Application
+                  Business Branding Packages
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Harum facilis ad temporibus nesciunt incidunt
+                  "Reimagine your brand's essence with our comprehensive
+                  business branding packages, offering a cohesive and powerful
+                  branding strategy that sets you apart in the marketplace."
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/2 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src={web3} alt="" className="h-7 object-fill " />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Neptune
+                  Graphic Design:
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  "Elevate your visual impact with our cutting-edge graphic
+                  design services, where creativity blends with precision to
+                  transform your vision into stunning visuals."
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/2 md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
@@ -80,59 +83,12 @@ const Services = () => {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Melanchole
+                  Logo Design:
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
-                <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                  </svg>
-                </div>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Bunker
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
-                <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
-                </div>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Ramona Falls
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  "Craft the cornerstone of your brand identity with our bespoke
+                  logo design service, where each creation is a blend of
+                  innovation, elegance, and memorable design."
                 </p>
               </div>
             </div>

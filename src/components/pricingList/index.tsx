@@ -66,6 +66,20 @@ const Pricing = () => {
               <List>Unlimited project</List>
               <List>12 Months support</List>
             </PricingCard>
+            <PricingCard
+              type="Professional"
+              price="$256"
+              subscription="year"
+              description="Perfect for using in a personal website or a client project."
+              buttonText="Choose Professional"
+            >
+              <List>Unlimited User</List>
+              <List>All UI components</List>
+              <List>Lifetime access</List>
+              <List>Free updates</List>
+              <List>Unlimited project</List>
+              <List>12 Months support</List>
+            </PricingCard>
           </div>
         </div>
       </div>
