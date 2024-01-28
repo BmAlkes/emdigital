@@ -2,6 +2,9 @@ import graphic from "../../assets/graphic-design-ruler-svgrepo-com.svg";
 import browser from "../../assets/browser-website-svgrepo-com.svg";
 import seo from "../../assets/seo-training-marketing-presentation-svgrepo-com.svg";
 import server from "../../assets/server-and-people-svgrepo-com.svg";
+import { Link } from "react-router-dom";
+import Pricing from "../../components/pricingList";
+import PricingPage from "../../components/pricingList2";
 
 const Services = () => {
   return (
@@ -23,9 +26,9 @@ const Services = () => {
       <section className="bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4  sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mt-8 mb-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-            <a
+            <Link
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-indigo-500/10 hover:shadow-indigo-500/10"
-              href="/services/digital-campaigns"
+              to="/services/graphic"
             >
               <img src={graphic} className="w-[150px]" />
 
@@ -36,11 +39,11 @@ const Services = () => {
                 ייחודיים, עיצוב אתרים מעוררי השראה וחבילות מיתוג עסקי שמבליטות
                 את הזהות והערכים של העסק / המותג.
               </p>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-indigo-500/10 hover:shadow-indigo-500/10"
-              href="/services/digital-campaigns"
+              to="/services/web"
             >
               <img src={browser} className="w-[150px]" />
 
@@ -53,11 +56,11 @@ const Services = () => {
                 נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
                 חנויות מקוונות ופתרונות Saas.
               </p>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-indigo-500/10 hover:shadow-indigo-500/10"
-              href="/services/digital-campaigns"
+              to="/services/marketing"
             >
               <img src={seo} className="w-[150px]" />
 
@@ -70,11 +73,11 @@ const Services = () => {
                 SEO לשיפור מיקום במנועי חיפוש, קמפיינים ממוקדים בפייסבוק
                 ואינסטגרם, ופרסום ממומן ב-Google Ads להגדלת המרות.
               </p>
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-indigo-500/10 hover:shadow-indigo-500/10"
-              href="/services/digital-campaigns"
+              to="/services/server"
             >
               <img src={server} className="w-[150px]" />
 
@@ -86,10 +89,11 @@ const Services = () => {
                 שמרו על אתרים ומידע בבטחה עם שירותי אחסון ושרתים מתקדמים.
                 מבטיחים זמינות גבוהה, מהירות ואמינות לכל פרויקט ועסק.
               </p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
+      <PricingPage />
     </section>
   );
 };

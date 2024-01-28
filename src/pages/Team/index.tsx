@@ -11,9 +11,10 @@ const Team = () => {
             הצוות שלנו
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">
-            "יציאה לאודיסיאה דיגיטלית: נווט את העתיד עם הצוות המסור שלנו של
-            חדשנים, מעצבים ומפתחים, יוצרים חוויות אינטרנט יוצאות דופן המותאמות
-            בדיוק בשבילך."
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            repudiandae dolorem error voluptatem. Nam ipsam nulla dolores
+            aliquid excepturi quas incidunt odio accusamus nesciunt officiis?
+            Quasi beatae voluptatibus deserunt quidem.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3 mx-auto">

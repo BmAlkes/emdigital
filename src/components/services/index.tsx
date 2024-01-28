@@ -246,7 +246,7 @@ const Services = () => {
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src={safe}
                 />
-                <p className="leading-relaxed">
+                <p className="leading-relaxed text-justify">
                   ממליצה בחום על ברונו! באתר של SafeGarden חיפשתי מתכנת פרונט
                   שיבין את החזון של האתר ואת הצרכים של המערכת. ברונו עבד בצורה
                   מדויקת ומהירה, שאל את השאלות הנכונות וידע בדיוק מה הצרכים של
@@ -266,7 +266,7 @@ const Services = () => {
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/300x300"
                 />
-                <p className="leading-relaxed">
+                <p className="leading-relaxed text-justify">
                   רציתי להגיד תודה ענקית לעדן והצלחה במיזם החדש וכמובן לכל צוות
                   היידה דיגיטל על העבודה הנפלאה שהם עושים באתר שלנו בקידום
                   אורגני, בכל מה שקשור למערכת קונימבו, כולל הזנת תכנים וטיפול
@@ -288,7 +288,7 @@ const Services = () => {
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/305x305"
                 />
-                <p className="leading-relaxed">
+                <p className="leading-relaxed text-justify">
                   Edison bulb retro cloud bread echo park, helvetica stumptown
                   taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
                   ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
