@@ -74,9 +74,9 @@ const Services = () => {
               </p>
             </Link>
 
-            <Link
+            <a
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-indigo-500/10 hover:shadow-indigo-500/10"
-              to="/services/server"
+              href="#"
             >
               <img src={server} className="w-[150px]" />
 
@@ -88,7 +88,7 @@ const Services = () => {
                 שמרו על אתרים ומידע בבטחה עם שירותי אחסון ושרתים מתקדמים.
                 מבטיחים זמינות גבוהה, מהירות ואמינות לכל פרויקט ועסק.
               </p>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
