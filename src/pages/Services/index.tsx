@@ -3,7 +3,6 @@ import browser from "../../assets/browser-website-svgrepo-com.svg";
 import seo from "../../assets/seo-training-marketing-presentation-svgrepo-com.svg";
 import server from "../../assets/server-and-people-svgrepo-com.svg";
 import { Link } from "react-router-dom";
-import Pricing from "../../components/pricingList";
 import PricingPage from "../../components/pricingList2";
 
 const Services = () => {
