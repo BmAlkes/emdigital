@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.jpg";
-import israel from "../../assets/israel.png";
-import eua from "../../assets/united-states.png";
+// import israel from "../../assets/israel.png";
+// import eua from "../../assets/united-states.png";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import {
