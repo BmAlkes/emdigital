@@ -15,10 +15,11 @@ const Services = () => {
               שירות שאנחנו עושים
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-              dicta quam, suscipit inventore ullam nemo, harum soluta voluptatum
-              ut consectetur, et officia. Doloribus facilis nam ipsum aliquid
-              quam molestias. Ratione.
+              ברוכים הבאים למחלקות העיצוב, הפיתוח, השיווק והשרתים שלנו. המקום
+              שבו כל הפתרונות הדיגיטליים נמצאים תחת קורת גג אחת! בחרו עיצוב גרפי
+              מרהיב, התקדמו לפיתוח אתרי אינטרנט מתקדמים ושווקו את האתר לקבלת
+              לידים איכותיים ואל תשכחו לאחסן את האתר במקום בטוח! הכל כאן, במקום
+              אחד - התחילו את המסע שלכם אל ההצלחה הדיגיטלית עכשיו!
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -31,14 +32,14 @@ const Services = () => {
                   עיצוב גרפי
                 </h2>
                 <p className="leading-relaxed text-base">
-                  עיצוב לוגו - צוות העיצוב הגרפי של הסטודיו 24 מתמחה בעיצוב לוגו
-                  מקצועי ויצירתי. אנו מתחייבים להתאמה מושלמת לזהות המותג שלך,
-                  תוך שימוש בכלים עדכניים וטכניקות חדשניות ליצירת לוגו שמשדר את
-                  המסר הנכון ומתחבר אל הקהל היעד שלך.
+                  {" "}
+                  הביאו לחיים את הרעיונות שלכם עם עיצוב גרפי מקצועי: מלוגואים
+                  ייחודיים, עיצוב אתרים מעוררי השראה וחבילות מיתוג עסקי שמבליטות
+                  את הזהות והערכים של העסק / המותג.
                 </p>
                 <Link to="/services">
                   <button className="bg-indigo-500 text-white py-2 px-5 rounded-lg mt-2">
-                    תדע עוד
+                    לפירוט של שירותי העיצוב לחצו כאן.
                   </button>
                 </Link>
               </div>
