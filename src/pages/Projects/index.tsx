@@ -1,4 +1,4 @@
-import projectbg from "../../assets/projects.jpg";
+import projectbg from "../../assets/brand.jpg";
 import safe from "../../assets/safe.png";
 import deliver from "../../assets/deliver.png";
 import bbuy from "../../assets/bbuy.png";
