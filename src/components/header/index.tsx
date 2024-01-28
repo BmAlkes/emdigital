@@ -12,7 +12,7 @@ import {
   SheetTrigger,
 } from "../ui/sheet";
 import { useEffect, useState } from "react";
-import i18n from "../../i18n";
+// import i18n from "../../i18n";
 import { t } from "i18next";
 
 const Header = () => {
@@ -33,10 +33,10 @@ const Header = () => {
     return () => observer.disconnect();
   }, []);
 
-  const languageOptions = [
-    { name: "English", value: "en", flag: eua },
-    { name: "Hebrew", value: "he", flag: israel },
-  ];
+  // const languageOptions = [
+  //   { name: "English", value: "en", flag: eua },
+  //   { name: "Hebrew", value: "he", flag: israel },
+  // ];
   return (
     <header className="bg-white">
       <nav className=" flex items-center justify-between w-[92%] mx-auto h-24">
