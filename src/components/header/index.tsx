@@ -38,7 +38,7 @@ const Header = () => {
   //   { name: "Hebrew", value: "he", flag: israel },
   // ];
   return (
-    <header className="bg-white">
+    <header className="bg-white shadow-lg ">
       <nav className=" flex items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">

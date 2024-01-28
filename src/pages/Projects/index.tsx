@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="container px-5 py-24 mx-auto ">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Our Projects
+            הפרוייקטים שלנו
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
@@ -36,7 +36,7 @@ const Projects = () => {
         </div>
         <div className="container">
           <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-            Web Sites and Apps.
+            אתרים ווב ואפלקציות
           </h2>
           <div className="h-1 w-20 bg-indigo-500 rounded"></div>
           <p className="mt-4">
@@ -216,46 +216,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container">
-        <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-          Seo
-        </h2>
-        <div className="h-1 w-20 bg-indigo-500 rounded"></div>
-        <p className="mt-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          reiciendis nam ex tempore non nobis recusandae deserunt tempora, id
-          voluptate suscipit! Eligendi quibusdam earum excepturi voluptatibus ut
-          debitis ad eos.
-        </p>
-      </div>
-      <div className="flex flex-wrap m-4">
-        {seoData.map((item: SeoType) => {
-          return (
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-slate-50 p-6 rounded-lg shadow-xl h-[400px]">
-                <img
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={item.img}
-                  alt="content"
-                />
-                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  {item.name}
-                </h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  {item.type}
-                </h2>
-                <p className="leading-relaxed text-base py-2">{item.about}</p>
-                <a
-                  href={item.site}
-                  className="cursor-pointer text-indigo-500 text-lg mt-3"
-                >
-                  Check the projet
-                </a>
-              </div>
-            </div>
-          );
-        })}
       </div>
     </section>
   );

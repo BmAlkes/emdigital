@@ -79,8 +79,7 @@
   scroll-behavior: smooth;
 }
 *[dir="rtl"] {
-  font-family: "Heebo", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Noto Sans Hebrew", sans-serif;
 }
 
 .hero {

@@ -47,21 +47,19 @@ const Contact = () => {
       </div>
       <div className="max-w-6xl mx-auto bg-white my-6 font-[sans-serif] text-indigo-500">
         <div className="text-center px-6">
-          <h2 className="text-3xl font-extrabold">Contact Us</h2>
+          <h2 className="text-5xl font-extrabold">צרו קשר</h2>
           <p className="text-lg text-gray-800 mt-3">
-            Have some big idea or brand to develop and need help?
+            יש לכם רעיון או מותג גדול לפתח ואתם צריכים עזרה?
           </p>
         </div>
         <div className="grid lg:grid-cols-3 items-center gap-4 shadow-2xl rounded-lg mt-8">
           <div className="bg-indigo-500 rounded-lg p-6 max-lg:text-center">
-            <h2 className="text-xl font-bold text-white">
-              Contact Information
-            </h2>
+            <h2 className="text-xl font-bold text-white">פרטי התקשרות</h2>
             <p className="text-sm text-white mt-3">
-              Have some big idea or brand to develop and need help?
+              יש לכם רעיון או מותג גדול לפתח ואתם צריכים עזרה?
             </p>
             <ul className="mt-16 space-y-10">
-              <li className="flex items-center max-lg:justify-center">
+              <li className="flex gap-2 items-center max-lg:justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
@@ -78,7 +76,7 @@ const Contact = () => {
                   <strong>eden@eden-digital.co.il</strong>
                 </a>
               </li>
-              <li className="flex items-center max-lg:justify-center">
+              <li className="flex gap-2 items-center max-lg:justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
@@ -98,7 +96,7 @@ const Contact = () => {
                   <strong>+972 54-589-9899</strong>
                 </a>
               </li>
-              <li className="flex items-center max-lg:justify-center">
+              <li className="flex gap-2 items-center max-lg:justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
@@ -123,9 +121,9 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            <ul className="flex max-lg:justify-center mt-16 space-x-4">
+            <ul className="flex max-lg:justify-center gap-5 mt-16 space-x-4">
               <li className="bg-white hover:bg-gray-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                <a href="javascript:void(0)">
+                <a href="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"
@@ -140,8 +138,8 @@ const Contact = () => {
                   </svg>
                 </a>
               </li>
-              <li className="bg-white hover:bg-gray-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                <a href="javascript:void(0)">
+              <li className="bg-white hover:bg-gray-200 h-10 w-10  rounded-full flex items-center justify-center shrink-0">
+                <a href="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"
@@ -178,7 +176,7 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="First Name"
-                    className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
+                    className="px-7 py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
@@ -205,7 +203,7 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Last Name"
-                    className="px-2 py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
+                    className="px-7  py-3 bg-white w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
                     value={lastName}
                     onChange={(e) => setLastname(e.target.value)}
                   />
@@ -232,7 +230,7 @@ const Contact = () => {
                   <input
                     type="number"
                     placeholder="Phone No."
-                    className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
+                    className="px-7  py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                   />
@@ -251,7 +249,7 @@ const Contact = () => {
                   <input
                     type="email"
                     placeholder="Email"
-                    className="px-2 py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
+                    className="px-7  py-3 bg-white text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -291,7 +289,7 @@ const Contact = () => {
                 <div className="relative flex items-center sm:col-span-2">
                   <textarea
                     placeholder="Write Message"
-                    className="px-2 pt-3 bg-white resize-none text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
+                    className="px-7  pt-3 bg-white resize-none text-black w-full text-sm border-b-2 focus:border-[#011c2b] outline-none"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
@@ -331,7 +329,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded px-4 py-2.5 font-semibold bg-indigo-500 text-white hover:bg-indigo-700"
+                className="mt-12 flex gap-3 flex-row-reverse items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded px-4 py-2.5 font-semibold bg-indigo-500 text-white hover:bg-indigo-700"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -348,7 +346,7 @@ const Contact = () => {
                     data-original="#000000"
                   />
                 </svg>
-                Send Message
+                תשלחו הודעה
               </button>
             </form>
           </div>

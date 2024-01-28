@@ -17,7 +17,7 @@ const About1 = () => {
               <div
                 className="flex items-center -mx-3 sm:-mx-4"
                 data-aos="fade-down"
-                data-aos-duration="600"
+                data-aos-duration="400"
                 data-aos-easing="ease-in-sine"
               >
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
@@ -608,12 +608,10 @@ const About1 = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-2xl font-semibold text-primary">
+                <span className="block mb-4 text-3xl font-semibold text-primary">
                   {t("whyus")}
                 </span>
-                <h2 className="mb-5 text-xl font-bold text-black opacity-60 sm:text-[40px]/[48px] ">
-                  הפוך את הלקוחות שלך מרוצים על ידי מתן שירותים.
-                </h2>
+
                 <p className="mb-5 text-base text-body-color dark:text-dark-6 text-justify">
                   "ברוכים הבאים ל-EM digital – הבית של האיכות והחדשנות בעיצוב
                   ופיתוח אתרים. בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד
@@ -638,7 +636,7 @@ const About1 = () => {
                   href="#contact"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-indigo-500 hover:bg-opacity-90"
                 >
-                  דבר אית
+                  דבר איתנו
                 </a>
               </div>
             </div>
