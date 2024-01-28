@@ -12,7 +12,7 @@ const Services = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-              Service we do
+              שירות שאנחנו עושים
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
@@ -28,13 +28,19 @@ const Services = () => {
                   <img src={web} alt="" className="h-5" />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Website Design
+                  עיצוב גרפי
                 </h2>
                 <p className="leading-relaxed text-base">
-                  "Experience the fusion of aesthetics and functionality with
-                  our website design solutions, tailored to present your brand's
-                  digital presence with flair and efficiency."
+                  עיצוב לוגו - צוות העיצוב הגרפי של הסטודיו 24 מתמחה בעיצוב לוגו
+                  מקצועי ויצירתי. אנו מתחייבים להתאמה מושלמת לזהות המותג שלך,
+                  תוך שימוש בכלים עדכניים וטכניקות חדשניות ליצירת לוגו שמשדר את
+                  המסר הנכון ומתחבר אל הקהל היעד שלך.
                 </p>
+                <Link to="/services">
+                  <button className="bg-indigo-500 text-white py-2 px-5 rounded-lg mt-2">
+                    תדע עוד
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="xl:w-1/2 md:w-1/2 p-4">
@@ -43,13 +49,20 @@ const Services = () => {
                   <img src={web2} alt="" className="object-cover h-6" />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Business Branding Packages
+                  פיתוח
                 </h2>
                 <p className="leading-relaxed text-base">
-                  "Reimagine your brand's essence with our comprehensive
-                  business branding packages, offering a cohesive and powerful
-                  branding strategy that sets you apart in the marketplace."
+                  עמוד נחיתה / מיני סייט - צוות הפיתוח של הסטודיו 24 מציעים
+                  שירותי פיתוח דף נחיתה ומיני סייטים ברמה גבוהה. אנו מבטיחים
+                  עיצוב מותאם אישית שמתאים בדיוק לצרכים שלך ופונקציונליות מתקדמת
+                  שתעזור למקסם את שיעורי ההמרה. המטרה שלנו היא ליצור דפי נחיתה
+                  ומיני סייטים שלא רק נראים טוב אלא גם מביאים תוצאות מעשיות.
                 </p>
+                <Link to="/services">
+                  <button className="bg-indigo-500 text-white py-2 px-5 rounded-lg mt-2">
+                    תדע עוד
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="xl:w-1/2 md:w-1/2 p-4">
@@ -58,13 +71,17 @@ const Services = () => {
                   <img src={web3} alt="" className="h-7 object-fill " />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  Graphic Design:
+                  SEO
                 </h2>
                 <p className="leading-relaxed text-base">
-                  "Elevate your visual impact with our cutting-edge graphic
-                  design services, where creativity blends with precision to
-                  transform your vision into stunning visuals."
+                  צוות השיווק של הסטודיו 24 מספקים שירותי SEO מקצועיים, לשיפור
+                  נראות האתר שלך במנועי חיפוש ולהגדלת תנועת הגולשים.
                 </p>
+                <Link to="/services">
+                  <button className="bg-indigo-500 text-white py-2 px-5 rounded-lg mt-2">
+                    תדע עוד
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="xl:w-1/2 md:w-1/2 p-4">
@@ -226,9 +243,7 @@ const Services = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col items-center">
-            <h2 className="text-center text-4xl text-gray-800 ">
-              Recommendations
-            </h2>
+            <h2 className="text-center text-4xl text-gray-800 ">המלצות</h2>
             <span className="inline-block h-1 w-24 rounded bg-indigo-500 mt-5 mb-7 "></span>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -240,18 +255,16 @@ const Services = () => {
                   src={safe}
                 />
                 <p className="leading-relaxed">
-                  Highly recommend Bruno! On SafeGarden's website, I was looking
-                  for a front-end programmer who would understand the vision of
-                  the website and the needs of the system. Bruno worked
-                  accurately and quickly, asked the right questions and knew
-                  exactly what the system's needs were. Cooperation with him was
-                  easy and professional and most importantly humane!
+                  ממליצה בחום על ברונו! באתר של SafeGarden חיפשתי מתכנת פרונט
+                  שיבין את החזון של האתר ואת הצרכים של המערכת. ברונו עבד בצורה
+                  מדויקת ומהירה, שאל את השאלות הנכונות וידע בדיוק מה הצרכים של
+                  המערכת. השיתוף פעולה איתו היה קליל ומקצועי והכי חשוב אנושי!
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
                   Anastacia Tsarfati
                 </h2>
-                <p className="text-gray-500">Owner of SafeGarden</p>
+                <p className="text-gray-500">בעלים של Safegarden</p>
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">

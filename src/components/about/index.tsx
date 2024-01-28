@@ -17,7 +17,7 @@ const About1 = () => {
               <div
                 className="flex items-center -mx-3 sm:-mx-4"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="600"
                 data-aos-easing="ease-in-sine"
               >
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
@@ -611,38 +611,34 @@ const About1 = () => {
                 <span className="block mb-4 text-2xl font-semibold text-primary">
                   {t("whyus")}
                 </span>
-                <h2 className="mb-5 text-xl font-bold text-black opacity-60 sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                <h2 className="mb-5 text-xl font-bold text-black opacity-60 sm:text-[40px]/[48px] ">
+                  הפוך את הלקוחות שלך מרוצים על ידי מתן שירותים.
                 </h2>
-                <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  "Welcome to EM digital - the home of quality and innovation in
-                  website design and development. In our studio, we commit to
-                  being with you from the first step, guaranteeing that every
-                  project will not only be spectacular and advanced, but also
-                  beautifully organized and organized. Every project at EM
-                  digital begins with precise characterization and design, where
-                  we focus on every detail to ensure that the final product
-                  meets our high expectations and yours. After the design, we
-                  move to the development phase, where the most advanced
-                  technologies are applied to ensure that your site is not only
-                  beautiful, but also strong and high-performing.
+                <p className="mb-5 text-base text-body-color dark:text-dark-6 text-justify">
+                  "ברוכים הבאים ל-EM digital – הבית של האיכות והחדשנות בעיצוב
+                  ופיתוח אתרים. בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד
+                  הראשון, מבטיחים שכל פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם
+                  מסודר ומאורגן להפליא. כל פרויקט ב-EM digital מתחיל באפיון
+                  ועיצוב מדויק, כאשר אנו מתמקדים בכל פרט ופרט כדי להבטיח שהמוצר
+                  הסופי יעמוד בציפיות הגבוהות שלנו ושלכם. אחרי העיצוב, אנחנו
+                  עוברים לשלב הפיתוח, שבו מופעלות הטכנולוגיות המתקדמות ביותר כדי
+                  להבטיח שאתרכם יהיה לא רק יפה, אלא גם חזק ובעל ביצועים גבוהים.
                 </p>
-                <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  But our service does not end here. At EM digital, we also
-                  provide full server-side support, storage, and maintenance, so
-                  you can focus on what's really important - your brand. And not
-                  only that, we also offer advanced marketing services, which
-                  include organic and sponsored advertising on social networks,
-                  to ensure that your website becomes a real lead and sales
-                  machine. At EM digital, we don't just guarantee quality - we
-                  deliver it. Join us and discover how the highest quality can
-                  change the way the world sees your business."
+                <p className="mb-8 text-base text-body-color dark:text-dark-6 text-justify">
+                  אך השירות שלנו לא מסתיים כאן. ב-EM digital, אנו מספקים גם
+                  תמיכה מלאה בצד השרת, אחסון, ותחזוקה, כדי שתוכלו להתמקד במה
+                  שחשוב באמת - המותג שלכם. ולא זה בלבד, אנו גם מציעים שירותי
+                  שיווק מתקדמים, הכוללים פרסום אורגני וממומן ברשתות החברתיות,
+                  כדי להבטיח שהאתר שלכם יהפוך למכונת לידים ומכירות אמיתית. ב-EM
+                  digital, אנו לא רק מבטיחים איכות - אנו מגשימים אותה. הצטרפו
+                  אלינו וגלו איך האיכות הגבוהה ביותר יכולה לשנות את הדרך שבה
+                  העולם רואה את העסק שלכם."
                 </p>
                 <a
                   href="#contact"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-indigo-500 hover:bg-opacity-90"
                 >
-                  Talk with us.
+                  דבר אית
                 </a>
               </div>
             </div>

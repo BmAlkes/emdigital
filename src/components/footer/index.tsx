@@ -39,24 +39,24 @@ const Footer = () => {
   return (
     <footer className="text-gray-600 body-font" id="contact">
       <div className="border-t border-gray-200">
-        <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
+        <div className="container px-5 py-8 flex flex-wrap mx-auto items-center ">
           <div className="flex md:flex-nowrap flex-wrap justify-center items-center md:justify-start">
             <div className="relative  sm:mr-4 mr-2">
               <h3 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-                Contact us
+                צרו קשר
               </h3>
               <div className="h-1 w-20 mb-4 bg-indigo-500 rounded"></div>
               <form onSubmit={sendEmail}>
                 <input
                   type="text"
-                  placeholder="name"
+                  placeholder="שם"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-3"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
                 <input
                   type="text"
-                  placeholder="phone"
+                  placeholder="טלפון"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-3"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
@@ -74,18 +74,18 @@ const Footer = () => {
                 <textarea
                   id="footer-field"
                   name="footer-field"
-                  placeholder="messagem..."
+                  placeholder="הודעה אלינו...."
                   className="w-full resize-none mt-3 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
                 <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Send
+                  תשלח
                 </button>
               </form>
             </div>
           </div>
-          <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+          <span className="inline-flex mr-auto lg:mt-0 mt-6 w-full   md:justify-start md:w-auto">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
@@ -145,7 +145,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-gray-100">
-        <div className="container mx-auto py-4 px-5 flex items-center h-20 flex-wrap flex-col sm:flex-row">
+        <div className="container mx-auto py-4 px-5 flex items-center justify-between h-20 flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
             © 2021 —
             <a
@@ -157,7 +157,7 @@ const Footer = () => {
               Bmalkes - Studio 24 Solutions
             </a>
           </p>
-          <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">
+          <span className="sm:mr-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">
             All rights reserved Studio 24 Solutions
           </span>
         </div>

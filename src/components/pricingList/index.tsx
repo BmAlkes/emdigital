@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PricingCard } from "../PrincingCard";
 
 const Pricing = () => {
@@ -21,67 +22,173 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap justify-center">
+        <div className="-mx-4 flex flex-wrap justify-center ">
           <div className="mx-4 flex flex-wrap">
             <PricingCard
-              type="Personal"
-              price="$59"
+              type="מסלול ראשון"
+              price="₪"
               subscription="year"
               description="Perfect for using in a personal website or a client project."
               buttonText="Choose Personal"
             >
-              <List>1 User</List>
-              <List>All UI components</List>
-              <List>Lifetime access</List>
-              <List>Free updates</List>
-              <List>Use on 1 (one) project</List>
-              <List>3 Months support</List>
+              <List>
+                <span className="font-semibold text-indigo-500">עיצוב: </span>על
+                פי עיצוב קיים
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">סוג אתר: </span>
+                עמוד נחיתה / מיני סייט
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">שיווק: </span>{" "}
+                קמפיין בפייסבוק לבחירה: לאיסוף לידים /יצירת קשר / מבצע / מוצר
+                חדש
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">תחזוקה: </span>
+                Free updates
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">CRM:</span>חיבור
+                למערכת לידים שלנו ושיקוף הנתונים ללקוח
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">
+                  מעקב ומדידה:
+                </span>
+                חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta
+                buisiness, gtm, רימרקטינג
+              </List>
             </PricingCard>
             <PricingCard
-              type="Business"
-              price="$199"
+              type="מסלול שני"
+              price="₪"
               subscription="year"
               description="Perfect for using in a personal website or a client project."
               buttonText="Choose Business"
               active
             >
-              <List>5 User</List>
-              <List>All UI components</List>
-              <List>Lifetime access</List>
-              <List>Free updates</List>
-              <List>Use on31 (Three) project</List>
-              <List>4 Months support</List>
+              <List>
+                <span className="font-semibold text-indigo-500">עיצוב: </span>
+                עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">סוג אתר: </span>
+                אתר תדמית וורדפרס עד 6-8 עמודים כולל עמוד צור קשר, אודות,
+                שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">שיווק: </span>
+                SEO טכני בלבד!
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">תחזוקה: </span>
+                אחסון ותחזוקה, ניהול מלא של צד שרת
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">CRM:</span>חיבור
+                חיבור למערכת לידים ושיקוף הנתונים ללקוח{" "}
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">
+                  מעקב ומדידה:
+                </span>
+                חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta
+                buisiness, gtm, רימרקטינג, סארצ' קונסול
+              </List>
             </PricingCard>
             <PricingCard
-              type="Professional"
-              price="$256"
+              type="מסלול שלישי"
+              price="₪"
               subscription="year"
               description="Perfect for using in a personal website or a client project."
               buttonText="Choose Professional"
             >
-              <List>Unlimited User</List>
-              <List>All UI components</List>
-              <List>Lifetime access</List>
-              <List>Free updates</List>
-              <List>Unlimited project</List>
-              <List>12 Months support</List>
+              <List>
+                <span className="font-semibold text-indigo-500">עיצוב: </span>על
+                עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">סוג אתר: </span>
+                אתר תדמית בריאקט עד 6-8 עמודים כולל עמוד צור קשר, אודות,
+                שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">שיווק: </span>{" "}
+                SEO טכני בלבד!
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">תחזוקה: </span>
+                אחסון ותחזוקה, ניהול מלא של צד שרת
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">CRM:</span>חיבור
+                חיבור למערכת לידים ושיקוף הנתונים ללקוח
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">
+                  מעקב ומדידה:
+                </span>
+                חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta
+                buisiness, gtm, רימרקטינג, סארצ' קונסול{" "}
+              </List>
             </PricingCard>
             <PricingCard
-              type="Professional"
-              price="$256"
+              type="משלול רביעי"
+              price="₪"
               subscription="year"
               description="Perfect for using in a personal website or a client project."
               buttonText="Choose Professional"
             >
-              <List>Unlimited User</List>
-              <List>All UI components</List>
-              <List>Lifetime access</List>
-              <List>Free updates</List>
-              <List>Unlimited project</List>
-              <List>12 Months support</List>
+              <List>
+                <span className="font-semibold text-indigo-500">עיצוב: </span>על
+                עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma{" "}
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">סוג אתר: </span>
+                אתר מתקדם מותאם לאתרי חנויות גדולים / saas
+              </List>
+              <List>
+                <span className="font-semibold text-indigo-500">שיווק: </span>{" "}
+                חבילת שיווק מלאה: SEO מלא! כולל שוטף ( תוכן וקישורים), קמפיין
+                ממומן גוגל אדס ברשת המדיה כולל עיצוב באנרים , חבילת שיווק
+                בפייסבוק
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">תחזוקה: </span>
+                אחסון ותחזוקה, ניהול מלא של צד שרת
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">CRM:</span>חיבור
+                חיבור למערכת לידים ושיקוף הנתונים ללקוח
+              </List>
+              <List>
+                {" "}
+                <span className="font-semibold text-indigo-500">
+                  מעקב ומדידה:
+                </span>
+                חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta
+                buisiness, gtm, רימרקטינג, סארצ' קונסול, מערכת למעקב מיקומים se
+                ranking
+              </List>
             </PricingCard>
           </div>
         </div>
+      </div>
+      <div className="w-full flex items-center justify-center">
+        <Link to="/services">
+          <button className="bg-indigo-500 text-white py-2 px-7 mx-auto rounded-lg mt-2 ">
+            מידע נוסף
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -8,12 +8,12 @@ const Team = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Our Team
+            הצוות שלנו
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">
+            "יציאה לאודיסיאה דיגיטלית: נווט את העתיד עם הצוות המסור שלנו של
+            חדשנים, מעצבים ומפתחים, יוצרים חוויות אינטרנט יוצאות דופן המותאמות
+            בדיוק בשבילך."
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3 mx-auto">
