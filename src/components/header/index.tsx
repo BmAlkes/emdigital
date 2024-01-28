@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/new logo.png";
 // import israel from "../../assets/israel.png";
 // import eua from "../../assets/united-states.png";
 import { Link } from "react-router-dom";
@@ -64,7 +64,7 @@ const Header = () => {
             </Link>
           </ul>
         </div>
-
+        <div></div>
         {/* <div className="flex gap-5 cursor-pointer">
           {languageOptions.map((language) => (
             <button
