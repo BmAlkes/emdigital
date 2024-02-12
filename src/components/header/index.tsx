@@ -1,4 +1,4 @@
-import logo from "../../assets/new logo.png";
+import logo from "../../assets/reacting.png";
 // import israel from "../../assets/israel.png";
 // import eua from "../../assets/united-states.png";
 import { Link } from "react-router-dom";
@@ -38,29 +38,26 @@ const Header = () => {
   //   { name: "Hebrew", value: "he", flag: israel },
   // ];
   return (
-    <header className="bg-white shadow-lg ">
-      <nav className=" flex items-center justify-between w-[92%] mx-auto h-24">
+    <header className="bg-[#030B0F] shadow-lg ">
+      <nav className=" flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div className=" bg-white left-0 lg:w-auto hidden w-full lg:flex items-center px-5">
-          <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-gray-900">
-            <Link to="/" className="hover:text-gray-500">
-              <li>{t("home")}</li>
-            </Link>
+        <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center px-5">
+          <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-white">
             <Link to="/services" className="hover:text-gray-500">
-              <li>{t("Services")}</li>
+              <li>אודות החברה</li>
             </Link>
             <Link to="/projects" className="hover:text-gray-500">
-              <li>{t("Projects")}</li>
+              <li>שירותים</li>
             </Link>
             <Link to="/team" className="hover:text-gray-500">
-              <li>{t("Team")}</li>
+              <li>פרוייקטים</li>
             </Link>
             <Link to="/contact" className="hover:text-gray-500">
-              <li>{t("Contact")}</li>
+              <li>הכירו אותנו</li>
             </Link>
           </ul>
         </div>
@@ -78,10 +75,15 @@ const Header = () => {
             </button>
           ))}
         </div> */}
+        <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block">
+          <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] ">
+            דברו איתנו
+          </span>
+        </button>{" "}
         <div className="lg:hidden cursor-pointer">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger>
-              <AiOutlineMenu size={35} />
+              <AiOutlineMenu size={35} color="#fff" />
             </SheetTrigger>
             <SheetContent side={direction === "rtl" ? "left" : "right"}>
               <SheetHeader>
