@@ -78,11 +78,14 @@ const Header = () => {
             </button>
           ))}
         </div> */}
-        <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
+        <a
+          href="tel:054589-9899"
+          className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block "
+        >
           <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
             דברו איתנו
           </span>
-        </button>{" "}
+        </a>{" "}
         <div className="lg:hidden cursor-pointer">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger>
