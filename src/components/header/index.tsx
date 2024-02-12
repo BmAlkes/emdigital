@@ -47,18 +47,21 @@ const Header = () => {
         </div>
         <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center px-5">
           <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-white">
-            <Link to="/services" className="hover:text-gray-500">
-              <li>אודות החברה</li>
-            </Link>
-            <Link to="/projects" className="hover:text-gray-500">
-              <li>שירותים</li>
-            </Link>
-            <Link to="/team" className="hover:text-gray-500">
-              <li>פרוייקטים</li>
-            </Link>
-            <Link to="/contact" className="hover:text-gray-500">
-              <li>הכירו אותנו</li>
-            </Link>
+            <li className="nav relative">
+              <Link to="/services">אודות החברה</Link>
+            </li>
+
+            <li className="nav relative">
+              <Link to="/projects">שירותים</Link>
+            </li>
+
+            <li className="nav relative">
+              <Link to="/team">פרוייקטים</Link>
+            </li>
+
+            <li className="nav relative">
+              <Link to="/contact">הכירו אותנו</Link>
+            </li>
           </ul>
         </div>
         <div></div>
@@ -75,8 +78,8 @@ const Header = () => {
             </button>
           ))}
         </div> */}
-        <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block">
-          <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] ">
+        <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
+          <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
             דברו איתנו
           </span>
         </button>{" "}
