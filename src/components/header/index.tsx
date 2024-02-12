@@ -91,20 +91,25 @@ const Header = () => {
             <SheetTrigger>
               <AiOutlineMenu size={35} color="#fff" />
             </SheetTrigger>
-            <SheetContent side={direction === "rtl" ? "left" : "right"}>
+            <SheetContent
+              side={"right"}
+              className="bg-[#030B0F] text-white border-l border-[#030b0f] p-6"
+            >
               <SheetHeader>
-                <SheetTitle className="absolute left-2">
-                  <img src={logo} alt="" />
+                <SheetTitle className="absolute left-5">
+                  <Link to="/">
+                    <img src={logo} alt="" />
+                  </Link>
                 </SheetTitle>
                 <SheetDescription>
-                  <nav className="mt-14 ">
+                  <nav className="mt-24 ">
                     <ul
                       className={`text-xl text-gray-900 flex flex-col gap-5   "items-end`}
                     >
                       <Link
                         onClick={handleClose}
                         to="/"
-                        className={`hover:text-gray-500 hover:bg-gray-200 ${
+                        className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full`}
                       >
@@ -113,7 +118,7 @@ const Header = () => {
                       <Link
                         onClick={handleClose}
                         to="/services"
-                        className={`hover:text-gray-500 hover:bg-gray-200 ${
+                        className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full`}
                       >
@@ -122,7 +127,7 @@ const Header = () => {
                       <Link
                         onClick={handleClose}
                         to="/projects"
-                        className={`hover:text-gray-500 hover:bg-gray-200 ${
+                        className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full`}
                       >
@@ -131,7 +136,7 @@ const Header = () => {
                       <Link
                         onClick={handleClose}
                         to="/team"
-                        className={`hover:text-gray-500 hover:bg-gray-200 ${
+                        className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full`}
                       >
@@ -140,7 +145,7 @@ const Header = () => {
                       <Link
                         onClick={handleClose}
                         to="/contact"
-                        className={`hover:text-gray-500 hover:bg-gray-200 ${
+                        className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full`}
                       >
