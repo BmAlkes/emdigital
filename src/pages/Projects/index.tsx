@@ -1,26 +1,16 @@
-import projectbg from "../../assets/brand.jpg";
 import safe from "../../assets/safe.png";
 import deliver from "../../assets/deliver.png";
 import bbuy from "../../assets/bbuy.png";
-// import { seoData } from "./seoData";
-
-// interface SeoType {
-//   img: string;
-//   name: string;
-//   type: string;
-//   about: string;
-//   site: string;
-// }
 
 const Projects = () => {
   return (
     <section className="text-gray-600 body-font">
       <div>
-        <img
+        {/* <img
           src={projectbg}
           alt=""
           className="h-96 w-full object-cover opacity-60"
-        />
+        /> */}
       </div>
       <div className="container px-5 py-24 mx-auto ">
         <div className="flex flex-col text-center w-full mb-20">

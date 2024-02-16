@@ -45,7 +45,7 @@ const Header = () => {
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center px-5">
+        <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center ">
           <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-white">
             <li className="nav relative">
               <Link to="/services">אודות החברה</Link>
@@ -64,7 +64,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div></div>
         {/* <div className="flex gap-5 cursor-pointer">
           {languageOptions.map((language) => (
             <button

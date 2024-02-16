@@ -1,11 +1,11 @@
-import web from "../../assets/web1.svg";
+import web from "../../assets/svg/web1.svg";
 import safe from "../../assets/logo (2) (1).jpg";
 import Pricing from "../pricingList";
 import { Link } from "react-router-dom";
-import graphic from "../../assets/graphic-design-ruler-svgrepo-com.svg";
+import graphic from "../../assets/svg/graphic-design-ruler-svgrepo-com.svg";
 
-import seo from "../../assets/seo-training-marketing-presentation-svgrepo-com.svg";
-import server from "../../assets/server-and-people-svgrepo-com.svg";
+import seo from "../../assets/svg/seo-training-marketing-presentation-svgrepo-com.svg";
+import server from "../../assets/svg/server-and-people-svgrepo-com.svg";
 
 const Services = () => {
   return (
