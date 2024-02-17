@@ -4,7 +4,7 @@ import Secimg from "../../assets/svg/pictureSec.svg";
 const About = () => {
   return (
     <>
-      <section className=" pt-5 pb-4 lg:h-screen h-full bg-[#030B0F] relative py-6 ">
+      <section className=" lg:pt-5 lg:pb-4 lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0  ">
         <div className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
           <div className="">
             <img

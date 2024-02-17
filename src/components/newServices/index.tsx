@@ -16,7 +16,7 @@ const NewServices = () => {
           המסע שלכם אל ההצלחה הדיגיטלית עכשיו!
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row container gap-8 mt-20 ">
+      <div className="flex flex-col lg:flex-row container gap-8 mt-20 mb-14 lg:mb-0 ">
         <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
           <img src={web} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
@@ -53,7 +53,7 @@ const NewServices = () => {
             </button>
           </div>
         </div>
-        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg show">
+        <div className="flex flex-col  justify-between py-6  px-4 rounded-lg show">
           <img src={graphic} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             עיצוב גרפי
@@ -71,7 +71,7 @@ const NewServices = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col justify-between py-6 px-4 rounded-lg show">
+        <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
           <img src={server} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             אחסון והקצאת שרתים
