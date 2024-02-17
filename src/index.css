@@ -147,12 +147,30 @@ nav li a:hover::after {
   transition: all 0.5s;
 }
 
-.show:hover {
-  background: rgba(111, 207, 237, 0.07);
-  background: linear-gradient(180deg, rgba(111, 207, 237, 0.07)) padding-box,
-    linear-gradient(90deg, #c0e8f7) border-box;
-  border-color: transparent;
-  border-width: 2px;
-  border-style: solid;
+.show {
   border-radius: 15px;
+  border: 2px solid transparent;
+}
+.show .hiddenShow {
+  opacity: 0;
+}
+
+.show:hover {
+  cursor: pointer;
+  background-color: rgba(111, 207, 237, 0.07);
+  background: linear-gradient(
+        rgba(111, 207, 237, 0.07),
+        rgba(111, 207, 237, 0.07)
+      )
+      padding-box,
+    linear-gradient(
+        to top,
+        rgba(111, 207, 237, 0.07),
+        rgba(255, 255, 255, 0.07)
+      )
+      border-box;
+}
+
+.show:hover .hiddenShow {
+  opacity: 1;
 }

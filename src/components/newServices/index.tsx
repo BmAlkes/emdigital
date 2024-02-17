@@ -27,15 +27,15 @@ const NewServices = () => {
             נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
             חנויות מקוונות ופתרונות Saas.
           </p>
-          <div className="">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
+          <div className="hiddenShow">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
               <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
                 עמוד שירות
               </span>
             </button>
           </div>
         </div>
-        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg ">
+        <div className=" flex flex-col  justify-between py-6 px-4 rounded-lg show">
           <img src={digital} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             שיווק דיגיטל
@@ -45,13 +45,15 @@ const NewServices = () => {
             נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
             חנויות מקוונות ופתרונות Saas.
           </p>
-          <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
-            <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-              עמוד שירות
-            </span>
-          </button>
+          <div className="hiddenShow">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                עמוד שירות
+              </span>
+            </button>
+          </div>
         </div>
-        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg">
+        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg show">
           <img src={graphic} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             עיצוב גרפי
@@ -61,13 +63,15 @@ const NewServices = () => {
             נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
             חנויות מקוונות ופתרונות Saas.
           </p>
-          <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
-            <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-              עמוד שירות
-            </span>
-          </button>
+          <div className="hiddenShow">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
+              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                עמוד שירות
+              </span>
+            </button>
+          </div>
         </div>
-        <div className="flex flex-col justify-between py-6 px-4 rounded-lg">
+        <div className="flex flex-col justify-between py-6 px-4 rounded-lg show">
           <img src={server} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             אחסון והקצאת שרתים
@@ -77,11 +81,13 @@ const NewServices = () => {
             נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
             חנויות מקוונות ופתרונות Saas.
           </p>
-          <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
-            <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-              עמוד שירות
-            </span>
-          </button>
+          <div className="hiddenShow">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
+              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                עמוד שירות
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
