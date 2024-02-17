@@ -1,5 +1,5 @@
 import Hero from "../../components/hero";
-// import About1 from "../../components/about";
+import About from "../../components/about";
 // import Services from "../../components/services";
 import Footer from "../../components/footer";
 import ScrollUp from "../../components/scrollup";
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      {/* <About1 /> */}
+      <About />
       {/* <Services /> */}
       <Footer />
       <NewFooter />

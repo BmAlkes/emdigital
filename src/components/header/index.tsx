@@ -1,4 +1,4 @@
-import logo from "../../assets/reacting.png";
+import logo from "../../assets/svg/Logo3.svg";
 // import israel from "../../assets/israel.png";
 // import eua from "../../assets/united-states.png";
 import { Link } from "react-router-dom";
@@ -42,7 +42,7 @@ const Header = () => {
       <nav className=" flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" className="w-[191px]" />
           </Link>
         </div>
         <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center ">
@@ -97,7 +97,7 @@ const Header = () => {
               <SheetHeader>
                 <SheetTitle className="absolute left-5">
                   <Link to="/">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" className="w-[150px]" />
                   </Link>
                 </SheetTitle>
                 <SheetDescription>

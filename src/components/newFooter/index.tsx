@@ -1,5 +1,5 @@
 import { ChevronLeft } from "lucide-react";
-import logoFooter from "../../assets/svg/Logo Horizontal W.svg";
+import logoFooter from "../../assets/svg/Logo3.svg";
 
 const NewFooter = () => {
   return (
