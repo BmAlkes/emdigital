@@ -146,3 +146,11 @@ nav li a:hover::after {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+.show:hover {
+  background: #6fcfed12;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #c0e8f7 100%, #c0e8f7 0%);
+  position: relative;
+}

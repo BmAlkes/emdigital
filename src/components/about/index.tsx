@@ -1,10 +1,11 @@
 import Secimg from "../../assets/svg/pictureSec.svg";
+import vetor from "../../assets/svg/Vector 18.svg";
 
 const About = () => {
   return (
     <>
-      <section className=" pt-5 pb-4 h-screen bg-[#030B0F] relative">
-        <div className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center">
+      <section className=" pt-5 pb-4 lg:h-screen h-full bg-[#030B0F] relative py-6 ">
+        <div className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
           <div className="">
             <img
               src={Secimg}
@@ -31,6 +32,11 @@ const About = () => {
             <button className="btn">אודות</button>
           </div>
         </div>
+        {/* <img
+          src={vetor}
+          alt=""
+          className="w-[350px] absolute left-0  top-[0%] overflow-hidden z-0"
+        /> */}
       </section>
     </>
   );
