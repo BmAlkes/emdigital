@@ -1,5 +1,4 @@
 import hand from "../../assets/Hand.png";
-import vetor from "../../assets/svg/Ellipse 33.svg";
 
 import { useEffect, useState } from "react";
 
