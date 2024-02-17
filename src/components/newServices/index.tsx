@@ -2,10 +2,11 @@ import web from "../../assets/svg/web.svg";
 import digital from "../../assets/svg/digital.svg";
 import graphic from "../../assets/svg/graphic.svg";
 import server from "../../assets/svg/server.svg";
+import vetor from "../../assets/Vector 17 (1).png";
 
 const NewServices = () => {
   return (
-    <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center">
+    <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center relative">
       <div className="container flex flex-col justify-center items-center ">
         <h2 className="text-6xl font-semibold">השירותים שלנו</h2>
         <p className="max-w-[869px] text-center py-7">
@@ -90,6 +91,11 @@ const NewServices = () => {
           </div>
         </div>
       </div>
+      <img
+        src={vetor}
+        alt="background section"
+        className="absolute top-0 right-[-100px] h-full"
+      />
     </section>
   );
 };
