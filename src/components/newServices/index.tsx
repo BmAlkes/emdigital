@@ -5,8 +5,8 @@ import server from "../../assets/svg/server.svg";
 
 const NewServices = () => {
   return (
-    <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1]">
-      <div className="container flex flex-col justify-center items-center">
+    <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center">
+      <div className="container flex flex-col justify-center items-center ">
         <h2 className="text-6xl font-semibold">השירותים שלנו</h2>
         <p className="max-w-[869px] text-center py-7">
           ברוכים הבאים למחלקות העיצוב, הפיתוח, השיווק והשרתים שלנו. המקום שבו כל
@@ -35,7 +35,7 @@ const NewServices = () => {
             </button>
           </div>
         </div>
-        <div className="border flex flex-col justify-between py-6 px-4 rounded-lg">
+        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg ">
           <img src={digital} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             שיווק דיגיטל
@@ -51,7 +51,7 @@ const NewServices = () => {
             </span>
           </button>
         </div>
-        <div className="border flex flex-col justify-between py-6 px-4 rounded-lg">
+        <div className=" flex flex-col justify-between py-6 px-4 rounded-lg">
           <img src={graphic} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             עיצוב גרפי
@@ -67,7 +67,7 @@ const NewServices = () => {
             </span>
           </button>
         </div>
-        <div className="border flex flex-col justify-between py-6 px-4 rounded-lg">
+        <div className="flex flex-col justify-between py-6 px-4 rounded-lg">
           <img src={server} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             אחסון והקצאת שרתים

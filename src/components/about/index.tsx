@@ -1,5 +1,5 @@
 import Secimg from "../../assets/svg/pictureSec.svg";
-import vetor from "../../assets/svg/Vector 18.svg";
+// import vetor from "../../assets/svg/Vector 18.svg";
 
 const About = () => {
   return (
