@@ -38,7 +38,7 @@ const Header = () => {
   //   { name: "Hebrew", value: "he", flag: israel },
   // ];
   return (
-    <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full ">
+    <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full z-50">
       <nav className=" flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">
