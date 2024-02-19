@@ -1,4 +1,4 @@
-import hand from "../../assets/Hand.png";
+import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
 
@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className=" bg-[#030B0F] h-screen mt-[96px]">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">
-        <div className="w-full h-full flex flex-col justify-center z-20">
+        <div className="w-full h-full flex flex-col justify-center z-20 ">
           <p className="text-[#6FCFED] lg:text-2xl text-lg">
             אנחנו פה בשביל לעזור לעסק שלך לצמוח
           </p>
@@ -36,13 +36,12 @@ const Hero = () => {
             <button className="btn">אודות</button>
           </div>
         </div>
-        <div className="w-full  flex  lg:justify-start justify-center items-end">
+        <div>
           <img
             src={hand}
             alt=""
-            className="w-[80%] md:w-[60%] lg:w-[70%] lg:object-cover relative z-40 "
+            className="h-full object-center object-cover overflow-visible w-full"
           />
-          <div className="hero absolute left-0 z-0 h-full "></div>
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import logoFooter from "../../assets/svg/Logo3.svg";
 
 const NewFooter = () => {
   return (
-    <footer className="bg-[#111111]">
+    <footer className="bg-[#030B0F]">
       <div className=" text-white px-5 py-32 mx-auto flex  lg:items-start lg:flex-row md:flex-col md:items-center flex-wrap flex-row">
         <div className="w-96 h-full md:mx-0 mx-auto text-right md:text-left md:mb-10 flex-1">
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
@@ -97,6 +97,16 @@ const NewFooter = () => {
               </li>
             </nav>
           </div>
+        </div>
+      </div>
+      <div className="bg-[#030B0F] border-t">
+        <div className="container mx-auto py-4 px-5 flex items-center justify-between h-20 flex-wrap flex-col sm:flex-row">
+          <p className="text-gray-500 text-sm text-center sm:text-left">
+            Differeating Solutions for web applications - ©2023
+          </p>
+          <span className="sm:mr-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm ">
+            All rights reserved Differeacting
+          </span>
         </div>
       </div>
     </footer>

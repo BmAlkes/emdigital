@@ -2,12 +2,14 @@ import web from "../../assets/svg/web.svg";
 import digital from "../../assets/svg/digital.svg";
 import graphic from "../../assets/svg/graphic.svg";
 import server from "../../assets/svg/server.svg";
-import vetor from "../../assets/Vector 17 (1).png";
+import vetor from "../../assets/svg/Vector 17.svg";
 
 const NewServices = () => {
   return (
     <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center relative">
-      <div className="container flex flex-col justify-center items-center ">
+      <img src={vetor} alt="" className="absolute right-0" />
+
+      <div className="container flex flex-col justify-center items-center">
         <h2 className="text-6xl font-semibold">השירותים שלנו</h2>
         <p className="max-w-[869px] text-center py-7">
           ברוכים הבאים למחלקות העיצוב, הפיתוח, השיווק והשרתים שלנו. המקום שבו כל
@@ -17,7 +19,7 @@ const NewServices = () => {
           המסע שלכם אל ההצלחה הדיגיטלית עכשיו!
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row container gap-8 mt-20 mb-14 lg:mb-0 ">
+      <div className="flex flex-col lg:flex-row container gap-8 mt-20 mb-14 lg:mb-0  z-50">
         <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
           <img src={web} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
@@ -65,7 +67,7 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
               <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
                 עמוד שירות
               </span>
@@ -83,7 +85,7 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block hidden mr-auto">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
               <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
                 עמוד שירות
               </span>
@@ -91,11 +93,6 @@ const NewServices = () => {
           </div>
         </div>
       </div>
-      <img
-        src={vetor}
-        alt="background section"
-        className="absolute top-0 right-[-100px] h-full"
-      />
     </section>
   );
 };

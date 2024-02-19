@@ -5,6 +5,7 @@ import ScrollUp from "../../components/scrollup";
 import WhatsApp from "../../components/whatsappscroll";
 import NewFooter from "../../components/newFooter";
 import NewServices from "../../components/newServices";
+import Projects from "../../components/projects";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <NewServices />
+      <Projects />
       <Footer />
       <NewFooter />
       <ScrollUp />
