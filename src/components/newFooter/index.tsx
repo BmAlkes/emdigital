@@ -100,13 +100,13 @@ const NewFooter = () => {
         </div>
       </div>
       <div className="bg-[#030B0F] border-t">
-        <div className="container mx-auto py-4 px-5 flex items-center justify-between h-20 flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">
+        <div className="container w-full py-4 h-20 flex lg:flex-row flex-col items-center justify-between ">
+          <p className="  text-gray-500 text-sm ">
+            All rights reserved Differeacting
+          </p>
+          <p className="text-gray-500 text-sm text-center">
             Differeating Solutions for web applications - ©2023
           </p>
-          <span className="sm:mr-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm ">
-            All rights reserved Differeacting
-          </span>
         </div>
       </div>
     </footer>

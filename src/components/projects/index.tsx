@@ -3,14 +3,13 @@ import Project1 from "../../assets/Image.png";
 import Project2 from "../../assets/Image (1).png";
 import Project3 from "../../assets/clothes-N7QxeYsR.png.png";
 import Project4 from "../../assets/safe.png";
-import vetor2 from "../../assets/Frame 1160445221.png";
 
 const Projects = () => {
   return (
-    <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center  relative">
-      <img src={vetor} alt="" className="absolute left-0 top-[-200px]" />
+    <section className="w-full h-full   bg-[#030B0F]  text-[#D1D1D1] flex flex-col justify-center relative ">
+      <img src={vetor} alt="" className="absolute left-0 top-[-300px]" />
       <div className="container">
-        <h2 className="text-6xl font-bold max-w-[647px]">
+        <h2 className="text-6xl font-bold max-w-[647px] pt-11">
           כמה מהעבודות הטובות ביותר שלנו
         </h2>
         <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
@@ -63,11 +62,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <img
-        src={vetor2}
-        alt="background"
-        className="absolute lg:bottom-[-180px] md:bottom-[-50px] bottom-[-30px]"
-      />
     </section>
   );
 };
