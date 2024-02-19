@@ -24,21 +24,21 @@ const Hero = () => {
           <p className="text-[#6FCFED] lg:text-2xl text-lg">
             אנחנו פה בשביל לעזור לעסק שלך לצמוח
           </p>
-          <h2 className="text-white lg:text-[80px] text-[40px]">
+          <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             הופכים חלומות ליצירה באינטרנט
           </h2>
-          <p className="text-white lg:text-2xl lg:mt-28 mt-5 text-xl">
+          <p className="text-white lg:text-2xl lg:mt-[10px] mt-5 text-xl">
             המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
             כגון:Wordpress, React, Google Analytics
           </p>
-          <div className="flex gap-4 mt-5">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
-              <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+          <div className="flex gap-7 mt-[30px]">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
+              <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
                 גלו עלינו עוד
               </span>
             </button>
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
-              <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px] ">
+              <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
                 למסלולים שלנו
               </span>
             </button>
@@ -48,7 +48,7 @@ const Hero = () => {
           <img
             src={hand}
             alt=""
-            className="h-full object-center object-cover overflow-visible w-full"
+            className="lg:h-full lg:object-center object-cover overflow-visible w-full h-[400px] md:h-[600px]"
           />
         </div>
       </div>
