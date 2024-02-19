@@ -18,16 +18,16 @@ const Hero = () => {
   console.log(direction);
 
   return (
-    <section className=" bg-[#030B0F] h-screen mt-[96px]">
+    <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px]">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">
-        <div className="w-full h-full flex flex-col justify-center z-20 ">
+        <div className="w-full h-full flex flex-col justify-center z-20 mt-8 md:mt-5  ">
           <p className="text-[#6FCFED] lg:text-2xl text-lg">
             אנחנו פה בשביל לעזור לעסק שלך לצמוח
           </p>
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             הופכים חלומות ליצירה באינטרנט
           </h2>
-          <p className="text-white lg:text-2xl lg:mt-[10px] mt-5 text-xl">
+          <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
             המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
             כגון:Wordpress, React, Google Analytics
           </p>
@@ -48,7 +48,7 @@ const Hero = () => {
           <img
             src={hand}
             alt=""
-            className="lg:h-full lg:object-center object-cover overflow-visible w-full h-[400px] md:h-[600px]"
+            className="lg:h-full lg:object-center object-cover overflow-visible w-full h-[300px] md:h-[600px]"
           />
         </div>
       </div>
