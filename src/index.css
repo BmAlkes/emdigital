@@ -113,15 +113,17 @@ nav li a:hover::after {
   height: 2.3em;
   margin: 0.5em;
   background: #4ac3e7;
-  color: #0e3243;
-  border: none;
+  color: #fff;
+  border: 1px solid transparent;
   border-radius: 0.625em;
-  font-size: 18px;
-  font-weight: bold;
+
+  font-weight: 400;
   cursor: pointer;
   position: relative;
   z-index: 1;
   overflow: hidden;
+  padding: 14px, 24px, 14px, 24px;
+  font-size: 18px;
 }
 
 .btn:hover {
@@ -130,7 +132,7 @@ nav li a:hover::after {
 
 .btn:after {
   content: "";
-  background: white;
+  background: linear-gradient(35deg, #6fcfed, #c96cbe);
   position: absolute;
   z-index: -1;
   left: -20%;

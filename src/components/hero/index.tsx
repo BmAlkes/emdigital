@@ -32,8 +32,16 @@ const Hero = () => {
             כגון:Wordpress, React, Google Analytics
           </p>
           <div className="flex gap-4 mt-5">
-            <button className="btn">גלו עלינו עוד</button>
-            <button className="btn">אודות</button>
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
+              <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+                גלו עלינו עוד
+              </span>
+            </button>
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block ">
+              <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+                למסלולים שלנו
+              </span>
+            </button>
           </div>
         </div>
         <div>
