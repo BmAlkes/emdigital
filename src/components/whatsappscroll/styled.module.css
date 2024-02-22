@@ -5,7 +5,7 @@
   position: fixed;
   bottom: 50px;
   right: 20px;
-  z-index: 1000;
+  z-index: 50;
   background-color: rgb(33, 154, 33);
   border-radius: 50%;
   padding: 1rem;

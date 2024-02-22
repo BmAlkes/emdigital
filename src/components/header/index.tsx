@@ -48,19 +48,22 @@ const Header = () => {
         <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center ">
           <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-white">
             <li className="nav relative">
-              <Link to="/services">אודות החברה</Link>
+              <Link to="/">ראשי</Link>
+            </li>
+            <li className="nav relative">
+              <Link to="/about">מי אנחנו</Link>
             </li>
 
             <li className="nav relative">
-              <Link to="/projects">שירותים</Link>
+              <Link to="/services">מסולים</Link>
             </li>
 
             <li className="nav relative">
-              <Link to="/team">פרוייקטים</Link>
+              <Link to="/projects">פרויקטים</Link>
             </li>
 
             <li className="nav relative">
-              <Link to="/contact">הכירו אותנו</Link>
+              <Link to="/contact">צרו קשר</Link>
             </li>
           </ul>
         </div>
@@ -110,45 +113,45 @@ const Header = () => {
                         to="/"
                         className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
-                        } w-full`}
+                        } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
                       >
-                        <li>{t("home")}</li>
+                        <li>ראשי</li>
+                      </Link>
+                      <Link
+                        onClick={handleClose}
+                        to="/about"
+                        className={`text-white ${
+                          direction === "rtl" ? "text-right" : "text-left"
+                        } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
+                      >
+                        <li>מי אנחנו</li>
                       </Link>
                       <Link
                         onClick={handleClose}
                         to="/services"
                         className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
-                        } w-full`}
+                        } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
                       >
-                        <li>{t("Services")}</li>
+                        <li>מסולים</li>
                       </Link>
                       <Link
                         onClick={handleClose}
                         to="/projects"
                         className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
-                        } w-full`}
+                        } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
                       >
-                        <li>{t("Projects")}</li>
-                      </Link>
-                      <Link
-                        onClick={handleClose}
-                        to="/team"
-                        className={`text-white ${
-                          direction === "rtl" ? "text-right" : "text-left"
-                        } w-full`}
-                      >
-                        <li>{t("Team")}</li>
+                        <li>פרויקטים</li>
                       </Link>
                       <Link
                         onClick={handleClose}
                         to="/contact"
                         className={`text-white ${
                           direction === "rtl" ? "text-right" : "text-left"
-                        } w-full`}
+                        } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
                       >
-                        <li>{t("Contact")}</li>
+                        <li>צרו קשר</li>
                       </Link>
                     </ul>
                   </nav>

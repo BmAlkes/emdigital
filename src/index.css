@@ -78,6 +78,7 @@
 * {
   scroll-behavior: smooth;
   font-family: "Noto Sans Hebrew", sans-serif !important;
+  scrollbar-color: #6fcfed #030b0f;
 }
 
 .hero {

@@ -1,5 +1,6 @@
 import { ChevronLeft } from "lucide-react";
 import logoFooter from "../../assets/svg/Logo3.svg";
+import { Link } from "react-router-dom";
 
 const NewFooter = () => {
   return (
@@ -26,18 +27,26 @@ const NewFooter = () => {
               מפה אתר
             </h2>
             <nav className="list-none mb-10 flex flex-col gap-3 cursor-pointer">
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a>אודותינו</a>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">הפרוייקטים שלנו</a>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">שירותים החברה</a>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">המלצות לקוחותינו</a>
-              </li>
+              <Link to="/about">
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a>אודותינו</a>
+                </li>
+              </Link>
+              <Link to="/projects">
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a className="">הפרוייקטים שלנו</a>
+                </li>
+              </Link>
+              <Link to="/services">
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a className="">שירותים החברה</a>
+                </li>
+              </Link>
+              <Link to="/about">
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a className="">המלצות לקוחותינו</a>
+                </li>
+              </Link>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-right">

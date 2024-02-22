@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
@@ -27,21 +28,25 @@ const Hero = () => {
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             הופכים חלומות ליצירה באינטרנט
           </h2>
-          <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
+          {/* <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
             המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
             כגון:Wordpress, React, Google Analytics
-          </p>
+          </p> */}
           <div className="flex gap-7 mt-[30px]">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
-              <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
-                גלו עלינו עוד
-              </span>
-            </button>
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px] ">
-              <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
-                למסלולים שלנו
-              </span>
-            </button>
+            <Link to="/about">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
+                <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+                  גלו עלינו עוד
+                </span>
+              </button>
+            </Link>
+            <Link to="/services">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px] ">
+                <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+                  למסלולים שלנו
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div>
