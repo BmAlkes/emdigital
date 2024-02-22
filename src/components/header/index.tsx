@@ -13,7 +13,7 @@ import {
 } from "../ui/sheet";
 import { useEffect, useState } from "react";
 // import i18n from "../../i18n";
-import { t } from "i18next";
+// import { t } from "i18next";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
