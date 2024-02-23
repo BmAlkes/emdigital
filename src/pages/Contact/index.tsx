@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className=" lg:pt-5  lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0  ">
+      <section className=" lg:pt-5  lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0 mt-[96px] lg:mt-0  ">
         <div className="container h-full  mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
           <div className="">
             <img

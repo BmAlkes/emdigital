@@ -3,7 +3,7 @@ import hand from "../../assets/Graphic for header (1).png";
 
 const ComingSoon = () => {
   return (
-    <section className=" bg-[#030B0F] lg:h-screen  ">
+    <section className=" bg-[#030B0F] lg:h-screen mt-[96px] lg:mt-0  ">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">
         <div className="w-full h-full flex flex-col justify-center items-center z-20 mt-8 md:mt-5  ">
           <h2 className="text-white font-bold lg:text-[120px] text-[40px] text-center text-gradient">
