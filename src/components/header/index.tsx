@@ -39,7 +39,7 @@ const Header = () => {
   // ];
   return (
     <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full z-50">
-      <nav className=" flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
+      <nav className=" nav flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">
             <img src={logo} alt="" className="w-[191px]" />
