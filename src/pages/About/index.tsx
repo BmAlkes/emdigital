@@ -24,7 +24,8 @@ const AboutPage = () => {
             <p className="text-justify lg:text-2xl md:text-xl mt-4">
               בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד הראשון, מבטיחים שכל
               פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם מסודר ומאורגן להפליא. כל
-              פרויקט ב-EM digital מתחיל באפיון ועיצוב מדויק,
+              פרויקט ב-<span className="text-[#6FCFED]">Reffereacting</span>{" "}
+              מתחיל באפיון ועיצוב מדויק,
             </p>
           </div>
           <p className="text-base max-w-[573px] text-justify">
