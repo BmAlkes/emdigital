@@ -78,6 +78,8 @@ const Contact = () => {
             </Link>
           </div>
         </div>
+      </section>
+      <section>
         <div className="bg-[#030B0F] pb-16">
           <div className="max-w-6xl mx-auto  font-[sans-serif] container ">
             <div className="text-center px-6">
@@ -88,7 +90,7 @@ const Contact = () => {
                 יש לכם רעיון או מותג גדול לפתח ואתם צריכים עזרה?
               </p>
             </div>
-            <div className="grid lg:grid-cols-3 items-center gap-4 shadow-md shadow-white rounded-lg ">
+            <div className="grid lg:grid-cols-3 items-center gap-4 shadow-md shadow-[#6fcfed] rounded-lg ">
               <div className="bg-[#030b0f] rounded-lg p-6 max-lg:text-center">
                 <h2 className="text-xl font-bold text-white">פרטי התקשרות</h2>
                 <p className="text-sm text-white mt-3">

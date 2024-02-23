@@ -192,3 +192,9 @@ nav li a:hover::after {
   position: absolute;
   z-index: 1;
 }
+
+.text-gradient {
+  background: -webkit-linear-gradient(#6fcfed, #c96cbe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

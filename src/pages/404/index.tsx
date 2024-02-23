@@ -5,7 +5,7 @@ const NotFound = () => {
     <section className=" bg-[#030B0F] lg:h-screen  ">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">
         <div className="w-full h-full flex flex-col justify-center items-center z-20 mt-8 md:mt-5  ">
-          <h2 className="text-white font-bold lg:text-[120px] text-[40px] bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] inline-block text-transparent bg-clip-text text-center">
+          <h2 className="text-white font-bold lg:text-[120px] text-[40px] text-gradient text-center">
             404 <br /> Page Not Found
           </h2>
           {/* <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
