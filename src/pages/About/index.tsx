@@ -5,6 +5,7 @@ import elementor from "../../assets/elementor-page-builder-removebg-preview.png"
 import firebase from "../../assets/firebase.png";
 import google from "../../assets/google.png";
 import Steps from "../../components/steps";
+import Reccomend from "../../components/footer";
 
 const AboutPage = () => {
   return (
@@ -101,6 +102,7 @@ const AboutPage = () => {
         step="שלב רביעי"
         key="1"
       />
+      <Reccomend />
     </>
   );
 };
