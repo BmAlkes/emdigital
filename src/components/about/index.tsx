@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Secimg from "../../assets/svg/pictureSec.svg";
 // npm run dev
 
@@ -29,14 +30,15 @@ const About = () => {
               הטכנולוגיות המתקדמות ביותר כדי להבטיח שאתרכם יהיה לא רק יפה, אלא
               גם חזק ובעל ביצועים גבוהים.
             </p>
-            <button className="btn">אודות</button>
+            <Link to="/about">
+              <button className="bg-gradient-to-r from-[#6FCFED] w-36 to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
+                <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] items-center justify-center">
+                  אודות
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
-        {/* <img
-          src={vetor}
-          alt=""
-          className="w-[350px] absolute left-0  top-[0%] overflow-hidden z-0"
-        /> */}
       </section>
     </>
   );

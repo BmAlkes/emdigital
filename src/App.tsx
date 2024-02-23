@@ -8,6 +8,7 @@ import Layout from "./layout";
 import { useTranslation } from "react-i18next";
 import NotFound from "./pages/404";
 import ComingSoon from "./pages/ComingSoon";
+import Contact from "./pages/Contact";
 
 AOS.init();
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/contact" element={<ComingSoon />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<ComingSoon />} />
           <Route path="/projects" element={<ComingSoon />} />
           <Route path="/services" element={<ComingSoon />} />
