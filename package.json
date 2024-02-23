@@ -25,7 +25,8 @@
     "react-router-dom": "^6.21.3",
     "react-simple-typewriter": "^5.0.1",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "use-react-router-breadcrumbs": "^4.0.1"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",

@@ -82,9 +82,8 @@
 }
 
 .hero {
-  background-image: url("./assets/svg/vetor1.svg");
+  background-image: url("./assets/bgabout.png");
   background-position: center center;
-  z-index: 10;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;

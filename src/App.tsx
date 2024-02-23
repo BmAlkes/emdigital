@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import NotFound from "./pages/404";
 import ComingSoon from "./pages/ComingSoon";
 import Contact from "./pages/Contact";
+import AboutPage from "./pages/About";
 
 AOS.init();
 
@@ -22,7 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<ComingSoon />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ComingSoon />} />
           <Route path="/services" element={<ComingSoon />} />
         </Route>
