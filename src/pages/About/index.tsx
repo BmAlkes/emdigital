@@ -3,8 +3,6 @@ import react from "../../assets/reactjs-benefits-1024x512-removebg-preview.png";
 import nextjs from "../../assets/next.png";
 import elementor from "../../assets/elementor-page-builder-removebg-preview.png";
 import firebase from "../../assets/firebase.png";
-
-import supabase from "../../assets/supabase.png";
 import redux from "../../assets/redux.png";
 import zustand from "../../assets/zustand.png";
 import css from "../../assets/css.png";
@@ -47,74 +45,66 @@ const AboutPage = () => {
         <div className="container mt-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full bg-[#6FCFED]  mt-14 p-4 ">
-          <div>
-            <Marquee autoFill={false} speed={100} direction="right">
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={react}
-                  alt="react logo"
-                  className=" lg:max-w-[280px]  h-[115px]"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={css}
-                  alt="css logo"
-                  className=" lg:max-w-[280px]  h-[115px]"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={nextjs}
-                  alt="nextjs logo"
-                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={elementor}
-                  alt="elementor logo"
-                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={firebase}
-                  alt="firebase logo"
-                  className=" lg:max-w-[280px] max-w-[165px] h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={zustand}
-                  alt="zustand logo"
-                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={redux}
-                  alt="redux logo"
-                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={supabase}
-                  alt="supabase logo"
-                  className=" lg:w-full  h-[115px] object-cover"
-                />
-              </div>
-              <div className="m-1 space-x-5 flex p-4 ">
-                <img
-                  src={node}
-                  alt="node logo"
-                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-                />
-              </div>
-            </Marquee>
-          </div>
+        <div className="w-full  bg-[#6FCFED]  mt-14   flex">
+          <Marquee autoFill={true}>
+            <img
+              src={react}
+              alt="react logo"
+              className="  h-[115px] object-cover"
+            />
+
+            <div className="m-1  flex p-4 ">
+              <img
+                src={css}
+                alt="css logo"
+                className="  h-[115px] object-cover"
+              />
+            </div>
+
+            <div className="m-1  flex p-4 ">
+              <img
+                src={nextjs}
+                alt="nextjs logo"
+                className=" h-[115px] object-cover"
+              />
+            </div>
+            <div className="m-1  flex p-4 ">
+              <img
+                src={elementor}
+                alt="elementor logo"
+                className="  h-[115px] object-cover"
+              />
+            </div>
+            <div className="m-1  flex p-4 ">
+              <img
+                src={firebase}
+                alt="firebase logo"
+                className="  h-[115px] object-cover"
+              />
+            </div>
+            <div className="m-1 flex p-4 ">
+              <img
+                src={zustand}
+                alt="zustand logo"
+                className=" h-[115px] object-cover"
+              />
+            </div>
+            <div className="m-1  flex p-4 ">
+              <img
+                src={redux}
+                alt="redux logo"
+                className=" h-[115px] object-cover"
+              />
+            </div>
+
+            <div className="m-1  flex p-4 ">
+              <img
+                src={node}
+                alt="node logo"
+                className=" h-[115px] object-cover"
+              />
+            </div>
+          </Marquee>
         </div>
       </section>
       <Steps
