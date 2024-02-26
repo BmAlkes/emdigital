@@ -65,7 +65,25 @@ export const projectsData = [
     title: "Project JavasScript, HTML , CSS",
     description: "Online store",
     link: "https://ecommerce-xhdu.vercel.app/",
-    category: "Javascript/HTML",
+    category: "Javascript",
+  },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/landingpage2/image/upload/v1708937798/maithai_dsdwrp.png",
+    title: "MaiThai Travel",
+    description: "Web Site for travel company",
+    link: "https://maithaitravelandtour.com/",
+    category: "WordPress/Elementor",
+  },
+  {
+    id: 9,
+    image:
+      "https://res.cloudinary.com/landingpage2/image/upload/v1708937798/sky_zxhxdz.png",
+    title: "Skylum",
+    description: "Web site for company",
+    link: "https://skylum.co.il/",
+    category: "WordPress/Elementor",
   },
 ];
 

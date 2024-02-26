@@ -1,7 +1,8 @@
-import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { projectsData } from "./data";
 import { projectsNav } from "./data";
+import test from "../../assets/bbuy.png";
+import { Link } from "react-router-dom";
 
 interface CardProps {
   id: number;
@@ -34,21 +35,9 @@ const OpenCards = () => {
     setActive(index);
   };
 
-  const handleCardClick = (index: number) => {
-    setExpandedIndex(index === expandedIndex ? -1 : index);
-  };
-
-  const cardVariants = {
-    expanded: {
-      width: "800px",
-    },
-    collapsed: {
-      width: "50px",
-    },
-  };
   return (
-    <section className="py-16 pb-[300px]">
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+    <section className="py-16 pb-[300px] container">
+      <div className=" px-4 flex flex-col items-center">
         <h2 className="lg:text-6xl md:text-3xl text-xl font-semibold text-center lg:text-right text-white">
           Featured Projects
         </h2>
@@ -56,49 +45,47 @@ const OpenCards = () => {
           Check out our latest works.
         </p>
       </div>
-      <div className="mt-12 flex flex-col justify-center items-center gap-5 text-white">
-        <div className="project__filters">
+      <div className="mt-12 flex flex-col justify-center  items-center gap-5 text-white container">
+        <div className="flex lg:gap-4 gap-[6px] flex-wrap">
           {projectsNav.map((item, index) => {
             return (
-              <span
-                onClick={(e) => {
-                  handleClick(e, index);
-                }}
-                className={`${
-                  active === index ? "active-project" : ""
-                } project__item`}
-                key={index}
-              >
-                {item.name}
-              </span>
+              <nav className="nav">
+                <ul>
+                  <li
+                    className="cursor-pointer"
+                    onClick={(e) => {
+                      handleClick(e, index);
+                    }}
+                    key={index}
+                  >
+                    {item.name}
+                  </li>
+                </ul>
+              </nav>
             );
           })}
         </div>
-        <div className="flex gap-1">
-          {projects.map((index) => (
-            <motion.div
-              key={index.id}
-              className={`cursor-pointer card lg:h-[750px] h-[400px] bg-cover bg-center object-cover rounded-[20px] ${
-                index.id === expandedIndex ? "expanded" : ""
-              } border`}
-              variants={cardVariants}
-              initial="collapsed"
-              animate={index.id === expandedIndex ? "expanded" : "collapsed"}
-              transition={{ duration: 0.8 }}
-              onClick={() => handleCardClick(index.id)}
-              style={{ backgroundImage: `url(${index.image})` }}
-            >
-              <div className="card-content h-full flex flex-col justify-end">
-                <div className="card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center ">
-                  <h2 className="text-xl font-semibold text-white text-center"></h2>
-                  {index.id === expandedIndex && (
-                    <p className="mt-2 text-gray-100 text-center">
-                      {index.description}
-                    </p>
-                  )}
+        <div className=" project__container grid">
+          {projects.map((item) => (
+            <Link to={item.link} target="_blank">
+              <div className="relative grid h-[40rem] w-full lg:max-w-[28rem] md:min-w-[20rem] max-w-[18rem]  flex-col  items-end justify-center overflow-hidden rounded-xl bg-clip-border text-center text-gray-700 ">
+                <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 z-30"></span>
+                <span className="absolute inset-x-0 top-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 z-30"></span>
+                <img
+                  src={item.image}
+                  alt="University of Southern California"
+                  className="absolute inset-0 h-full w-full object-cover opacity-50"
+                />
+                <div className="my-4 z-20 p-4">
+                  <h2 className="text-white text-2xl font-bold pb-2">
+                    {item.title}
+                  </h2>
+                  <p className="text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_100%)] py-3">
+                    {item.description}
+                  </p>
                 </div>
               </div>
-            </motion.div>
+            </Link>
           ))}
         </div>
       </div>
