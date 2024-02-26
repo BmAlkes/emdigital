@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { projectsData } from "./data";
 import { projectsNav } from "./data";
-import test from "../../assets/bbuy.png";
+
 import { Link } from "react-router-dom";
 
 interface CardProps {
@@ -14,12 +14,12 @@ interface CardProps {
 }
 
 const OpenCards = () => {
-  const [expandedIndex, setExpandedIndex] = useState(0);
   const [item, setItem] = useState({ name: "All" });
   const [projects, setProjects] = useState<CardProps[]>([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
+    active;
     if (item.name === "All") {
       setProjects(projectsData);
     } else {
