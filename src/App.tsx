@@ -10,6 +10,7 @@ import NotFound from "./pages/404";
 import ComingSoon from "./pages/ComingSoon";
 import Contact from "./pages/Contact";
 import AboutPage from "./pages/About";
+import Projects from "./pages/Projects";
 
 AOS.init();
 
@@ -24,7 +25,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ComingSoon />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<ComingSoon />} />
         </Route>
       </Routes>
