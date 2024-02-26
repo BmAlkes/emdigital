@@ -3,10 +3,16 @@ import react from "../../assets/reactjs-benefits-1024x512-removebg-preview.png";
 import nextjs from "../../assets/next.png";
 import elementor from "../../assets/elementor-page-builder-removebg-preview.png";
 import firebase from "../../assets/firebase.png";
-import google from "../../assets/google.png";
+
+import supabase from "../../assets/supabase.png";
+import redux from "../../assets/redux.png";
+import zustand from "../../assets/zustand.png";
+import css from "../../assets/css.png";
+import node from "../../assets/node-removebg-preview.png";
 import Steps from "../../components/steps";
 import Reccomend from "../../components/footer";
 import ScrollUp from "../../components/scrollup";
+import Marquee from "react-fast-marquee";
 
 const AboutPage = () => {
   return (
@@ -27,7 +33,7 @@ const AboutPage = () => {
             <p className="text-justify lg:text-2xl md:text-xl mt-4">
               בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד הראשון, מבטיחים שכל
               פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם מסודר ומאורגן להפליא. כל
-              פרויקט ב-<span className="text-[#6FCFED]">Reffereacting</span>{" "}
+              פרויקט ב-<span className="text-[#6FCFED]">Differeacting</span>{" "}
               מתחיל באפיון ועיצוב מדויק,
             </p>
           </div>
@@ -41,33 +47,73 @@ const AboutPage = () => {
         <div className="container mt-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full bg-[#6FCFED]  mt-14 ">
-          <div className="container flex flex-wrap  items-center justify-center  gap-8 h-full lg:min-h-[200px] ">
-            <img src={react} alt="" className=" lg:max-w-[280px]  h-[115px]" />
-
-            <img
-              src={nextjs}
-              alt=""
-              className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-            />
-
-            <img
-              src={elementor}
-              alt=""
-              className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-            />
-
-            <img
-              src={firebase}
-              alt=""
-              className=" lg:max-w-[280px] max-w-[165px] h-[115px] object-cover"
-            />
-
-            <img
-              src={google}
-              alt=""
-              className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
-            />
+        <div className="w-full bg-[#6FCFED]  mt-14 p-4 ">
+          <div>
+            <Marquee autoFill={false} speed={100} direction="right">
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={react}
+                  alt="react logo"
+                  className=" lg:max-w-[280px]  h-[115px]"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={css}
+                  alt="css logo"
+                  className=" lg:max-w-[280px]  h-[115px]"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={nextjs}
+                  alt="nextjs logo"
+                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={elementor}
+                  alt="elementor logo"
+                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={firebase}
+                  alt="firebase logo"
+                  className=" lg:max-w-[280px] max-w-[165px] h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={zustand}
+                  alt="zustand logo"
+                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={redux}
+                  alt="redux logo"
+                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={supabase}
+                  alt="supabase logo"
+                  className=" lg:w-full  h-[115px] object-cover"
+                />
+              </div>
+              <div className="m-1 space-x-5 flex p-4 ">
+                <img
+                  src={node}
+                  alt="node logo"
+                  className=" lg:max-w-[280px] max-w-[145px] h-[115px] object-cover"
+                />
+              </div>
+            </Marquee>
           </div>
         </div>
       </section>

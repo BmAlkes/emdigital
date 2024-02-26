@@ -73,7 +73,7 @@ const OpenCards = () => {
                 <span className="absolute inset-x-0 top-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 z-30"></span>
                 <img
                   src={item.image}
-                  alt="University of Southern California"
+                  alt={item.title}
                   className="absolute inset-0 h-full w-full object-cover opacity-50"
                 />
                 <div className="my-4 z-20 p-4">
