@@ -3,6 +3,7 @@ import Secimg from "../../assets/svg/pictureSec.svg";
 
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
+import ScrollUp from "../../components/scrollup";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -394,6 +395,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <ScrollUp />
     </>
   );
 };

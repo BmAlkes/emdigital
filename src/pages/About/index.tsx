@@ -6,6 +6,7 @@ import firebase from "../../assets/firebase.png";
 import google from "../../assets/google.png";
 import Steps from "../../components/steps";
 import Reccomend from "../../components/footer";
+import ScrollUp from "../../components/scrollup";
 
 const AboutPage = () => {
   return (
@@ -103,6 +104,7 @@ const AboutPage = () => {
         key="1"
       />
       <Reccomend />
+      <ScrollUp />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import OpenCards from "../../components/openCards";
+import ScrollUp from "../../components/scrollup";
 
 const Projects = () => {
   return (
@@ -9,6 +10,7 @@ const Projects = () => {
           <OpenCards />
         </div>
       </section>
+      <ScrollUp />
     </>
   );
 };
