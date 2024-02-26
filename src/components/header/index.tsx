@@ -7,11 +7,15 @@ import {
   Sheet,
   SheetContent,
   SheetDescription,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
 import { useEffect, useState } from "react";
+import { PhoneCallIcon } from "lucide-react";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 // import i18n from "../../i18n";
 // import { t } from "i18next";
 
@@ -38,7 +42,7 @@ const Header = () => {
   //   { name: "Hebrew", value: "he", flag: israel },
   // ];
   return (
-    <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full z-50">
+    <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full z-[60]">
       <nav className=" nav flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/">
@@ -81,7 +85,7 @@ const Header = () => {
           ))}
         </div> */}
         <a
-          href="tel:054589-9899"
+          href="tel:0545899899"
           className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] hidden md:block "
         >
           <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
@@ -95,7 +99,7 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent
               side={"right"}
-              className="bg-[#030B0F] text-white border-l border-[#030b0f] p-6"
+              className="bg-[#030B0F] text-white border-l border-[#030b0f] p-6 z-[60]"
             >
               <SheetHeader>
                 <SheetTitle className="absolute left-5">
@@ -157,6 +161,25 @@ const Header = () => {
                   </nav>
                 </SheetDescription>
               </SheetHeader>
+              <SheetFooter className="absolute bottom-12">
+                <ul className="flex gap-5">
+                  <li>
+                    <a href="tel:0545899899">
+                      <PhoneCallIcon size={28} color="#fff" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/send?phone=9720545899899&text=I%20want%20to%20talk%20about%20a%20project">
+                      <FaWhatsapp size={28} color="#fff" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:eden@eden-digital.co.il">
+                      <MdOutlineEmail size={28} color="#fff" />
+                    </a>
+                  </li>
+                </ul>
+              </SheetFooter>
             </SheetContent>
           </Sheet>
         </div>
