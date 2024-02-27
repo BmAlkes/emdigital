@@ -68,7 +68,7 @@ const OpenCards = () => {
         <div className=" project__container grid">
           {projects.map((item) => (
             <Link to={item.link} target="_blank">
-              <div className="relative grid h-[40rem] w-full lg:max-w-[28rem] md:min-w-[20rem] max-w-[18rem]  flex-col  items-end justify-center overflow-hidden rounded-xl bg-clip-border text-center text-gray-700 ">
+              <div className="relative grid lg:h-[40rem] h-[25rem] w-full lg:max-w-[26rem] md:min-w-[20rem] max-w-[18rem]  flex-col  items-end justify-center overflow-hidden rounded-xl bg-clip-border text-center text-gray-700 ">
                 <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 z-30"></span>
                 <span className="absolute inset-x-0 top-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 z-30"></span>
                 <img
