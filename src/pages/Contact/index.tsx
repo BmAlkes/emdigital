@@ -1,8 +1,8 @@
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import Secimg from "../../assets/svg/pictureSec.svg";
 
 import emailjs from "@emailjs/browser";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ScrollUp from "../../components/scrollup";
 
 const Contact = () => {
@@ -42,6 +42,12 @@ const Contact = () => {
         setLastname("");
       });
   };
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <>

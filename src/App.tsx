@@ -17,6 +17,7 @@ AOS.init();
 function App() {
   const { i18n } = useTranslation();
   document.body.dir = i18n.dir();
+
   return (
     <BrowserRouter>
       <Routes>

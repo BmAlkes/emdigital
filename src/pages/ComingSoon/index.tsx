@@ -1,7 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import hand from "../../assets/Graphic for header (1).png";
+import { useEffect } from "react";
 
 const ComingSoon = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <section className=" bg-[#030B0F] lg:h-screen mt-[96px] lg:mt-0  ">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">

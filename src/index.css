@@ -239,3 +239,22 @@
     grid-template-columns: repeat(1, max-content);
   }
 }
+
+.wrapper {
+  overflow: hidden;
+  padding: 2.5rem;
+}
+.item {
+  animation: animate 25s alternate linear infinite;
+}
+.container:hover .item {
+  animation-play-state: paused;
+}
+@keyframes animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1100px, 0, 0);
+  }
+}
