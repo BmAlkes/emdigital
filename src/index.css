@@ -241,11 +241,20 @@
 }
 
 .wrapper {
+  display: flex;
+
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
   overflow: hidden;
   padding: 2.5rem;
 }
 .item {
   animation: animate 25s alternate linear infinite;
+}
+.item img {
+  width: 150px;
+  object-fit: cover;
 }
 .container:hover .item {
   animation-play-state: paused;
@@ -256,5 +265,16 @@
   }
   100% {
     transform: translate3d(-1100px, 0, 0);
+  }
+}
+@media (max-width: 769px) {
+  .wrapper {
+    height: 150px;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+  .wrapper .item img {
+    width: 100px !important;
   }
 }

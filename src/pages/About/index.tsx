@@ -52,62 +52,32 @@ const AboutPage = () => {
         <div className="container mt-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full hidden  bg-[#6FCFED]  mt-14 my-4  lg:flex wrapper gap-5">
-          <div className="item">
-            <img
-              src={react}
-              alt="react logo"
-              className="   h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={css}
-              alt="css logo"
-              className="   h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={nextjs}
-              alt="nextjs logo"
-              className="w-[200px] h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={elementor}
-              alt="elementor logo"
-              className="  h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={firebase}
-              alt="firebase logo"
-              className="  h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={zustand}
-              alt="zustand logo"
-              className=" h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={redux}
-              alt="redux logo"
-              className=" h-[115px] object-cover"
-            />
-          </div>
-          <div className="item">
-            <img
-              src={node}
-              alt="node logo"
-              className=" h-[115px] object-cover"
-            />
+        <div className="w-full   bg-[#6FCFED]  mt-14 my-4  lg:flex gap-5">
+          <div className="wrapper">
+            <div className="item">
+              <img src={react} alt="react logo" />
+            </div>
+            <div className="item">
+              <img src={css} alt="css logo" />
+            </div>
+            <div className="item">
+              <img src={nextjs} alt="nextjs logo" />
+            </div>
+            <div className="item">
+              <img src={elementor} alt="elementor logo" />
+            </div>
+            <div className="item">
+              <img src={firebase} alt="firebase logo" />
+            </div>
+            <div className="item">
+              <img src={zustand} alt="zustand logo" />
+            </div>
+            <div className="item">
+              <img src={redux} alt="redux logo" />
+            </div>
+            <div className="item">
+              <img src={node} alt="node logo" />
+            </div>
           </div>
         </div>
       </section>
