@@ -30,8 +30,8 @@ const AboutPage = () => {
         </div>
       </section>
       <section className="bg-[#030B0F] h-full py-6 ">
-        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 mt-6">
-          <div className="">
+        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+          <div>
             <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold">
               אנחנו פה בשביל לעזור לעסק שלך לצמוח
             </h3>
@@ -49,10 +49,10 @@ const AboutPage = () => {
             אלא גם חזק ובעל ביצועים גבוהים.
           </p>
         </div>
-        <div className="container mt-8">
+        <div className="container my-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full   bg-[#6FCFED]  mt-14 my-4  lg:flex gap-5">
+        <div className="w-full   bg-[#6FCFED] hidden  mt-14 my-4  md:flex gap-5">
           <div className="wrapper">
             <div className="item">
               <img src={react} alt="react logo" />

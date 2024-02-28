@@ -2,6 +2,17 @@ import { FormEvent, useState } from "react";
 import emailjs from "@emailjs/browser";
 import vetor2 from "../../assets/Frame 1160445221.png";
 import safe from "../../assets/logo.jpg";
+import ofir from "../../assets/ofir.jpeg";
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../ui/dialog";
 
 const Reccomend = () => {
   const [name, setName] = useState("");
@@ -50,20 +61,39 @@ const Reccomend = () => {
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className="h-full text-center">
-                  <img
-                    alt="testimonial"
-                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/302x302"
-                  />
+                  <Dialog>
+                    <DialogTrigger>
+                      <img
+                        alt="testimonial"
+                        className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                        src={ofir}
+                      />
+                    </DialogTrigger>
+                    <DialogContent className=" bg-[#030B0F] text-white">
+                      <DialogHeader>
+                        <DialogTitle className="py-4">
+                          Testimonial video
+                        </DialogTitle>
+                        <DialogDescription>
+                          <iframe
+                            src="https://res.cloudinary.com/landingpage2/video/upload/v1709146699/WhatsApp_Video_2024-02-28_at_10.48.22_ehpjc7.mp4"
+                            className="w-full h-[300px]"
+                          ></iframe>
+                        </DialogDescription>
+                      </DialogHeader>
+                    </DialogContent>
+                  </Dialog>
+
                   <p className="leading-relaxed">
-                    Edison bulb retro cloud bread echo park, helvetica stumptown
-                    taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin
-                    coffee ennui shaman taiyaki vape DIY tote bag drinking
-                    vinegar cronut adaptogen squid fanny pack vaporware.
+                    הכרתי את ברונו בתור סטודנט שלי, כבר מההתחלה עפתי עליו, הוא
+                    הביא עיצובים מרשימים במהירות שיא והתפתח מאוד מאז. ראיתי את
+                    כל העבודות שלו ואהבתי כל אחת, הוא יושב עם הלקוח להבין מה
+                    הלקוח צריך ומשם הוא לוקח את זה למקומות מרשימים. ברונו -
+                    חרוץ, מקשיב, מגלה הבנה ואמפתיה - מומלץ בחום
                   </p>
                   <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                   <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-                    HOLDEN CAULFIELD
+                    Ofir Zeitoun
                   </h2>
                   <p className="text-gray-500">Senior Product Designer</p>
                 </div>
