@@ -5,10 +5,8 @@ import safe from "../../assets/logo.jpg";
 import ofir from "../../assets/ofir.jpeg";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
