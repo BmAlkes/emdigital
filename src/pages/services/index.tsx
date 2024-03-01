@@ -3,6 +3,7 @@ import CardPrice from "../../components/priceCard";
 import avatar from "../../assets/Avatar.png";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import ScrollUp from "../../components/scrollup";
 
 const Services = () => {
   const { pathname } = useLocation();
@@ -338,6 +339,7 @@ const Services = () => {
           </Link>
         </div>
       </section>
+      <ScrollUp />
     </motion.div>
   );
 };
