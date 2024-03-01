@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import AboutPage from "./pages/About";
 import Projects from "./pages/Projects";
 import { AnimatePresence } from "framer-motion";
+import Services from "./pages/services";
 
 AOS.init();
 
@@ -29,7 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<ComingSoon />} />
+          <Route path="/services" element={<Services />} />
         </Route>
       </Routes>
     </AnimatePresence>

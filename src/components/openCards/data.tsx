@@ -85,6 +85,15 @@ export const projectsData = [
     link: "https://skylum.co.il/",
     category: "WordPress/Elementor",
   },
+  {
+    id: 10,
+    image:
+      "https://res.cloudinary.com/landingpage2/image/upload/v1709303998/deliver_urazsz.png",
+    title: "Deliver Coffee",
+    description: "Web site for company",
+    link: "https://deliver-coffe.vercel.app/",
+    category: "React",
+  },
 ];
 
 export const projectsNav = [
