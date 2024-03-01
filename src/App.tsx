@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./pages/Home";
 
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Layout from "./layout";
 
 import { useTranslation } from "react-i18next";

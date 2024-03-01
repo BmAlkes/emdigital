@@ -16,7 +16,7 @@ import { useEffect, useState } from "react";
 import { PhoneCallIcon } from "lucide-react";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
-import { motion } from "framer-motion";
+
 // import i18n from "../../i18n";
 // import { t } from "i18next";
 
@@ -37,16 +37,7 @@ const Header = () => {
     });
     return () => observer.disconnect();
   }, []);
-  const icon = {
-    hidden: {
-      pathLength: 0,
-      fill: "rgba(255, 255, 255, 0)",
-    },
-    visible: {
-      pathLength: 1,
-      fill: "rgba(255, 255, 255, 1)",
-    },
-  };
+
   // const languageOptions = [
   //   { name: "English", value: "en", flag: eua },
   //   { name: "Hebrew", value: "he", flag: israel },
