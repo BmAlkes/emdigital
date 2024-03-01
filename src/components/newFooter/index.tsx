@@ -6,9 +6,9 @@ const NewFooter = () => {
   return (
     <footer className="bg-[#030B0F]">
       <div className=" text-white px-5 py-32 mx-auto flex  lg:items-start lg:flex-row md:flex-col md:items-center flex-wrap flex-row">
-        <div className="w-96 h-full md:mx-0 mx-auto text-right md:text-left md:mb-10 flex-1">
+        <div className="w-96 h-full   md:mx-0 mx-auto text-right md:text-left md:mb-10 flex-1">
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
-            <img src={logoFooter} />
+            <img src={logoFooter} className="max-w-[425px] mx-auto" />
           </a>
           <div className="flex mt-11 md:items-center justify-center">
             <button className="flex items-center flex-row-reverse text-lg gap-2">

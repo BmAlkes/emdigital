@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const [direction, setDirection] = useState(document.body.dir);
@@ -28,6 +29,7 @@ const Hero = () => {
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             הופכים חלומות ליצירה באינטרנט
           </h2>
+
           {/* <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
             המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
             כגון:Wordpress, React, Google Analytics

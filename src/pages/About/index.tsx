@@ -1,18 +1,20 @@
 import picOne from "../../assets/programing.png";
-import react from "../../assets/reactjs-benefits-1024x512-removebg-preview.png";
-import nextjs from "../../assets/next.png";
-import elementor from "../../assets/elementor-page-builder-removebg-preview.png";
-import firebase from "../../assets/firebase.png";
-import redux from "../../assets/redux.png";
-import zustand from "../../assets/zustand.png";
-import css from "../../assets/css.png";
-import node from "../../assets/node-removebg-preview.png";
+// import react from "../../assets/reactjs-benefits-1024x512-removebg-preview.png";
+// import nextjs from "../../assets/next.png";
+// import elementor from "../../assets/elementor-page-builder-removebg-preview.png";
+// import firebase from "../../assets/firebase.png";
+// import redux from "../../assets/redux.png";
+// import zustand from "../../assets/zustand.png";
+// import css from "../../assets/css.png";
+// import node from "../../assets/node-removebg-preview.png";
 import Steps from "../../components/steps";
 import Reccomend from "../../components/footer";
 import ScrollUp from "../../components/scrollup";
+import bg from "../../assets/heroAbout.png";
 
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const AboutPage = () => {
   const { pathname } = useLocation();
@@ -21,12 +23,24 @@ const AboutPage = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <>
-      <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px] hero">
-        <div className="flex items-center justify-center h-full">
-          <h2 className="text-[#f4f4f4] lg:text-[102px] text-5xl t text-center font-bold [text-shadow:_3px_3px_0_#000]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{
+        default: { duration: 0.6, ease: "easeInOut" },
+      }}
+    >
+      <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px]">
+        <div className="flex items-center justify-center h-full relative">
+          <h2 className="text-[#f4f4f4] lg:text-[102px] md:text-5xl text-3xl  text-center font-bold z-10 ">
             עושים את זה מדהים
           </h2>
+          <img
+            src={bg}
+            alt="hero background"
+            className="absolute inset-0 w-full lg:h-[1300px] h-full object-contain  my-auto"
+          />
         </div>
       </section>
       <section className="bg-[#030B0F] h-full py-6 ">
@@ -52,8 +66,8 @@ const AboutPage = () => {
         <div className="container my-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full   bg-[#6FCFED] hidden  mt-14 my-4  md:flex gap-5">
-          <div className="wrapper">
+        <div className="w-full h-[200px]  bg-[#6FCFED]  mt-14 my-4  ">
+          {/* <div className="wrapper">
             <div className="item">
               <img src={react} alt="react logo" />
             </div>
@@ -78,7 +92,7 @@ const AboutPage = () => {
             <div className="item">
               <img src={node} alt="node logo" />
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
       <Steps
@@ -108,7 +122,7 @@ const AboutPage = () => {
 
       <Reccomend />
       <ScrollUp />
-    </>
+    </motion.div>
   );
 };
 

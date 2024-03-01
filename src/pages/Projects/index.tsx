@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import OpenCards from "../../components/openCards";
 import ScrollUp from "../../components/scrollup";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   const { pathname } = useLocation();
@@ -11,7 +12,14 @@ const Projects = () => {
   }, [pathname]);
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{
+        default: { duration: 0.6, ease: "easeInOut" },
+      }}
+    >
       <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px] "></section>
       <section className="bg-[#030B0F] h-full">
         <div className="container ">
@@ -19,7 +27,7 @@ const Projects = () => {
         </div>
       </section>
       <ScrollUp />
-    </>
+    </motion.div>
   );
 };
 

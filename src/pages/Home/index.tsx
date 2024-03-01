@@ -7,6 +7,7 @@ import Projects from "../../components/projects";
 import Reccomend from "../../components/footer";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const { pathname } = useLocation();
@@ -15,7 +16,14 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{
+        default: { duration: 0.6, ease: "easeInOut" },
+      }}
+    >
       <Hero />
       <About />
       <NewServices />
@@ -24,7 +32,7 @@ const Home = () => {
 
       <ScrollUp />
       <WhatsApp />
-    </>
+    </motion.div>
   );
 };
 
