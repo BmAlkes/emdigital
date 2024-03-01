@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-
 import CardPrice from "../../components/priceCard";
+import avatar from "../../assets/Avatar.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const serviceOne = [
@@ -34,8 +35,8 @@ const Services = () => {
           </p>
         </div>
       </section>
-      <section className="bg-white flex flex-col items-center container ">
-        <div className="flex lg:flex-row flex-wrap lg:flex-nowrap items-center justify-center  lg:gap-[24px] gap-  lg:mt-[-300px] md:mt-[-200px] mt-[-200px] mb-16">
+      <section className=" flex flex-col items-center bg-[#F4F4F4] ">
+        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px] gap-  lg:mt-[-300px] md:mt-[-200px] mt-[-200px] mb-16">
           <CardPrice
             price="1000"
             textBase="בסיס"
@@ -62,7 +63,7 @@ const Services = () => {
           />
         </div>
       </section>
-      <section className="lg:h-screen h-full py-16">
+      <section className="lg:h-screen h-full py-16 bg-[#F4F4F4]">
         <div className="container flex items-center gap-5 flex-col">
           <h3 className="font-bold text-6xl">שאלות נפוצות</h3>
           <p className="text-2xl font-normal">
@@ -306,6 +307,29 @@ const Services = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="bg-[#F4F4F4] h-full py-16">
+        <div className="bg-white lg:w-[1280px] h-[300px] container flex-col flex items-center justify-center">
+          <img
+            src={avatar}
+            alt=" avatar of persons"
+            className="max-w-[120px] object-cover"
+          />
+          <p className="text-[#111111] text-2xl font-normal mt-9">
+            עדיין יש לכם שאלות?
+          </p>
+          <p className="text-[#454545] text-lg font-normal mt-2">
+            אינך מוצא את התשובה שאתה מחפש? נא לשוחח עם הצוות הידידותי שלנו.
+          </p>
+
+          <Link to="/contact">
+            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]  mt-9  ">
+              <span className="flex w-full  text-white rounded-xl py-[14px] px-[24px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
+                צרו איתנו קשר
+              </span>
+            </button>
+          </Link>
         </div>
       </section>
     </motion.div>
