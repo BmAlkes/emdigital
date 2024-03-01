@@ -1,9 +1,15 @@
 import { motion } from "framer-motion";
 import CardPrice from "../../components/priceCard";
 import avatar from "../../assets/Avatar.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Services = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   const serviceOne = [
     { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
     { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
