@@ -7,7 +7,7 @@ import Layout from "./layout";
 
 import { useTranslation } from "react-i18next";
 import NotFound from "./pages/404";
-import ComingSoon from "./pages/ComingSoon";
+
 import Contact from "./pages/Contact";
 import AboutPage from "./pages/About";
 import Projects from "./pages/Projects";

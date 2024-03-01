@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const Hero = () => {
   const [direction, setDirection] = useState(document.body.dir);
