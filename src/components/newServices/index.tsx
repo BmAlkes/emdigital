@@ -3,6 +3,7 @@ import digital from "../../assets/svg/digital.svg";
 import graphic from "../../assets/svg/graphic.svg";
 import server from "../../assets/svg/server.svg";
 import vetor from "../../assets/svg/Vector 17.svg";
+import { Link } from "react-router-dom";
 
 const NewServices = () => {
   return (
@@ -31,11 +32,13 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-                עמוד שירות
-              </span>
-            </button>
+            <Link to="/development">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  עמוד שירות
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" flex flex-col  justify-between py-6 px-4 rounded-lg show">
@@ -49,11 +52,13 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-                עמוד שירות
-              </span>
-            </button>
+            <Link to="/digital">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  עמוד שירות
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col  justify-between py-6  px-4 rounded-lg show">
@@ -67,11 +72,13 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-                עמוד שירות
-              </span>
-            </button>
+            <Link to="/design">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  עמוד שירות
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
@@ -85,11 +92,13 @@ const NewServices = () => {
             חנויות מקוונות ופתרונות Saas.
           </p>
           <div className="hiddenShow">
-            <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
-              <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
-                עמוד שירות
-              </span>
-            </button>
+            <Link to="server">
+              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
+                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  עמוד שירות
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
