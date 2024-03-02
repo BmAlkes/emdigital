@@ -13,6 +13,10 @@ import AboutPage from "./pages/About";
 import Projects from "./pages/Projects";
 import { AnimatePresence } from "framer-motion";
 import Services from "./pages/services";
+import DigitalPage from "./pages/DigitalPage";
+import GraphicPage from "./pages/GraphicPage";
+import DevelopmentPage from "./pages/DevelopmentPage";
+import ServerPage from "./pages/ServerPage";
 
 AOS.init();
 
@@ -31,6 +35,10 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/digital" element={<DigitalPage />} />
+          <Route path="/development" element={<DevelopmentPage />} />
+          <Route path="/design" element={<GraphicPage />} />
+          <Route path="/server" element={<ServerPage />} />
         </Route>
       </Routes>
     </AnimatePresence>

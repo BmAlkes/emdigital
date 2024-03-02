@@ -16,7 +16,7 @@ const CardPrice = ({
 }) => {
   return (
     <div
-      className={`border-black rounded-2xl border  max-w-sm mx-auto lg:mt-20 mt-3 ${
+      className={`border-black rounded-2xl border  lg:max-w-sm mx-auto lg:mt-20 mt-3 ${
         background === "white" ? "bg-white" : "bg-[#21ADD6]"
       } `}
     >
@@ -74,7 +74,7 @@ const CardPrice = ({
       <div className="px-6 pt-6 pb-8">
         {serviceList.map((service) => (
           <ul role="list" className="mt-6 space-y-4">
-            <li className="flex space-x-3 gap-[17px]">
+            <li className="flex space-x-6 gap-[17px]">
               {service.icon ? (
                 <div className="flex justify-center items-center rounded-full bg-[#E3F2FB] h-8 w-8">
                   <svg

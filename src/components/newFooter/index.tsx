@@ -58,16 +58,16 @@ const NewFooter = () => {
             </h2>
             <nav className="list-none mb-10 flex flex-col gap-3 cursor-pointer ">
               <li className=" rounded-lg py-2 px-2   hover:bg-white hover:text-black">
-                <a className="">פיתוח אתרי אינטרנט</a>
+                <Link to="development">פיתוח אתרי אינטרנט</Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">עיצוב גרפי</a>
+                <Link to="/design">עיצוב גרפי</Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">שיווק דיגיטלי</a>
+                <Link to="/digital">שיווק דיגיטלי</Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">אחסון והקצאת שרתים</a>
+                <Link to="/server">אחסון והקצאת שרתים</Link>
               </li>
             </nav>
           </div>
