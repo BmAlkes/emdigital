@@ -3,6 +3,7 @@ import Project1 from "../../assets/Image.png";
 import Project2 from "../../assets/Image (1).png";
 import Project3 from "../../assets/clothes-N7QxeYsR.png.png";
 import Project4 from "../../assets/safe.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -14,52 +15,54 @@ const Projects = () => {
         </h2>
         <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
         <div className="flex flex-col items-center mt-10 mb-11  ">
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
-            <div>
-              <div className="py-3">
-                <img
-                  src={Project1}
-                  alt="Project we made"
-                  className="w-full rounded h-[342px] object-cover"
-                />
-                <h3 className="text-2xl font-normal mt-2">Club Clothers</h3>
-                <p className="text-base font-light">אתר סחר</p>
+          <Link to="/projects">
+            <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
+              <div>
+                <div className="py-3">
+                  <img
+                    src={Project1}
+                    alt="Project we made"
+                    className="w-full rounded h-[342px] object-cover"
+                  />
+                  <h3 className="text-2xl font-normal mt-2">Club Clothers</h3>
+                  <p className="text-base font-light">אתר סחר</p>
+                </div>
+                <div className="py-3">
+                  <img
+                    src={Project2}
+                    alt="Project we made"
+                    className="w-full rounded h-[342px] object-cover"
+                  />
+                  <h3 className="text-2xl font-normal mt-2">Web Car</h3>
+                  <p className="text-base font-light">
+                    פלטפורמה חמכירת מכוניות ופרסום
+                  </p>
+                </div>
               </div>
-              <div className="py-3">
-                <img
-                  src={Project2}
-                  alt="Project we made"
-                  className="w-full rounded h-[342px] object-cover"
-                />
-                <h3 className="text-2xl font-normal mt-2">Web Car</h3>
-                <p className="text-base font-light">
-                  פלטפורמה חמכירת מכוניות ופרסום
-                </p>
+              <div>
+                <div className="py-3">
+                  <img
+                    src={Project3}
+                    alt="Project we made"
+                    className="w-full rounded h-[342px] object-cover"
+                  />
+                  <h3 className="text-2xl font-normal mt-2">Eccomerce </h3>
+                  <p className="text-base font-light">אתר סחר</p>
+                </div>
+                <div className="py-3">
+                  <img
+                    src={Project4}
+                    alt="Project we made"
+                    className="w-full rounded h-[342px] object-cover"
+                  />
+                  <h3 className="text-2xl font-normal mt-2">Safe Garden</h3>
+                  <p className="text-base font-light">
+                    פלטפורמה לנהול גן ילדים פרטי{" "}
+                  </p>
+                </div>
               </div>
             </div>
-            <div>
-              <div className="py-3">
-                <img
-                  src={Project3}
-                  alt="Project we made"
-                  className="w-full rounded h-[342px] object-cover"
-                />
-                <h3 className="text-2xl font-normal mt-2">Club Clothers</h3>
-                <p className="text-base font-light">אתר סחר</p>
-              </div>
-              <div className="py-3">
-                <img
-                  src={Project4}
-                  alt="Project we made"
-                  className="w-full rounded h-[342px] object-cover"
-                />
-                <h3 className="text-2xl font-normal mt-2">Safe Garden</h3>
-                <p className="text-base font-light">
-                  פלטפורמה לנהול גן ילדים פרטי{" "}
-                </p>
-              </div>
-            </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

@@ -56,7 +56,7 @@ const NewFooter = () => {
             <h2 className="title-font font-bold  tracking-widest text-lg mb-3">
               שירותי החברה
             </h2>
-            <nav className="list-none mb-10 flex flex-col gap-3 cursor-pointer ">
+            <nav className=" list-none mb-10 flex flex-col gap-3 cursor-pointer ">
               <li className=" rounded-lg py-2 px-2   hover:bg-white hover:text-black">
                 <Link to="development">פיתוח אתרי אינטרנט</Link>
               </li>
