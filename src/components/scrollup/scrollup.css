@@ -17,7 +17,7 @@
 
 /* SHOW SCROLL */
 .show-scroll {
-  bottom: 4rem;
+  bottom: 2rem;
 }
 
 /* BREAK POINTS */
@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 768px) {
   .show-scroll {
-    bottom: 4rem;
+    bottom: 2rem;
   }
 }
 

@@ -278,3 +278,9 @@
     width: 100px !important;
   }
 }
+#NagishLiTrigger {
+  max-width: 50px !important;
+  left: 30px !important;
+  bottom: 80px !important;
+  right: auto !important;
+}
