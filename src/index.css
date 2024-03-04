@@ -284,3 +284,7 @@
   bottom: 80px !important;
   right: auto !important;
 }
+
+#NagishLiTrigger span {
+  border-radius: 50% !important;
+}
