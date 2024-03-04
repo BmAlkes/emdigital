@@ -30,6 +30,35 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script src="./nagishli_beta.js"></script>
+    <!-- <script src="./nagishli_beta.js"></script> -->
+    <!-- Accessibility Code for "emdigital.vercel.app" -->
+    <script>
+      /* Want to customize your button? visit our documentation page: https://login.equalweb.com/custom-button.taf */ window.interdeal =
+        {
+          sitekey: "0d534a26551a8d747c52cfb2fdab3701",
+          Position: "Left",
+          domains: {
+            js: "https://cdn.equalweb.com/",
+            acc: "https://access.equalweb.com/",
+          },
+          Menulang: "HE",
+          btnStyle: {
+            vPosition: ["80%", "20%"],
+            scale: ["0.5", "0.5"],
+            color: { main: "#1c4bb6", second: "#ffffff" },
+            icon: { type: 1, shape: "circle" },
+          },
+        };
+      (function (doc, head, body) {
+        var coreCall = doc.createElement("script");
+        coreCall.src = interdeal.domains.js + "core/4.6.8/accessibility.js";
+        coreCall.defer = true;
+        coreCall.integrity =
+          "sha512-/7EIUKPBzZ68V203JMFH9MLB01akzomhf94i53219bSX/wHVYR2+TXajR0MAKL0lyTseajROCKgqQAvtvBnU+g==";
+        coreCall.crossOrigin = "anonymous";
+        coreCall.setAttribute("data-cfasync", true);
+        body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+      })(document, document.head, document.body);
+    </script>
   </body>
 </html>
