@@ -32,8 +32,8 @@ const Services = () => {
         default: { duration: 0.6, ease: "easeInOut" },
       }}
     >
-      <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px] ">
-        <div className="flex flex-col lg:pt-[200px] pt-[90px] items-center gap-[28px] h-full">
+      <section className=" bg-[#030B0F] lg:h-screen h-[900px] mt-[96px] ">
+        <div className="flex flex-col lg:pt-[150px] pt-[90px] items-center gap-[28px] h-full">
           <h2 className="text-[#f4f4f4] font-bold lg:text-[102px] text-[40px] text-center ">
             בחרו את התוכנית{" "}
             <span className="block text-gradient">המתאימה לכם</span>
@@ -43,8 +43,8 @@ const Services = () => {
           </p>
         </div>
       </section>
-      <section className=" flex flex-col items-center bg-[#F4F4F4] ">
-        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px] gap-  lg:mt-[-300px] md:mt-[-200px] mt-[-200px] mb-16">
+      <section className=" flex min-h-screen flex-col items-center bg-[#F4F4F4] ">
+        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-250px] md:mt-[-200px] mt-[-200px] mb-16">
           <CardPrice
             price="1000"
             textBase="בסיס"

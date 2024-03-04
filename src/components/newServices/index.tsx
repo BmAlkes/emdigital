@@ -11,7 +11,7 @@ const NewServices = () => {
       <img
         src={vetor}
         alt=""
-        className="absolute right-[-400px] w-full h-full"
+        className="absolute right-[-700px] w-full h-full"
       />
 
       <div className="container flex flex-col justify-center items-center">

@@ -11,8 +11,12 @@ import Steps from "../../components/steps";
 import Reccomend from "../../components/footer";
 import ScrollUp from "../../components/scrollup";
 import bg from "../../assets/heroAbout.png";
+import web from "../../assets/svg/web.svg";
+import digital from "../../assets/svg/digital.svg";
+import graphic from "../../assets/svg/graphic.svg";
+import server from "../../assets/svg/server.svg";
 
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 
@@ -93,6 +97,97 @@ const AboutPage = () => {
               <img src={node} alt="node logo" />
             </div>
           </div>*/}
+        </div>
+      </section>
+      <section className=" bg-[#030B0F] full-h ">
+        <div className="container flex flex-col lg:flex-row gap-[138px] justify-center  h-full lg:pt-56 pt-28">
+          <div className="lg:max-w-[411px]">
+            <h3 className="lg:text-6xl text-3xl text-[#f4f4f4] text-right font-bold">
+              שירותים שאנחנו יכולים לעזור בהם
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-[50px]">
+            <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
+              <img src={web} alt="web icon" className="w-[60px]" />
+              <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
+                פיתוח אתרי אינטרנט
+              </h3>
+              <p className="text-lg font-normel text-[#888888] my-5">
+                פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
+                נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
+                חנויות מקוונות ופתרונות Saas.
+              </p>
+              <div className="">
+                <Link to="/development">
+                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                      עמוד שירות
+                    </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className=" flex flex-col  justify-between py-6 px-4 rounded-lg show">
+              <img src={digital} alt="web icon" className="w-[60px]" />
+              <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
+                שיווק דיגיטל
+              </h3>
+              <p className="text-lg font-normel text-[#888888] my-5">
+                פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
+                נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
+                חנויות מקוונות ופתרונות Saas.
+              </p>
+              <div className="">
+                <Link to="/digital">
+                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                      עמוד שירות
+                    </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col  justify-between py-6  px-4 rounded-lg show">
+              <img src={graphic} alt="web icon" className="w-[60px]" />
+              <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
+                עיצוב גרפי
+              </h3>
+              <p className="text-lg font-normel text-[#888888] my-5">
+                פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
+                נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
+                חנויות מקוונות ופתרונות Saas.
+              </p>
+              <div className="">
+                <Link to="/design">
+                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                      עמוד שירות
+                    </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
+              <img src={server} alt="web icon" className="w-[60px]" />
+              <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
+                אחסון והקצאת שרתים
+              </h3>
+              <p className="text-lg font-normel text-[#888888] my-5">
+                פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
+                נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
+                חנויות מקוונות ופתרונות Saas.
+              </p>
+              <div className="">
+                <Link to="server">
+                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                      עמוד שירות
+                    </span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Steps
