@@ -54,7 +54,7 @@ const Hero = () => {
           <img
             src={hand}
             alt=""
-            className="lg:h-full lg:object-center object-cover object-left-bottom overflow-visible w-full h-full md:h-[800px]"
+            className="lg:h-full lg:object-left object-cover   overflow-visible w-full h-[500px] md:h-[900px]"
           />
         </div>
       </div>
