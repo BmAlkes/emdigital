@@ -3,7 +3,7 @@ import avatar from "../../assets/Avatar.png";
 const FAQ = () => {
   return (
     <>
-      <section className="h-full py-16 bg-[#F4F4F4]">
+      <section className="h-full pb-16  bg-[#F4F4F4]">
         <div className="container flex items-center gap-5 flex-col">
           <h3 className="font-bold text-6xl">שאלות נפוצות</h3>
           <p className="text-2xl font-normal">

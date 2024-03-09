@@ -1,12 +1,4 @@
 import picOne from "../../assets/programing.png";
-// import react from "../../assets/reactjs-benefits-1024x512-removebg-preview.png";
-// import nextjs from "../../assets/next.png";
-// import elementor from "../../assets/elementor-page-builder-removebg-preview.png";
-// import firebase from "../../assets/firebase.png";
-// import redux from "../../assets/redux.png";
-// import zustand from "../../assets/zustand.png";
-// import css from "../../assets/css.png";
-// import node from "../../assets/node-removebg-preview.png";
 import Steps from "../../components/steps";
 import Reccomend from "../../components/footer";
 import ScrollUp from "../../components/scrollup";
@@ -15,6 +7,9 @@ import web from "../../assets/svg/web.svg";
 import digital from "../../assets/svg/digital.svg";
 import graphic from "../../assets/svg/graphic.svg";
 import server from "../../assets/svg/server.svg";
+import picTwo from "../../assets/html2.jpeg";
+import picThree from "../../assets/html.jpeg";
+import picFour from "../../assets/html3.jpeg";
 
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -32,7 +27,7 @@ const AboutPage = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        default: { duration: 0.6, ease: "easeInOut" },
+        default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
       <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px]">
@@ -49,60 +44,83 @@ const AboutPage = () => {
       </section>
       <section className="bg-[#030B0F] h-full py-6 ">
         <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
-          <div>
-            <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold">
+          <div className="max-w-[570px]">
+            <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
               אנחנו פה בשביל לעזור לעסק שלך לצמוח
             </h3>
             <p className="text-justify lg:text-2xl md:text-xl mt-4">
-              בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד הראשון, מבטיחים שכל
-              פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם מסודר ומאורגן להפליא. כל
-              פרויקט ב-<span className="text-[#6FCFED]">Differeacting</span>{" "}
-              מתחיל באפיון ועיצוב מדויק,
+              ברוכים הבאים ל-{" "}
+              <span className="text-[#6FCFED]">differeacting</span>, אנחנו
+              קולקטיב של יוצרים, מתכנתים ומשווקים המאמינים בחדשנות וביצירתיות.
+              כל פרוייקט אצלנו הוא קודם כל ליווי והקשבה לצרכי הלקוח ורק לאחר מכן
+              נדאג לספק את הפתרון המושלם כמו "כפפה ליד".
             </p>
           </div>
-          <p className="text-base max-w-[573px] text-justify">
-            כאשר אנו מתמקדים בכל פרט ופרט כדי להבטיח שהמוצר הסופי יעמוד בציפיות
-            הגבוהות שלנו ושלכם. אחרי העיצוב, אנחנו עוברים לשלב הפיתוח, שבו
-            מופעלות הטכנולוגיות המתקדמות ביותר כדי להבטיח שאתרכם יהיה לא רק יפה,
-            אלא גם חזק ובעל ביצועים גבוהים.
-          </p>
         </div>
         <div className="container my-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="w-full h-[200px]  bg-[#6FCFED]  mt-14 my-4  ">
-          {/* <div className="wrapper">
-            <div className="item">
-              <img src={react} alt="react logo" />
-            </div>
-            <div className="item">
-              <img src={css} alt="css logo" />
-            </div>
-            <div className="item">
-              <img src={nextjs} alt="nextjs logo" />
-            </div>
-            <div className="item">
-              <img src={elementor} alt="elementor logo" />
-            </div>
-            <div className="item">
-              <img src={firebase} alt="firebase logo" />
-            </div>
-            <div className="item">
-              <img src={zustand} alt="zustand logo" />
-            </div>
-            <div className="item">
-              <img src={redux} alt="redux logo" />
-            </div>
-            <div className="item">
-              <img src={node} alt="node logo" />
-            </div>
-          </div>*/}
+        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+          <div className="">
+            <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
+              מה אומר הליווי?
+            </h3>
+            <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
+              נשתלב בתוך מערך השיווק שלך ונבנה ביחד אסטרטגיה חכמה שנועדה להוזיל
+              את עלויות השיווק ולהצעיד כל עסק וכל מיזם לסיסטם יעיל ומקצועי לכל
+              מטרה: לידים, מכירות, השקת מוצר חדש או מערכת.
+            </p>
+          </div>
+        </div>
+        <div className="container my-8">
+          <img
+            src={picThree}
+            alt=""
+            className="w-full rounded-[30px] lg:max-h-[588px] h-250px"
+          />
+        </div>
+        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+          <div className="">
+            <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
+              מה אומר השם?
+            </h3>
+            <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
+              שילוב של different + react פיתוח האתרים שלנו בסטודיו ברובו נעשה
+              באמצעות react, השילוב של זה עם הפתרון שאנו מציעים ללקוחותינו מאפשר
+              לנו להביא בשורה ותגובה שונה וחדשה לעולם הדיגיטל. אצלנו בחברה תמצאו
+              ארבע מחלקות מובילות: עיצוב גרפי, פיתוח אתרים, שיווק דיגיטלי ואחסון
+              אתרים.
+            </p>
+          </div>
+        </div>
+        <div className="container my-8">
+          <img
+            src={picFour}
+            alt=""
+            className="w-full rounded-[30px] max-h-[588px]"
+          />
+        </div>
+        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+          <div className="">
+            <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
+              הצטרפו אלינו למסע דיגיטלי שישנה את האופן בו אתם חושבים על הפרסום
+              והנוכחות שלכם ברשת. ב-differeacting, אנחנו לא רק מבטיחים, אנחנו
+              מגשימים.
+            </p>
+          </div>
+        </div>
+        <div className="container my-8">
+          <img
+            src={picTwo}
+            alt=""
+            className="w-full rounded-[30px] max-h-[488px] object-cover"
+          />
         </div>
       </section>
       <section className=" bg-[#030B0F] full-h ">
         <div className="container flex flex-col lg:flex-row gap-[138px] justify-center  h-full lg:pt-56 pt-28">
           <div className="lg:max-w-[411px]">
-            <h3 className="lg:text-6xl text-3xl text-[#f4f4f4] text-right font-bold">
+            <h3 className="lg:text-6xl text-4xl text-center text-[#f4f4f4] lg:text-right font-bold">
               שירותים שאנחנו יכולים לעזור בהם
             </h3>
           </div>

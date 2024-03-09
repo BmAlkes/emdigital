@@ -138,20 +138,24 @@ const Reccomend = () => {
           </div>
         </section>
 
-        <div className="bg-[#E7E7E7] lg:py-[140px] lg:px-[219px] py-7 px-3">
+        <div className="bg-[#E7E7E7] lg:py-[140px] lg:px-[150px] py-7 px-3">
           <div className="container ">
             <h3 className="text-3xl lg:text-6xl max-w-[641px] font-bold  mb-2 text-gray-900 pb-10">
               מוכנים להתחיל פרויקט ביחד?
             </h3>
+            <p className="text-lg max-w-[302px] mb-9 font-normal ">
+              יש לך פרויקט בראש? כולנו אוזניים כשזה זה מגיע לגלות על מטרות העסק
+              הדיגיטלי שלך. אנחנו נשמח לשמוע ממך.
+            </p>
 
             <form
               onSubmit={sendEmail}
-              className="flex lg:flex-row flex-col justify-center items-center gap-4"
+              className="flex lg:flex-row flex-wrap flex-col  gap-4"
             >
               <input
                 type="text"
                 placeholder="שם מלא"
-                className=" w-full bg-white rounded-[10px] border border-[#6D6D6D] text-base h-12 p-1"
+                className=" lg:w-[280px] bg-transparent  border-b border-[#B0B0B0] text-base h-12 p-1"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -160,23 +164,30 @@ const Reccomend = () => {
                 placeholder="email@email.com"
                 id="footer-field"
                 name="footer-field"
-                className=" w-full bg-white rounded-[10px] border border-[#6D6D6D] text-base h-12 p-1"
+                className=" lg:w-[280px] bg-transparent  border-b border-[#B0B0B0] text-base h-12 p-1"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 type="text"
                 placeholder="טלפון"
-                className=" w-full bg-white rounded-[10px] border border-[#6D6D6D] text-base h-12 p-1"
+                className=" lg:w-[280px] bg-transparent  border-b border-[#B0B0B0] text-base h-12 p-1"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />
 
+              <textarea
+                className="resize-none lg:w-[50%] bg-transparent  border-b border-[#B0B0B0] text-base h-12 p-1 "
+                placeholder="ספרו לנו משהו כל הפרויקט שלכם (אופציונלי)"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
+
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-[10px] p-[1px] text-center "
+                className=" lg:w-[40%] bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-[10px] p-[1px] text-center "
               >
-                <span className="flex w-full bg-[white] text-black rounded-[10px] py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] hover:text-white items-center justify-center">
+                <span className="flex w-full bg-transparent  text-white rounded-[10px] py-[10px] px-[14px] hover:bg-gradient-to-r from-[#41b1d3] to-[#a30f91] hover: items-center justify-center">
                   שליחת הפרטים
                 </span>
               </button>

@@ -56,7 +56,7 @@ const ServerPage = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        default: { duration: 0.6, ease: "easeInOut" },
+        default: { duration: 0.3, ease: "easeInOut" },
       }}
     >
       <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px] relative">

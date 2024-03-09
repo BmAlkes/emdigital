@@ -56,7 +56,7 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        default: { duration: 0.6, ease: "easeInOut" },
+        default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
       <section className=" lg:pt-5  lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0 mt-[96px] lg:mt-0  ">

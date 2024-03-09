@@ -60,7 +60,7 @@ const Header = () => {
             </li>
 
             <li className="nav relative">
-              <Link to="/services">מסולים</Link>
+              <Link to="/services">מסלולים</Link>
             </li>
 
             <li className="nav relative">
@@ -138,7 +138,7 @@ const Header = () => {
                           direction === "rtl" ? "text-right" : "text-left"
                         } w-full p-2 rounded-md hover:bg-slate-50 hover:text-black`}
                       >
-                        <li>מסולים</li>
+                        <li>מסלולים</li>
                       </Link>
                       <Link
                         onClick={handleClose}
