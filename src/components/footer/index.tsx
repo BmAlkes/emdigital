@@ -62,7 +62,7 @@ const Reccomend = () => {
                       <img
                         alt="testimonial"
                         className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 hover:scale-125"
-                        src={ofir}
+                        src="https://res.cloudinary.com/landingpage2/image/upload/v1710178264/ofir_ev3nqk.jpg"
                       />
                     </DialogTrigger>
                     <DialogContent className=" bg-[#030B0F] text-white">
@@ -117,9 +117,9 @@ const Reccomend = () => {
               <div className="lg:w-1/3 lg:mb-0 p-4">
                 <div className="h-full text-center">
                   <img
-                    alt="testimonial"
+                    alt="testimonial of a client"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 hover:scale-125"
-                    src={safe}
+                    src="https://res.cloudinary.com/landingpage2/image/upload/v1710178263/logo_tswkge.png"
                   />
                   <p className="leading-relaxed">
                     ממליצה בחום על ברונו! באתר של SafeGarden חיפשתי מתכנת פרונט

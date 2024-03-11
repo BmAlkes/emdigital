@@ -29,7 +29,7 @@ const Hero = () => {
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             <Typewriter
               words={["    הופכים חלומות ליצירה באינטרנט"]}
-              loop={5}
+              loop={1}
               cursor
               typeSpeed={100}
               deleteSpeed={50}
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
         <div>
           <img
-            src="https://res.cloudinary.com/landingpage2/image/upload/v1710176067/Graphic_for_header_1_bgl0fn.png"
+            src="https://res.cloudinary.com/landingpage2/image/upload/v1710178428/Graphic_for_header_1_1_zry1wr.png"
             alt="background hero"
             className="lg:h-full lg:object-center object-cover object-left   overflow-visible w-full h-[300px] md:h-[900px]"
           />

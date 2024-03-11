@@ -15,8 +15,8 @@ const About = () => {
           >
             <img
               src={Secimg}
-              alt=""
-              className="w-full max-w-[554px] md:w-[330px] lg:w-[554px] "
+              alt="image with pc and clouds for tecnologie"
+              className="w-full max-w-[554px] h-full md:w-[330px] lg:w-[554px] "
             />
           </div>
           <div
