@@ -62,8 +62,8 @@ const Hero = () => {
         </div>
         <div>
           <img
-            src={hand}
-            alt=""
+            src="https://res.cloudinary.com/landingpage2/image/upload/v1710176067/Graphic_for_header_1_bgl0fn.png"
+            alt="background hero"
             className="lg:h-full lg:object-center object-cover object-left   overflow-visible w-full h-[300px] md:h-[900px]"
           />
         </div>

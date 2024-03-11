@@ -46,29 +46,39 @@ const Header = () => {
     <header className="bg-[#030B0F] shadow-lg fixed top-0 w-full z-[60]">
       <nav className=" nav flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
-          <Link to="/">
+          <Link to="/" aria-label="logo website">
             <img src={logo} alt="" className="w-[191px]" />
           </Link>
         </div>
         <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center ">
           <ul className="lg:flex md:flex-row hidden lg:items-center lg:gap-[4vw] gap-6 text-lg text-white">
             <li className="nav relative">
-              <Link to="/">ראשי</Link>
+              <Link to="/" aria-label="home Page">
+                ראשי
+              </Link>
             </li>
             <li className="nav relative">
-              <Link to="/about">מי אנחנו</Link>
-            </li>
-
-            <li className="nav relative">
-              <Link to="/services">מסלולים</Link>
-            </li>
-
-            <li className="nav relative">
-              <Link to="/projects">פרויקטים</Link>
+              <Link to="/about" aria-label="about page">
+                מי אנחנו
+              </Link>
             </li>
 
             <li className="nav relative">
-              <Link to="/contact">צרו קשר</Link>
+              <Link to="/services" aria-label="services page">
+                מסלולים
+              </Link>
+            </li>
+
+            <li className="nav relative">
+              <Link to="/projects" aria-label="projects page">
+                פרויקטים
+              </Link>
+            </li>
+
+            <li className="nav relative">
+              <Link to="/contact" aria-label="contact page">
+                צרו קשר
+              </Link>
             </li>
           </ul>
         </div>
@@ -104,7 +114,7 @@ const Header = () => {
             >
               <SheetHeader>
                 <SheetTitle className="absolute left-5">
-                  <Link to="/">
+                  <Link to="/" aria-label="logo website">
                     <img src={logo} alt="" className="w-[150px]" />
                   </Link>
                 </SheetTitle>
@@ -114,6 +124,7 @@ const Header = () => {
                       className={`text-xl text-gray-900 flex flex-col gap-5   "items-end`}
                     >
                       <Link
+                        aria-label="home page"
                         onClick={handleClose}
                         to="/"
                         className={`text-white ${
@@ -123,6 +134,7 @@ const Header = () => {
                         <li>ראשי</li>
                       </Link>
                       <Link
+                        aria-label="about website"
                         onClick={handleClose}
                         to="/about"
                         className={`text-white ${
@@ -132,6 +144,7 @@ const Header = () => {
                         <li>מי אנחנו</li>
                       </Link>
                       <Link
+                        aria-label="services website"
                         onClick={handleClose}
                         to="/services"
                         className={`text-white ${
@@ -141,6 +154,7 @@ const Header = () => {
                         <li>מסלולים</li>
                       </Link>
                       <Link
+                        aria-label="project website"
                         onClick={handleClose}
                         to="/projects"
                         className={`text-white ${
@@ -150,6 +164,7 @@ const Header = () => {
                         <li>פרויקטים</li>
                       </Link>
                       <Link
+                        aria-label="contact website"
                         onClick={handleClose}
                         to="/contact"
                         className={`text-white ${
@@ -165,17 +180,23 @@ const Header = () => {
               <SheetFooter className="absolute bottom-12">
                 <ul className="flex gap-5">
                   <li>
-                    <a href="tel:0545899899">
+                    <a href="tel:0545899899" aria-label="phone to call">
                       <PhoneCallIcon size={28} color="#fff" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://api.whatsapp.com/send?phone=9720545899899&text=I%20want%20to%20talk%20about%20a%20project">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=9720545899899&text=I%20want%20to%20talk%20about%20a%20project"
+                      aria-label="whats app"
+                    >
                       <FaWhatsapp size={28} color="#fff" />
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:eden@eden-digital.co.il">
+                    <a
+                      href="mailto:eden@eden-digital.co.il"
+                      aria-label="email to contact"
+                    >
                       <MdOutlineEmail size={28} color="#fff" />
                     </a>
                   </li>

@@ -49,7 +49,7 @@ const Reccomend = () => {
   };
   return (
     <section className=" h-full " id="contact">
-      <img src={vetor2} alt="background vetor" className="w-full" />
+      <img src={vetor2} alt="background vetor" className="w-full h-full" />
       <h2 className="text-6xl font-bold mt-12 text-center">המלצות עלינו</h2>
       <div>
         <section className="text-gray-600 body-font">

@@ -133,10 +133,10 @@ const NewFooter = () => {
       </div>
       <div className="bg-[#030B0F] border-t">
         <div className="container w-full py-4 h-20 flex lg:flex-row flex-col items-center justify-between ">
-          <p className="  text-gray-500 text-sm ">
+          <p className="  text-white text-sm ">
             All rights reserved Differeacting
           </p>
-          <p className="text-gray-500 text-sm text-center">
+          <p className="text-white text-sm text-center">
             Differeating Solutions for web applications - ©2023
           </p>
         </div>

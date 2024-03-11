@@ -21,12 +21,8 @@ const Projects = () => {
         default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
-      <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px] ">
-        <img
-          src={projects}
-          alt=""
-          className="w-full lg:h-[800px] h-[600px] object-cover"
-        />
+      <section className=" bg-[#030B0F]  h-[600px] mt-[96px] ">
+        <img src={projects} alt="" className="w-full h-[500px] object-cover" />
       </section>
       <section className="bg-[#030B0F] h-full pt-8 ">
         <div className="container ">
