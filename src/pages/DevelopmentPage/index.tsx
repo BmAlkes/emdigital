@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import bg from "../../assets/svg/backgroundInnerPage.svg";
 import digital from "../../assets/web.jpg";
 import html from "../../assets/html.png";
 import css from "../../assets/css (2).png";

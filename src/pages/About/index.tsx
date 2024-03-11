@@ -93,11 +93,7 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="container my-8 flex-1">
-            <img
-              src={picTwo}
-              alt=""
-              className="w-[90%] rounded-[30px] ml-auto"
-            />
+            <img src={picTwo} alt="" className=" rounded-[30px] ml-auto" />
           </div>
         </div>
         <div className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10">
