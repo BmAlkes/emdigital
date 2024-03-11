@@ -102,10 +102,10 @@ const Reccomend = () => {
                     src="https://dummyimage.com/300x300"
                   />
                   <p className="leading-relaxed">
-                    Edison bulb retro cloud bread echo park, helvetica stumptown
-                    taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin
-                    coffee ennui shaman taiyaki vape DIY tote bag drinking
-                    vinegar cronut adaptogen squid fanny pack vaporware.
+                    עדן עבד אצלנו בתחילת הדרך וכבר אז זיהינו בחור שאפתן עם המון
+                    כוח רצון ללמוד ולהתקדם, קונוויזור תמיד תהיה הבית הראשון שלך
+                    בצעדייך הראשונים בעולם השיווק הדיגיטלי ואנו גאים על כך,
+                    בהצלחה במיזם החדש!
                   </p>
                   <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                   <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">

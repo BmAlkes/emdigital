@@ -7,9 +7,9 @@ import web from "../../assets/svg/web.svg";
 import digital from "../../assets/svg/digital.svg";
 import graphic from "../../assets/svg/graphic.svg";
 import server from "../../assets/svg/server.svg";
-import picTwo from "../../assets/html2.jpeg";
-import picThree from "../../assets/html.jpeg";
-import picFour from "../../assets/html3.jpeg";
+import picTwo from "../../assets/aboutnew.jpg";
+import picThree from "../../assets/2151003782.jpg";
+import picFour from "../../assets/4931.jpg";
 
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -60,8 +60,8 @@ const AboutPage = () => {
         <div className="container my-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
-          <div className="">
+        <div className="text-[#f4f4f4] container flex justify-between items-center   gap-8 my-10">
+          <div>
             <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
               מה אומר הליווי?
             </h3>
@@ -71,15 +71,15 @@ const AboutPage = () => {
               מטרה: לידים, מכירות, השקת מוצר חדש או מערכת.
             </p>
           </div>
+          <div className="container my-8 flex-1">
+            <img
+              src={picThree}
+              alt=""
+              className="w-[90%] rounded-[30px] mr-auto"
+            />
+          </div>
         </div>
-        <div className="container my-8">
-          <img
-            src={picThree}
-            alt=""
-            className="w-full rounded-[30px] lg:max-h-[588px] h-250px"
-          />
-        </div>
-        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+        <div className="text-[#f4f4f4] container flex flex-row-reverse justify-between items-center   gap-8 my-10">
           <div className="">
             <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
               מה אומר השם?
@@ -92,15 +92,15 @@ const AboutPage = () => {
               אתרים.
             </p>
           </div>
+          <div className="container my-8 flex-1">
+            <img
+              src={picTwo}
+              alt=""
+              className="w-[90%] rounded-[30px] ml-auto"
+            />
+          </div>
         </div>
-        <div className="container my-8">
-          <img
-            src={picFour}
-            alt=""
-            className="w-full rounded-[30px] max-h-[588px]"
-          />
-        </div>
-        <div className="text-[#f4f4f4] container flex flex-col md:flex-row justify-between items-end  md:mt-20 lg:gap-[281px] gap-8 my-10">
+        <div className="text-[#f4f4f4] container flex justify-between items-center   gap-8 my-10">
           <div className="">
             <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
               הצטרפו אלינו למסע דיגיטלי שישנה את האופן בו אתם חושבים על הפרסום
@@ -108,13 +108,13 @@ const AboutPage = () => {
               מגשימים.
             </p>
           </div>
-        </div>
-        <div className="container my-8">
-          <img
-            src={picTwo}
-            alt=""
-            className="w-full rounded-[30px] max-h-[488px] object-cover"
-          />
+          <div className="container my-8 flex-1">
+            <img
+              src={picFour}
+              alt=""
+              className="w-full rounded-[30px] max-h-[488px] object-cover"
+            />
+          </div>
         </div>
       </section>
       <section className=" bg-[#030B0F] full-h ">

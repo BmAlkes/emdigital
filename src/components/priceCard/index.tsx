@@ -1,6 +1,7 @@
 interface serviceListProps {
   textOne: string;
   icon: boolean;
+  include?: string;
 }
 
 const CardPrice = ({
@@ -16,7 +17,7 @@ const CardPrice = ({
 }) => {
   return (
     <div
-      className={`border-black rounded-2xl border  lg:max-w-sm mx-auto lg:mt-20 mt-3 ${
+      className={`border-black rounded-2xl border w-[350px] h-[930px] mx-auto lg:mt-20 mt-3 ${
         background === "white" ? "bg-white" : "bg-[#21ADD6]"
       } `}
     >
@@ -74,9 +75,9 @@ const CardPrice = ({
       <div className="px-6 pt-6 pb-8">
         {serviceList.map((service) => (
           <ul role="list" className="mt-6 space-y-4">
-            <li className="flex space-x-6 gap-[17px]">
+            <li className="flex  gap-[4px] ">
               {service.icon ? (
-                <div className="flex justify-center items-center rounded-full bg-[#E3F2FB] h-8 w-8">
+                <div className="flex justify-center items-center rounded-full bg-[#E3F2FB] h-8 w-8 ml-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -108,25 +109,28 @@ const CardPrice = ({
                   </svg>
                 </div>
               )}
-              {background === "white" ? (
-                <>
-                  {service.icon ? (
-                    <span className="text-base text-[#111111]">
+              <div className="text-justify flex-1">
+                {<span className="font-bold p-1">{service.include}:</span>}
+                {background === "white" ? (
+                  <>
+                    {service.icon ? (
+                      <span className="text-base text-[#111111] p-0 m-0">
+                        {service.textOne}
+                      </span>
+                    ) : (
+                      <span className="text-base text-[#A0ABBB] p-0 m-0">
+                        {service.textOne}
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <span className="text-base text-[#f4f4f4]">
                       {service.textOne}
                     </span>
-                  ) : (
-                    <span className="text-base text-[#A0ABBB]">
-                      {service.textOne}
-                    </span>
-                  )}
-                </>
-              ) : (
-                <>
-                  <span className="text-base text-[#f4f4f4]">
-                    {service.textOne}
-                  </span>
-                </>
-              )}
+                  </>
+                )}
+              </div>
             </li>
           </ul>
         ))}

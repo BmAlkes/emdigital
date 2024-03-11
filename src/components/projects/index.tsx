@@ -15,9 +15,9 @@ const Projects = () => {
         </h2>
         <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
         <div className="flex flex-col items-center mt-10 mb-11  ">
-          <Link to="/projects">
-            <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
-              <div>
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
+            <div>
+              <Link to="https://new-club-clothes.vercel.app/" target="_blank">
                 <div className="py-3">
                   <img
                     src={Project1}
@@ -27,6 +27,8 @@ const Projects = () => {
                   <h3 className="text-2xl font-normal mt-2">Club Clothers</h3>
                   <p className="text-base font-light">אתר סחר</p>
                 </div>
+              </Link>
+              <Link to="https://ecommerce-xhdu.vercel.app/" target="_blank">
                 <div className="py-3">
                   <img
                     src={Project2}
@@ -38,8 +40,11 @@ const Projects = () => {
                     פלטפורמה חמכירת מכוניות ופרסום
                   </p>
                 </div>
-              </div>
-              <div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to="https://webcar-umber.vercel.app/" target="_blank">
                 <div className="py-3">
                   <img
                     src={Project3}
@@ -49,6 +54,8 @@ const Projects = () => {
                   <h3 className="text-2xl font-normal mt-2">Eccomerce </h3>
                   <p className="text-base font-light">אתר סחר</p>
                 </div>
+              </Link>
+              <Link to="https://safe-garden.vercel.app/" target="_blank">
                 <div className="py-3">
                   <img
                     src={Project4}
@@ -60,9 +67,9 @@ const Projects = () => {
                     פלטפורמה לנהול גן ילדים פרטי{" "}
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
     </section>

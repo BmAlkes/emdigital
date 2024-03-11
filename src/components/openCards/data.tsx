@@ -94,6 +94,15 @@ export const projectsData = [
     link: "https://deliver-coffe.vercel.app/",
     category: "React",
   },
+  {
+    id: 11,
+    image:
+      "https://res.cloudinary.com/landingpage2/image/upload/v1710148822/safe_qmcsgn.png",
+    title: "Safe garden",
+    description: "App for private kindegarden managment",
+    link: "https://safe-garden.vercel.app/",
+    category: "React",
+  },
 ];
 
 export const projectsNav = [

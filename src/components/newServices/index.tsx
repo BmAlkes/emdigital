@@ -21,7 +21,7 @@ const NewServices = () => {
         </p>
       </div>
       <div className="flex flex-col lg:flex-row container gap-8 mt-20 mb-14 lg:mb-0  z-50">
-        <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
+        <div className="flex flex-col min-w-[315px]  justify-between py-6 px-4 rounded-lg show">
           <img src={web} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             פיתוח אתרי אינטרנט
@@ -41,15 +41,15 @@ const NewServices = () => {
             </Link>
           </div>
         </div>
-        <div className=" flex flex-col  justify-between py-6 px-4 rounded-lg show">
+        <div className=" flex flex-col min-w-[315px]   justify-between py-6 px-4 rounded-lg show">
           <img src={digital} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             שיווק דיגיטל
           </h3>
           <p className="text-lg font-normel text-[#888888] my-5">
-            פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
-            נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
-            חנויות מקוונות ופתרונות Saas.
+            הגבירו את הנוכחות הדיגיטלית שלכם עם שיווק דיגיטלי יעיל - באמצעות SEO
+            לשיפור מיקום במנועי חיפוש, קמפיינים ממוקדים בפייסבוק ואינסטגרם,
+            ופרסום ממומן ב-Google Ads להגדלת המרות.
           </p>
           <div className="hiddenShow">
             <Link to="/digital">
@@ -61,15 +61,15 @@ const NewServices = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col  justify-between py-6  px-4 rounded-lg show">
+        <div className="flex flex-col min-w-[315px]   justify-between py-6  px-4 rounded-lg show">
           <img src={graphic} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             עיצוב גרפי
           </h3>
           <p className="text-lg font-normel text-[#888888] my-5">
-            פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
-            נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
-            חנויות מקוונות ופתרונות Saas.
+            הביאו לחיים את הרעיונות שלכם עם עיצוב גרפי מקצועי: מלוגואים
+            ייחודיים, עיצוב אתרים מעוררי השראה וחבילות מיתוג עסקי שמבליטות את
+            הזהות והערכים של העסק / המותג.
           </p>
           <div className="hiddenShow">
             <Link to="/design">
@@ -81,15 +81,14 @@ const NewServices = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col  justify-between py-6 px-4 rounded-lg show">
+        <div className="flex flex-col min-w-[315px]   justify-between py-6 px-4 rounded-lg show">
           <img src={server} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             אחסון והקצאת שרתים
           </h3>
           <p className="text-lg font-normel text-[#888888] my-5">
-            פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית - מעמודי
-            נחיתה דינמיים ואתרי תדמית בוורדפרס, דרך אתרי ריאקט מתקדמים, ועד
-            חנויות מקוונות ופתרונות Saas.
+            שמרו על אתרים ומידע בבטחה עם שירותי אחסון ושרתים מתקדמים. מבטיחים
+            זמינות גבוהה, מהירות ואמינות לכל פרויקט ועסק.
           </p>
           <div className="hiddenShow">
             <Link to="server">

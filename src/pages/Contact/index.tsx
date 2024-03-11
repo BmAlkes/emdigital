@@ -1,5 +1,5 @@
 import { FormEvent, useEffect, useState } from "react";
-import Secimg from "../../assets/svg/pictureSec.svg";
+import Secimg from "../../assets/about2.jpg";
 
 import emailjs from "@emailjs/browser";
 import { Link, useLocation } from "react-router-dom";
@@ -61,11 +61,11 @@ const Contact = () => {
     >
       <section className=" lg:pt-5  lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0 mt-[96px] lg:mt-0  ">
         <div className="container h-full  mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
-          <div className="">
+          <div className="flex items-center justify-center w-full">
             <img
               src={Secimg}
               alt=""
-              className="w-full max-w-[554px] md:w-[330px] lg:w-[554px] "
+              className="w-full  md:w-[330px] lg:w-[484px] rounded-3xl "
             />
           </div>
           <div className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start">
@@ -84,13 +84,6 @@ const Contact = () => {
               הטכנולוגיות המתקדמות ביותר כדי להבטיח שאתרכם יהיה לא רק יפה, אלא
               גם חזק ובעל ביצועים גבוהים.
             </p>
-            <Link to="/about">
-              <button className="bg-gradient-to-r from-[#6FCFED] w-36 to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
-                <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] items-center justify-center">
-                  אודות
-                </span>
-              </button>
-            </Link>
           </div>
         </div>
       </section>

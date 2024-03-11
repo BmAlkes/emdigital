@@ -12,16 +12,136 @@ const Services = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  const serviceOne = [
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
+  const takeOff = [
+    { include: "עיצוב", textOne: "תבנית לבחירה", icon: true },
+    {
+      include: "סוג אתר",
+      textOne: "עמוד נחיתה / מיני סייט",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "קמפיין בפייסבוק  לאיסוף לידים /יצירת קשר / מבצע / מוצר חדש",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "שירות של אחסון ותחזוקה שוטפת לאורך כל חיי הקמפיין",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים שלנו ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta buisiness, gtm, רימרקטינג",
+      icon: true,
+    },
+  ];
+  const wordpress = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne:
+        "אתר תדמית וורדפרס עד 6-8 עמודים כולל עמוד צור קשר, אודות, שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים ",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "SEO טכני בלבד!",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta buisiness, gtm, רימרקטינג, סארצ' קונסול",
+      icon: true,
+    },
+  ];
+  const react = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne:
+        "אתר תדמית בריאקט עד 6-8 עמודים כולל עמוד צור קשר, אודות, שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים ",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "SEO טכני בלבד!",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta buisiness, gtm, רימרקטינג, סארצ' קונסול",
+      icon: true,
+    },
+  ];
+  const milkAll = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne: "אתר מתקדם מותאם לאתרי חנויות גדולים / saas",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne:
+        "חבילת שיווק מלאה: SEO מלא! כולל שוטף ( תוכן וקישורים), קמפיין ממומן גוגל אדס ברשת המדיה כולל עיצוב באנרים , חבילת שיווק בפייסבוק",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta buisiness, gtm, רימרקטינג, סארצ' קונסול, מערכת למעקב מיקומים se ranking",
+      icon: true,
+    },
   ];
   return (
     <motion.div
@@ -44,29 +164,29 @@ const Services = () => {
         </div>
       </section>
       <section className=" flex min-h-screen flex-col items-center bg-[#F4F4F4] ">
-        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-350px] md:mt-[-400px] mt-[-500px] mb-16">
+        <div className="flex lg:flex-row flex-wrap lg:container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-350px] md:mt-[-400px] mt-[-500px] mb-16">
           <CardPrice
-            price="1000"
-            textBase="בסיס"
-            serviceList={serviceOne}
+            price=""
+            textBase="Take off"
+            serviceList={takeOff}
             background="white"
           />
           <CardPrice
-            price="2500"
-            textBase="מקצועי"
-            serviceList={serviceOne}
+            price=""
+            textBase="Wordpress in the air"
+            serviceList={wordpress}
             background="white"
           />
           <CardPrice
-            price="7500"
-            textBase="הכי משתלם"
-            serviceList={serviceOne}
+            price=""
+            textBase="React from the space"
+            serviceList={react}
             background="blue"
           />
           <CardPrice
-            price="12500"
-            textBase="הכל כלול"
-            serviceList={serviceOne}
+            price=""
+            textBase="All milky way"
+            serviceList={milkAll}
             background="white"
           />
         </div>
