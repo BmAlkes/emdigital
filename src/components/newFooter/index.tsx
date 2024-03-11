@@ -30,26 +30,20 @@ const NewFooter = () => {
               מפה אתר
             </h2>
             <nav className="list-none mb-10 flex flex-col gap-3 cursor-pointer">
-              <Link to="/about">
+              <ul>
                 <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                  <a>אודותינו</a>
+                  <Link to="/about">אודותינו</Link>
                 </li>
-              </Link>
-              <Link to="/projects">
                 <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                  <a className="">הפרוייקטים שלנו</a>
+                  <Link to="/projects">הפרוייקטים שלנו</Link>
                 </li>
-              </Link>
-              <Link to="/services">
                 <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                  <a className="">שירותים החברה</a>
+                  <Link to="/services">שירותים החברה</Link>
                 </li>
-              </Link>
-              <Link to="/about">
                 <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                  <a className="">המלצות לקוחותינו</a>
+                  <Link to="/about">המלצות לקוחותינו</Link>
                 </li>
-              </Link>
+              </ul>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-right">
@@ -57,18 +51,20 @@ const NewFooter = () => {
               שירותי החברה
             </h2>
             <nav className=" list-none mb-10 flex flex-col gap-3 cursor-pointer ">
-              <li className=" rounded-lg py-2 px-2   hover:bg-white hover:text-black">
-                <Link to="development">פיתוח אתרי אינטרנט</Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link to="/design">עיצוב גרפי</Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link to="/digital">שיווק דיגיטלי</Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link to="/server">אחסון והקצאת שרתים</Link>
-              </li>
+              <ul>
+                <li className=" rounded-lg py-2 px-2   hover:bg-white hover:text-black">
+                  <Link to="development">פיתוח אתרי אינטרנט</Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link to="/design">עיצוב גרפי</Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link to="/digital">שיווק דיגיטלי</Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link to="/server">אחסון והקצאת שרתים</Link>
+                </li>
+              </ul>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-right cursor-pointer">
@@ -76,38 +72,44 @@ const NewFooter = () => {
               הפרויקטים שלנו
             </h2>
             <nav className="list-none mb-10 flex flex-col gap-3">
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link
-                  to="https://deliver-coffe.vercel.app/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Deliver Coffee
-                </Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link
-                  to="https://safe-garden.vercel.app/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  SafeGarden
-                </Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link
-                  to="https://webcar-umber.vercel.app/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Webcar
-                </Link>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <Link to="https://skylum.co.il/" target="_blank" rel="noopener">
-                  SkyLum
-                </Link>
-              </li>
+              <ul>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link
+                    to="https://deliver-coffe.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Deliver Coffee
+                  </Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link
+                    to="https://safe-garden.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    SafeGarden
+                  </Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link
+                    to="https://webcar-umber.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Webcar
+                  </Link>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <Link
+                    to="https://skylum.co.il/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    SkyLum
+                  </Link>
+                </li>
+              </ul>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-right">
@@ -116,17 +118,19 @@ const NewFooter = () => {
             </button>
 
             <nav className="list-none mb-10 flex flex-col gap-3 ">
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a href="mailto:eden@eden-digital.co.il">
-                  eden@eden-digital.co.il
-                </a>
-              </li>
-              <li className=" rounded-lg py-2 px-2 hover:bg-white hover:text-black">
-                <a href="tel:0545899899">054-589-9899</a>
-              </li>
-              <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a>תל אביב</a>
-              </li>
+              <ul>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a href="mailto:eden@eden-digital.co.il">
+                    eden@eden-digital.co.il
+                  </a>
+                </li>
+                <li className=" rounded-lg py-2 px-2 hover:bg-white hover:text-black">
+                  <a href="tel:0545899899">054-589-9899</a>
+                </li>
+                <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
+                  <a>תל אביב</a>
+                </li>
+              </ul>
             </nav>
           </div>
         </div>
