@@ -1,8 +1,7 @@
 import { FormEvent, useState } from "react";
 import emailjs from "@emailjs/browser";
 import vetor2 from "../../assets/Frame 1160445221.png";
-import safe from "../../assets/logo.jpg";
-import ofir from "../../assets/ofir.jpeg";
+
 import {
   Dialog,
   DialogContent,
