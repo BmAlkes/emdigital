@@ -1,3 +1,4 @@
+import { ArrowLeftCircle } from "lucide-react";
 import vetor from "../../assets/svg/Vector 18.svg";
 import { Link } from "react-router-dom";
 
@@ -10,6 +11,9 @@ const Projects = () => {
           כמה מהעבודות הטובות ביותר שלנו
         </h2>
         <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
+        <button>
+          <ArrowLeftCircle size={200} />
+        </button>
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">
             <div>
