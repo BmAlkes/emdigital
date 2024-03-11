@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   const [direction, setDirection] = useState(document.body.dir);
@@ -25,8 +27,17 @@ const Hero = () => {
           <p className="text-[#6FCFED] lg:text-2xl text-lg">
             אנחנו פה בשביל לעזור לעסק שלך לצמוח
           </p>
+
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
-            הופכים חלומות ליצירה באינטרנט
+            <Typewriter
+              words={["    הופכים חלומות ליצירה באינטרנט"]}
+              loop={1}
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </h2>
 
           {/* <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
