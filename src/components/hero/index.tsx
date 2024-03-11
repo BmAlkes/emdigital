@@ -30,12 +30,12 @@ const Hero = () => {
           <h2 className="text-white font-bold lg:text-[80px] text-[40px]">
             <Typewriter
               words={["    הופכים חלומות ליצירה באינטרנט"]}
-              loop={1}
+              loop={5}
               cursor
               cursorStyle="_"
               typeSpeed={100}
               deleteSpeed={50}
-              delaySpeed={1000}
+              delaySpeed={10000}
             />
           </h2>
 

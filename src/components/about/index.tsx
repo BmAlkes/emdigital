@@ -5,20 +5,26 @@ import Secimg from "../../assets/svg/pictureSec.svg";
 const About = () => {
   return (
     <>
-      <section className=" lg:pt-5 lg:pb-4 lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0  ">
-        <div
-          className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
-          <div className="">
+      <section className=" lg:pt-5 lglg:h-screen h-full bg-[#030B0F] relative py-24 lg:py-0  ">
+        <div className="container h-full mx-auto py-14 flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
+          <div
+            className=""
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-easing="linear"
+          >
             <img
               src={Secimg}
               alt=""
               className="w-full max-w-[554px] md:w-[330px] lg:w-[554px] "
             />
           </div>
-          <div className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start">
+          <div
+            className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-easing="linear"
+          >
             <h3 className="text-[#6FCFED] lg:text-2xl md:text-lg text-sm">
               Differeacting
             </h3>

@@ -21,7 +21,8 @@ const Projects = () => {
                 to="https://new-club-clothes.vercel.app/"
                 target="_blank"
                 data-aos="fade-down"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
+                data-aos-easing="linear"
               >
                 <div className="py-3">
                   <img
@@ -37,7 +38,8 @@ const Projects = () => {
                 to="https://ecommerce-xhdu.vercel.app/"
                 target="_blank"
                 data-aos="fade-down"
-                data-aos-duration="4000"
+                data-aos-duration="2000"
+                data-aos-easing="linear"
               >
                 <div className="py-3">
                   <img
@@ -58,7 +60,8 @@ const Projects = () => {
                 to="https://webcar-umber.vercel.app/"
                 target="_blank"
                 data-aos="fade-down"
-                data-aos-duration="2000"
+                data-aos-duration="3000"
+                data-aos-easing="linear"
               >
                 <div className="py-3">
                   <img
@@ -75,6 +78,7 @@ const Projects = () => {
                 target="_blank"
                 data-aos="fade-down"
                 data-aos-duration="4000"
+                data-aos-easing="linear"
               >
                 <div className="py-3">
                   <img

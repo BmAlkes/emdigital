@@ -6,10 +6,11 @@ import NewServices from "../../components/newServices";
 import Projects from "../../components/projects";
 import Reccomend from "../../components/footer";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
-import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { motion, useScroll } from "framer-motion";
 
 const Home = () => {
+  const ref = useRef<HTMLSelectElement>(null);
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
       }}
     >
       <Hero />
+
       <About />
       <NewServices />
       <Projects />

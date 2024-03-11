@@ -77,16 +77,36 @@ const NewFooter = () => {
             </h2>
             <nav className="list-none mb-10 flex flex-col gap-3">
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">פרויקטים 1</a>
+                <Link
+                  to="https://deliver-coffe.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Deliver Coffee
+                </Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">פרויקטים 2</a>
+                <Link
+                  to="https://safe-garden.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  SafeGarden
+                </Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">פרויקטים 3</a>
+                <Link
+                  to="https://webcar-umber.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Webcar
+                </Link>
               </li>
               <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                <a className="">פרויקטים 4</a>
+                <Link to="https://skylum.co.il/" target="_blank" rel="noopener">
+                  SkyLum
+                </Link>
               </li>
             </nav>
           </div>
