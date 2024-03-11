@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import bg from "../../assets/svg/backgroundInnerPage.svg";
-import digital from "../../assets/digital.png";
+import bg from "../../assets/svg/vetor1.svg";
+import digital from "../../assets/server.jpg";
 import html from "../../assets/html.png";
 import css from "../../assets/css (2).png";
 import elementor from "../../assets/elementor.png";
@@ -87,7 +87,7 @@ const ServerPage = () => {
             <img
               src={digital}
               alt="picture about digital world"
-              className="w-full max-w-[594px] rounded-[20px] z-10 mb-12"
+              className="w-full  rounded-[20px] z-10 mb-12"
             />
           </div>
         </div>

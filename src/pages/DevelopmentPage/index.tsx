@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import bg from "../../assets/svg/backgroundInnerPage.svg";
-import digital from "../../assets/digital.png";
+import digital from "../../assets/web.jpg";
 import html from "../../assets/html.png";
 import css from "../../assets/css (2).png";
 import elementor from "../../assets/elementor.png";
@@ -61,11 +61,6 @@ const DevelopmentPage = () => {
     >
       <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px] relative">
         <div className="container h-full flex flex-col lg:flex-row items-center lg:justify-between  gap-[80px] ">
-          <img
-            src={bg}
-            alt=""
-            className="absolute lg:left-[100px] bottom-0 lg:bottom-36 w-full max-h-[826px] max-w-[805px]"
-          />
           <div className="max-w-[600px] flex flex-col justify-center items-center lg:items-start">
             <h3 className="text-[#f1fafd] lg:text-2xl text-lg font-bold ">
               פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית
@@ -87,7 +82,7 @@ const DevelopmentPage = () => {
             <img
               src={digital}
               alt="picture about digital world"
-              className="w-full max-w-[594px] rounded-[20px] z-10 mb-12"
+              className="w-full max-w-[450px]  rounded-[20px] "
             />
           </div>
         </div>
