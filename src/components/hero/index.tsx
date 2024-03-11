@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import hand from "../../assets/Graphic for header (1).png";
 
 import { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
