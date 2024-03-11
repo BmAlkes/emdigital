@@ -10,7 +10,10 @@ const ScrollUp = () => {
 
   return (
     <a href="#" className="scrollup">
-      <HiOutlineArrowSmUp className="scrollup__icon" />
+      <HiOutlineArrowSmUp
+        className="scrollup__icon"
+        aria-label="button to scroll the page up"
+      />
     </a>
   );
 };

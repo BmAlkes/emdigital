@@ -139,7 +139,7 @@ const Contact = () => {
                       href="tel:+9720545899899"
                       className="text-white text-sm ml-3"
                     >
-                      <strong>+972 54-589-9899</strong>
+                      <strong>054-589-9899</strong>
                     </a>
                   </li>
                   <li className="flex gap-2 items-center max-lg:justify-center">

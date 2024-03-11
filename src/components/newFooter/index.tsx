@@ -7,12 +7,16 @@ const NewFooter = () => {
     <footer className="bg-[#030B0F]">
       <div className=" text-white px-5 py-32 mx-auto flex  lg:items-start lg:flex-row md:flex-col md:items-center flex-wrap flex-row">
         <div className="w-96 h-full   md:mx-0 mx-auto text-right md:text-left md:mb-10 flex-1">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center">
+          <Link
+            className="flex title-font font-medium items-center md:justify-start justify-center"
+            to="/"
+            aria-label="home page"
+          >
             <img
               src={logoFooter}
               className="md:max-w-[425px] w-[250px] mx-auto h-full"
             />
-          </a>
+          </Link>
           <div className="flex mt-11 md:items-center justify-center">
             <button className="flex items-center flex-row-reverse text-lg gap-2">
               <ChevronLeft size={18} />
@@ -128,7 +132,7 @@ const NewFooter = () => {
                   <a href="tel:0545899899">054-589-9899</a>
                 </li>
                 <li className=" rounded-lg py-2 px-2  hover:bg-white hover:text-black">
-                  <a>תל אביב</a>
+                  <p>תל אביב</p>
                 </li>
               </ul>
             </nav>
