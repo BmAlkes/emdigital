@@ -52,7 +52,7 @@ const OpenCards = () => {
               <nav className="nav">
                 <ul>
                   <li
-                    className="cursor-pointer"
+                    className="cursor-pointer bg-gradient-to-b from-green-300 via-blue-500 to-purple-600 z-30 py-2 px-3 rounded-xl"
                     onClick={(e) => {
                       handleClick(e, index);
                     }}
