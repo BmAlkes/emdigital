@@ -106,7 +106,7 @@ const Header = () => {
         <div className="lg:hidden cursor-pointer">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger>
-              <AiOutlineMenu size={35} color="#fff" />
+              <AiOutlineMenu size={35} color="#fff" arial-label="mobile menu" />
             </SheetTrigger>
             <SheetContent
               side={"right"}
