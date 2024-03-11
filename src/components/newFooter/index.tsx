@@ -10,7 +10,7 @@ const NewFooter = () => {
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
             <img
               src={logoFooter}
-              className="md:max-w-[425px] w-[250px] mx-auto"
+              className="md:max-w-[425px] w-[250px] mx-auto h-full"
             />
           </a>
           <div className="flex mt-11 md:items-center justify-center">
