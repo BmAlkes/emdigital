@@ -11,7 +11,7 @@ const Projects = () => {
         </h2>
         <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
         <div className="flex flex-col items-center mt-10 mb-11  ">
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">
             <div>
               <Link
                 to="https://new-club-clothes.vercel.app/"
@@ -20,7 +20,7 @@ const Projects = () => {
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
-                <div className="py-3">
+                <div className="py-3 lg:w-[573px] w-[420px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_23_deonbw.png"
                     alt="Project we made eccomerce for clother"
@@ -37,7 +37,7 @@ const Projects = () => {
                 data-aos-duration="2000"
                 data-aos-easing="linear"
               >
-                <div className="py-3">
+                <div className="py-3 lg:w-[573px] w-[420px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710178141/Image_1_lnemkd.png"
                     alt="Platform web site for car sales"
@@ -59,7 +59,7 @@ const Projects = () => {
                 data-aos-duration="3000"
                 data-aos-easing="linear"
               >
-                <div className="py-3">
+                <div className="py-3 lg:w-[573px] w-[420px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_27_a6sppc.png"
                     alt="Project we made about eccomerce"
@@ -76,7 +76,7 @@ const Projects = () => {
                 data-aos-duration="4000"
                 data-aos-easing="linear"
               >
-                <div className="py-3">
+                <div className="py-3 lg:w-[573px] w-[420px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710148822/safe_qmcsgn.png"
                     alt="Plataform web for managment do kindgarden"
