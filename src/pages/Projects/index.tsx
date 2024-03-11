@@ -3,7 +3,7 @@ import OpenCards from "../../components/openCards";
 import ScrollUp from "../../components/scrollup";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import projects from "../../assets/projec1.png";
+import projects from "../../assets/rockettwo.jpg";
 
 const Projects = () => {
   const { pathname } = useLocation();
@@ -21,8 +21,12 @@ const Projects = () => {
         default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
-      <section className=" bg-[#030B0F]  h-[600px] mt-[96px] ">
-        <img src={projects} alt="" className="w-full h-[500px] object-cover" />
+      <section className=" bg-[#030B0F]   mt-[96px] rel relative">
+        <img
+          src={projects}
+          alt=""
+          className="w-full lg:h-[1000px] object-cover"
+        />
       </section>
       <section className="bg-[#030B0F] h-full pt-8 ">
         <div className="container ">
