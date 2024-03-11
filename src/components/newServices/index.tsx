@@ -10,7 +10,11 @@ const NewServices = () => {
     <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center relative">
       <img src={vetor} alt="" className="absolute right-0 rotate-180 " />
 
-      <div className="container flex flex-col justify-center items-center">
+      <div
+        className="container flex flex-col justify-center items-center"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <h2 className="text-6xl font-semibold">השירותים שלנו</h2>
         <p className="max-w-[869px] text-center py-7">
           ברוכים הבאים למחלקות העיצוב, הפיתוח, השיווק והשרתים שלנו. המקום שבו כל
@@ -41,7 +45,7 @@ const NewServices = () => {
             </Link>
           </div>
         </div>
-        <div className=" flex flex-col min-w-[315px]   justify-between py-6 px-4 rounded-lg show">
+        <div className=" flex flex-col min-w-[315px]   justify-between py-6 px-4 rounded-lg show ">
           <img src={digital} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             שיווק דיגיטל
@@ -61,7 +65,7 @@ const NewServices = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col min-w-[315px]   justify-between py-6  px-4 rounded-lg show">
+        <div className="flex flex-col min-w-[315px]   justify-between py-6  px-4 rounded-lg show ">
           <img src={graphic} alt="web icon" className="w-[60px]" />
           <h3 className="font-light text-[#F4F4F4] text-2xl my-4">
             עיצוב גרפי

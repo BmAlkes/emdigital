@@ -6,7 +6,11 @@ const About = () => {
   return (
     <>
       <section className=" lg:pt-5 lg:pb-4 lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0  ">
-        <div className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
+        <div
+          className="container h-full mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="">
             <img
               src={Secimg}

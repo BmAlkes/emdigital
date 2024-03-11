@@ -17,7 +17,12 @@ const Projects = () => {
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
             <div>
-              <Link to="https://new-club-clothes.vercel.app/" target="_blank">
+              <Link
+                to="https://new-club-clothes.vercel.app/"
+                target="_blank"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <div className="py-3">
                   <img
                     src={Project1}
@@ -28,7 +33,12 @@ const Projects = () => {
                   <p className="text-base font-light">אתר סחר</p>
                 </div>
               </Link>
-              <Link to="https://ecommerce-xhdu.vercel.app/" target="_blank">
+              <Link
+                to="https://ecommerce-xhdu.vercel.app/"
+                target="_blank"
+                data-aos="fade-down"
+                data-aos-duration="4000"
+              >
                 <div className="py-3">
                   <img
                     src={Project2}
@@ -44,7 +54,12 @@ const Projects = () => {
             </div>
 
             <div>
-              <Link to="https://webcar-umber.vercel.app/" target="_blank">
+              <Link
+                to="https://webcar-umber.vercel.app/"
+                target="_blank"
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <div className="py-3">
                   <img
                     src={Project3}
@@ -55,7 +70,12 @@ const Projects = () => {
                   <p className="text-base font-light">אתר סחר</p>
                 </div>
               </Link>
-              <Link to="https://safe-garden.vercel.app/" target="_blank">
+              <Link
+                to="https://safe-garden.vercel.app/"
+                target="_blank"
+                data-aos="fade-down"
+                data-aos-duration="4000"
+              >
                 <div className="py-3">
                   <img
                     src={Project4}
