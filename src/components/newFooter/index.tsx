@@ -14,6 +14,7 @@ const NewFooter = () => {
           >
             <img
               src={logoFooter}
+              alt="logo web site"
               className="md:max-w-[425px] w-[250px] mx-auto h-full"
             />
           </Link>

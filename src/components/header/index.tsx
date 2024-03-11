@@ -47,7 +47,7 @@ const Header = () => {
       <nav className=" nav flex lg:flex-row flex-row-reverse items-center justify-between w-[92%] mx-auto h-24">
         <div className="">
           <Link to="/" aria-label="logo website">
-            <img src={logo} alt="" className="w-[191px]" />
+            <img src={logo} alt="web site logo" className="w-[191px]" />
           </Link>
         </div>
         <div className=" bg-[#030B0F] left-0 lg:w-auto hidden w-full lg:flex items-center ">
