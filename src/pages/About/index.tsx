@@ -38,7 +38,7 @@ const AboutPage = () => {
           <img
             src={bg}
             alt="hero background"
-            className="absolute inset-0 w-full lg:h-[1300px] h-full object-contain  my-auto"
+            className="absolute inset-0 w-full lg:h-[1800px] md:h-[900px] h-[1000px] object-contain  my-auto"
           />
         </div>
       </section>
@@ -60,7 +60,7 @@ const AboutPage = () => {
         <div className="container my-8">
           <img src={picOne} alt="" />
         </div>
-        <div className="text-[#f4f4f4] container flex justify-between items-center   gap-8 my-10">
+        <div className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10">
           <div>
             <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
               מה אומר הליווי?
@@ -75,11 +75,11 @@ const AboutPage = () => {
             <img
               src={picThree}
               alt=""
-              className="w-[90%] rounded-[30px] mr-auto"
+              className="w-full rounded-[30px] mr-auto"
             />
           </div>
         </div>
-        <div className="text-[#f4f4f4] container flex flex-row-reverse justify-between items-center   gap-8 my-10">
+        <div className="text-[#f4f4f4] container flex lg:flex-row-reverse flex-col justify-between items-center   gap-8 my-10">
           <div className="">
             <h3 className="lg:text-6xl md:text-4xl text-2xl font-semibold ">
               מה אומר השם?
@@ -100,7 +100,7 @@ const AboutPage = () => {
             />
           </div>
         </div>
-        <div className="text-[#f4f4f4] container flex justify-between items-center   gap-8 my-10">
+        <div className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10">
           <div className="">
             <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
               הצטרפו אלינו למסע דיגיטלי שישנה את האופן בו אתם חושבים על הפרסום
