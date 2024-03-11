@@ -32,7 +32,6 @@ const Hero = () => {
               words={["    הופכים חלומות ליצירה באינטרנט"]}
               loop={5}
               cursor
-              cursorStyle="_"
               typeSpeed={100}
               deleteSpeed={50}
               delaySpeed={10000}
