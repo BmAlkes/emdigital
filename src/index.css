@@ -301,6 +301,12 @@ button {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 558px) {
+  button {
+    padding: 10px 10px;
+  }
+}
+
 button:hover {
   background-position: 99%;
   box-shadow: 3px 3px 10px 2px #5de7ff, -3px -3px 10px 2px #4b4bff;
