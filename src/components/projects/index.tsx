@@ -7,13 +7,17 @@ const Projects = () => {
     <section className="w-full h-full   bg-[#030B0F]  text-[#D1D1D1] flex flex-col justify-center relative ">
       <img src={vetor} alt="" className="absolute left-0 top-[-300px]" />
       <div className="container">
-        <h2 className="text-6xl font-bold max-w-[647px] pt-11">
-          כמה מהעבודות הטובות ביותר שלנו
-        </h2>
-        <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
-        <button>
-          <ArrowLeftCircle size={200} />
-        </button>
+        <div className="flex justify-between container px-11">
+          <div>
+            <h2 className="text-6xl font-bold max-w-[647px] pt-11">
+              כמה מהעבודות הטובות ביותר שלנו
+            </h2>
+            <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
+          </div>
+          <button>
+            <ArrowLeftCircle size={150} />
+          </button>
+        </div>
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">
             <div>
@@ -24,7 +28,7 @@ const Projects = () => {
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 md:w-[573px]  w-[340px] ">
+                <div className="py-3 md:w-[600px]  w-[340px] ">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_23_deonbw.png"
                     alt="Project we made eccomerce for clother"
@@ -41,7 +45,7 @@ const Projects = () => {
                 data-aos-duration="2000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 md:w-[573px] w-[340px]">
+                <div className="py-3 md:w-[600px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710178141/Image_1_lnemkd.png"
                     alt="Platform web site for car sales"
@@ -63,7 +67,7 @@ const Projects = () => {
                 data-aos-duration="3000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 md:w-[573px] w-[340px]">
+                <div className="py-3 md:w-[600px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_27_a6sppc.png"
                     alt="Project we made about eccomerce"
@@ -80,7 +84,7 @@ const Projects = () => {
                 data-aos-duration="4000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 md:w-[573px] w-[340px]">
+                <div className="py-3 md:w-[600px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710148822/safe_qmcsgn.png"
                     alt="Plataform web for managment do kindgarden"
