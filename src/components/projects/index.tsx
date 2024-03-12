@@ -24,7 +24,7 @@ const Projects = () => {
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 lg:w-[573px] w-[420px]">
+                <div className="py-3 md:w-[573px]  w-[340px] ">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_23_deonbw.png"
                     alt="Project we made eccomerce for clother"
@@ -41,7 +41,7 @@ const Projects = () => {
                 data-aos-duration="2000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 lg:w-[573px] w-[420px]">
+                <div className="py-3 md:w-[573px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710178141/Image_1_lnemkd.png"
                     alt="Platform web site for car sales"
@@ -63,7 +63,7 @@ const Projects = () => {
                 data-aos-duration="3000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 lg:w-[573px] w-[420px]">
+                <div className="py-3 md:w-[573px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1708932227/Screenshot_27_a6sppc.png"
                     alt="Project we made about eccomerce"
@@ -80,7 +80,7 @@ const Projects = () => {
                 data-aos-duration="4000"
                 data-aos-easing="linear"
               >
-                <div className="py-3 lg:w-[573px] w-[420px]">
+                <div className="py-3 md:w-[573px] w-[340px]">
                   <img
                     src="https://res.cloudinary.com/landingpage2/image/upload/v1710148822/safe_qmcsgn.png"
                     alt="Plataform web for managment do kindgarden"

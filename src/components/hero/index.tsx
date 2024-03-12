@@ -43,7 +43,7 @@ const Hero = () => {
           </p> */}
           <div className="flex gap-7 mt-[30px]">
             <Link to="/about" className="p-0 m-0">
-              <button className="button">גלו עלינו עוד</button>
+              <button>גלו עלינו עוד</button>
             </Link>
             <Link to="/services">
               <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px] ">
