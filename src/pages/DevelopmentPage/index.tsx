@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import digital from "../../assets/web.jpg";
+import bg from "../../assets/svg/vetor1.svg";
 import html from "../../assets/html.png";
 import css from "../../assets/css (2).png";
 import elementor from "../../assets/elementor.png";
@@ -58,16 +59,21 @@ const DevelopmentPage = () => {
         default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
-      <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px] relative">
+      <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px] relative pb-7 lg:pb-0">
         <div className="container h-full flex flex-col lg:flex-row items-center lg:justify-between  gap-[80px] ">
-          <div className="max-w-[600px] flex flex-col justify-center items-center lg:items-start">
-            <h3 className="text-[#f1fafd] lg:text-2xl text-lg font-bold ">
+          <img
+            src={bg}
+            alt=""
+            className="absolute left-[100px] bottom-0 lg:bottom-36 w-full max-h-[826px] max-w-[805px] "
+          />
+          <div className="max-w-[600px] flex flex-col justify-center items-center lg:items-start pt-7 lg:pt-0 z-50">
+            <h3 className="text-[#f1fafd] lg:text-2xl text-lg font-bold text-center lg:text-right pt-5 ">
               פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית
             </h3>
-            <h2 className="text-[#f4f4f4] font-bold lg:text-[102px] text-[40px]  ">
+            <h2 className="text-[#f4f4f4] font-bold lg:text-[102px] md:text-[40px] text-[30px] text-center lg:text-right  ">
               פיתוח אתרי אינטרנט
             </h2>
-            <h4 className="text-2xl text-[#b0b0b0] max-w-[479px] my-[40px]">
+            {/* <h4 className="text-2xl text-[#b0b0b0] max-w-[479px] my-[40px]">
               המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
               כגון:Wordpress, React, Google Analytics
             </h4>
@@ -75,20 +81,20 @@ const DevelopmentPage = () => {
               <span className="flex w-full  text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
                 אני רוצה לדעת עוד
               </span>
-            </button>
+            </button> */}
           </div>
-          <div className="flex justify-center items-center flex-1">
+          <div className="flex justify-center items-center z-50">
             <img
               src={digital}
               alt="picture about digital world"
-              className="w-full max-w-[450px]  rounded-[20px] "
+              className="w-full lg:w-[660px] object-cover md:h-[600px] rounded-[20px] "
             />
           </div>
         </div>
       </section>
       <section>
-        <div className="w-full md:h-[200px]  bg-[#6FCFED]">
-          <div className="h-full container flex flex-col lg:flex-row items-center lg:justify-between  justify-center gap-2">
+        <div className="w-full md:h-[200px]  bg-[#6FCFED] py-3">
+          <div className="h-full container flex flex-col lg:flex-row items-center lg:justify-between  justify-center gap-2 py-5">
             <p className="max-w-[353px] text-2xl font-bold text-center">
               אנו עובדים עם הטכנולוגיות המתקדמות ביותר בעולם הדיגיטל
             </p>
@@ -133,7 +139,7 @@ const DevelopmentPage = () => {
         </div>
       </section>
       <section className="w-full  h-full flex flex-col items-center">
-        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px]   mb-16">
+        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px]   mb-16 mt-9 lg:mt-0">
           <CardPrice
             price="1000"
             textBase="בסיס"
@@ -171,7 +177,7 @@ const DevelopmentPage = () => {
           </button>
         </Link>
       </section>
-      <section className="w-full h-full bg-[#E7E7E7]">
+      <section className="w-full h-full bg-[#E7E7E7] hidden">
         <div className="container flex flex-col items-center justify-between lg:pt-32 pt-6">
           <h3 className="lg:text-6xl text-3xl font-bold">
             נתונים שיכולים להפתיע אתכם

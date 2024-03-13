@@ -24,7 +24,7 @@ const Steps = ({
         <div>
           <ScrollArea className="lg:h-[700px] md:h-[500px] h-[400px] max-w-[727px] rounded  color-[##6FCFED] p-2">
             <div className="p-4">
-              <p className="text-[#f4f4f4] lg:text-4xl md:text-2xl text-base lg:text-right text-justify">
+              <p className="text-[#f4f4f4] lg:text-3xl md:text-2xl text-base lg:text-right text-justify">
                 {text1}
               </p>
               <br />

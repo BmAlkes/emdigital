@@ -65,7 +65,7 @@ const Contact = () => {
             <img
               src={Secimg}
               alt=""
-              className="w-full  md:w-[330px] lg:w-[484px] rounded-3xl "
+              className="w-full max-w-[500px] lg:h-[500px] object-cover  rounded-3xl "
             />
           </div>
           <div className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start">

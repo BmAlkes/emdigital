@@ -64,16 +64,16 @@ const GraphicPage = () => {
           <img
             src={bg}
             alt=""
-            className="absolute lg:left-[100px] bottom-0 lg:bottom-36 w-full max-h-[826px] max-w-[805px]"
+            className="absolute left-[100px] bottom-0 lg:bottom-36 w-full max-h-[826px] max-w-[805px]"
           />
-          <div className="max-w-[600px] flex flex-col justify-center items-center lg:items-start">
+          <div className="max-w-[600px] flex flex-col justify-center text-center lg:text-right pt-5 z-50">
             <h3 className="text-[#f1fafd] lg:text-2xl text-lg font-bold ">
               פתחו את שערי הדיגיטל שלכם עם אתרי אינטרנט מותאמים אישית
             </h3>
             <h2 className="text-[#f4f4f4] font-bold lg:text-[102px] text-[40px] text-center ">
               עיצוב גרפי
             </h2>
-            <h4 className="text-2xl text-[#b0b0b0] max-w-[479px] my-[40px]">
+            {/* <h4 className="text-2xl text-[#b0b0b0] max-w-[479px] my-[40px]">
               המותג שלך צריך פיתוח בהתאמה אישית ובטכנולוגיות מתקדמות
               כגון:Wordpress, React, Google Analytics
             </h4>
@@ -81,7 +81,7 @@ const GraphicPage = () => {
               <span className="flex w-full  text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
                 אני רוצה לדעת עוד
               </span>
-            </button>
+            </button> */}
           </div>
           <div className="flex justify-center items-center flex-1">
             <img
@@ -93,7 +93,7 @@ const GraphicPage = () => {
         </div>
       </section>
       <section>
-        <div className="w-full md:h-[200px]  bg-[#6FCFED]">
+        <div className="w-full md:h-[200px]  bg-[#6FCFED] py-3">
           <div className="h-full container flex flex-col lg:flex-row items-center lg:justify-between  justify-center gap-2">
             <p className="max-w-[353px] text-2xl font-bold text-center">
               אנו עובדים עם הטכנולוגיות המתקדמות ביותר בעולם הדיגיטל
