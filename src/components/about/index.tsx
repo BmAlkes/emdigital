@@ -34,15 +34,15 @@ const About = () => {
             <p className="text-base  my-5  text-justify ">
               בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד הראשון, מבטיחים שכל
               פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם מסודר ומאורגן להפליא. כל
-              פרויקט ב-EM digital מתחיל באפיון ועיצוב מדויק, כאשר אנו מתמקדים
-              בכל פרט ופרט כדי להבטיח שהמוצר הסופי יעמוד בציפיות הגבוהות שלנו
-              ושלכם. אחרי העיצוב, אנחנו עוברים לשלב הפיתוח, שבו מופעלות
-              הטכנולוגיות המתקדמות ביותר כדי להבטיח שאתרכם יהיה לא רק יפה, אלא
-              גם חזק ובעל ביצועים גבוהים.
+              פרויקט ב-<span className="text-[#6fcfed]">Differeacting</span>{" "}
+              מתחיל באפיון ועיצוב מדויק, כאשר אנו מתמקדים בכל פרט ופרט כדי
+              להבטיח שהמוצר הסופי יעמוד בציפיות הגבוהות שלנו ושלכם. אחרי העיצוב,
+              אנחנו עוברים לשלב הפיתוח, שבו מופעלות הטכנולוגיות המתקדמות ביותר
+              כדי להבטיח שאתרכם יהיה לא רק יפה, אלא גם חזק ובעל ביצועים גבוהים.
             </p>
             <Link to="/about">
               <button className="button bg-gradient-to-r from-[#6FCFED] w-36 py-[2px] px-[2px] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
-                <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] items-center justify-center">
+                <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] items-center justify-center">
                   אודות
                 </span>
               </button>
