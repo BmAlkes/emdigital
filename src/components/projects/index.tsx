@@ -14,7 +14,7 @@ const Projects = () => {
             </h2>
             <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
           </div>
-          <button>
+          <button classNames:"hidden">
             <ArrowLeftCircle size={150} />
           </button>
         </div>
