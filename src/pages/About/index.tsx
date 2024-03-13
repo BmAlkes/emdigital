@@ -133,8 +133,8 @@ const AboutPage = () => {
               </p>
               <div className="">
                 <Link to="/development">
-                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[8px] px-[14px]  flex ">
                       עמוד שירות
                     </span>
                   </button>
@@ -153,8 +153,8 @@ const AboutPage = () => {
               </p>
               <div className="">
                 <Link to="/digital">
-                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[8px] px-[14px]  flex ">
                       עמוד שירות
                     </span>
                   </button>
@@ -173,8 +173,8 @@ const AboutPage = () => {
               </p>
               <div className="">
                 <Link to="/design">
-                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[8px] px-[14px]  flex ">
                       עמוד שירות
                     </span>
                   </button>
@@ -193,8 +193,8 @@ const AboutPage = () => {
               </p>
               <div className="">
                 <Link to="server">
-                  <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
-                    <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+                  <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                    <span className=" w-full bg-[#030B0F] text-white rounded py-[8px] px-[14px]  flex ">
                       עמוד שירות
                     </span>
                   </button>

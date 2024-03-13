@@ -41,7 +41,7 @@ const About = () => {
               גם חזק ובעל ביצועים גבוהים.
             </p>
             <Link to="/about">
-              <button className="bg-gradient-to-r from-[#6FCFED] w-36 to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
+              <button className="button bg-gradient-to-r from-[#6FCFED] w-36 py-[2px] px-[2px] to-[#C96CBE] text-white font-semibold rounded-xl p-[1px]   ">
                 <span className="flex w-full bg-[#030B0F] text-white rounded-xl py-[10px] px-[14px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] items-center justify-center">
                   אודות
                 </span>

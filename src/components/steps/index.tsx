@@ -14,7 +14,7 @@ const Steps = ({
   smallText: string;
 }) => {
   return (
-    <section className="bg-[#030B0F] lg:h-screen  h-[700px]">
+    <section className="bg-[#030B0F]  lg:h-[800px] md:h-[800px] h-screen">
       <div className="h-full flex flex-col lg:flex-row  lg:justify-between justify-center container items-center">
         <div>
           <span className="text-sm text-[#f4f4f4]">{smallText}</span>

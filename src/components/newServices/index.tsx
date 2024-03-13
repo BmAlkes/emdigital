@@ -37,8 +37,8 @@ const NewServices = () => {
           </p>
           <div className="hiddenShow">
             <Link to="/development">
-              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+              <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded-xl py-[8px] px-[8px]  flex ">
                   עמוד שירות
                 </span>
               </button>
@@ -57,8 +57,8 @@ const NewServices = () => {
           </p>
           <div className="hiddenShow">
             <Link to="/digital">
-              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+              <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded-xl py-[8px] px-[8px]  flex ">
                   עמוד שירות
                 </span>
               </button>
@@ -77,8 +77,8 @@ const NewServices = () => {
           </p>
           <div className="hiddenShow">
             <Link to="/design">
-              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto">
-                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+              <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded-xl py-[8px] px-[8px]  flex ">
                   עמוד שירות
                 </span>
               </button>
@@ -96,8 +96,8 @@ const NewServices = () => {
           </p>
           <div className="hiddenShow">
             <Link to="server">
-              <button className="bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] text-white font-semibold rounded p-[1px] md:block  mr-auto ">
-                <span className=" w-full bg-[#030B0F] text-white rounded py-[10px] px-[14px]  flex">
+              <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
+                <span className=" w-full bg-[#030B0F] text-white rounded-xl py-[8px] px-[8px]  flex ">
                   עמוד שירות
                 </span>
               </button>
