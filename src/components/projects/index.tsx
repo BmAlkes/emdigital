@@ -9,12 +9,14 @@ const Projects = () => {
       <div className="container">
         <div className="flex justify-between container px-11">
           <div>
-            <h2 className="text-6xl font-bold max-w-[647px] pt-11">
+            <h2 className="md:text-6xl text-3xl text-center lg:text-right font-bold max-w-[647px] pt-11">
               כמה מהעבודות הטובות ביותר שלנו
             </h2>
             <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
           </div>
-          
+          <button className="hidden">
+            <ArrowLeftCircle size={150} />
+          </button>
         </div>
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">

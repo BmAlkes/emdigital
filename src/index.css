@@ -289,7 +289,7 @@
   border-radius: 50% !important;
 }
 
-button {
+.button {
   padding: 15px 32px;
   font-size: 20px;
   color: white;
@@ -302,17 +302,17 @@ button {
 }
 
 @media screen and (max-width: 558px) {
-  button {
+  .button {
     padding: 10px 10px;
   }
 }
 
-button:hover {
+.button:hover {
   background-position: 99%;
   box-shadow: 3px 3px 10px 2px #5de7ff, -3px -3px 10px 2px #4b4bff;
 }
 
-button:active {
+.button:active {
   transform: scale(0.8) rotate(5deg);
   box-shadow: 3px 3px 15px 3px #5de7ff, -3px -3px 15px 3px #4b4bff;
 }
