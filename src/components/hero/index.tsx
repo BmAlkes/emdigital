@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 import { useEffect, useState } from "react";
-import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   const [direction, setDirection] = useState(document.body.dir);

@@ -8,7 +8,11 @@ import { Link } from "react-router-dom";
 const NewServices = () => {
   return (
     <section className="w-full lg:h-screen h-full bg-[#030B0F] text-[#D1D1D1] flex flex-col justify-center items-center relative">
-      <img src={vetor} alt="" className="absolute right-0 rotate-180 " />
+      <img
+        src={vetor}
+        alt=""
+        className="absolute right-0 rotate-180  overflow-y-hidden"
+      />
 
       <div
         className="container flex flex-col justify-center items-center"
