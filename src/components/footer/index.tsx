@@ -132,7 +132,7 @@ const Reccomend = () => {
                   <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
                     Anastacia Tsarfati
                   </h2>
-                  <p className="text-gray-500">Safegardenבעלים של </p>
+                  <p className="text-gray-500"> Owner of Safegarden </p>
                 </div>
               </div>
             </div>

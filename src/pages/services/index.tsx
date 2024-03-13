@@ -152,8 +152,8 @@ const Services = () => {
         default: { duration: 0.4, ease: "easeInOut" },
       }}
     >
-      <section className=" bg-[#030B0F] lg:h-screen h-[900px] mt-[96px] ">
-        <div className="flex flex-col lg:pt-[220px] pt-[150px] items-center gap-[28px] h-full">
+      <section className=" bg-[#030B0F]  md:h-[900px] h-[960px] ">
+        <div className="flex flex-col  pt-[250px] items-center gap-[28px] h-full">
           <h2 className="text-[#f4f4f4] font-bold lg:text-[102px] text-[40px] md:text-[60px] text-center ">
             בחרו את התוכנית{" "}
             <span className="block text-gradient">המתאימה לכם</span>
@@ -164,7 +164,7 @@ const Services = () => {
         </div>
       </section>
       <section className=" flex min-h-screen flex-col items-center bg-[#F4F4F4] ">
-        <div className="flex lg:flex-row flex-wrap lg:container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-350px] md:mt-[-400px] mt-[-500px] mb-16">
+        <div className="flex lg:flex-row flex-wrap lg:container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-200px] md:mt-[-400px] mt-[-500px] mb-16">
           <CardPrice
             price=""
             textBase="Take off"

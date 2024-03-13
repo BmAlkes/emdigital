@@ -27,14 +27,7 @@ const Hero = () => {
           </p>
 
           <h2 className="text-white font-bold lg:text-[80px] text-[35px]">
-            <Typewriter
-              words={["    הופכים חלומות ליצירה באינטרנט"]}
-              loop={1}
-              cursor
-              typeSpeed={100}
-              deleteSpeed={50}
-              delaySpeed={10000}
-            />
+            הופכים חלומות ליצירה באינטרנט
           </h2>
 
           {/* <p className="text-white lg:text-2xl font-normal lg:mt-[10px] mt-5 text-xl">
