@@ -14,9 +14,7 @@ const Projects = () => {
             </h2>
             <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
           </div>
-          <button className:"hidden">
-            <ArrowLeftCircle size={150} />
-          </button>
+          
         </div>
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">
