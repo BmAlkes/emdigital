@@ -1,6 +1,7 @@
 import { FormEvent, useState } from "react";
 import emailjs from "@emailjs/browser";
 import vetor2 from "../../assets/Frame 1160445221.png";
+import logo from "../../assets/testimo.png";
 
 import {
   Dialog,
@@ -99,8 +100,8 @@ const Reccomend = () => {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/300x300"
+                    className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 hover:scale-125"
+                    src={logo}
                   />
                   <p className="leading-relaxed">
                     עדן עבד אצלנו בתחילת הדרך וכבר אז זיהינו בחור שאפתן עם המון
@@ -110,9 +111,9 @@ const Reccomend = () => {
                   </p>
                   <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                   <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-                    ALPER KAMU
+                    אורן טל
                   </h2>
-                  <p className="text-gray-500">UI Develeoper</p>
+                  <p className="text-gray-500">קונווייזור דיגיטל</p>
                 </div>
               </div>
               <div className="lg:w-1/3 lg:mb-0 p-4">
