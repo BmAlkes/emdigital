@@ -20,16 +20,136 @@ const DevelopmentPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  const serviceOne = [
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: true },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
-    { textOne: "כאן ייכנס טקסט כאן ייכנס טקסט", icon: false },
+  const takeOff = [
+    { include: "עיצוב", textOne: "תבנית לבחירה", icon: true },
+    {
+      include: "סוג אתר",
+      textOne: "עמוד נחיתה / מיני סייט",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "קמפיין בפייסבוק  לאיסוף לידים /יצירת קשר / מבצע / מוצר חדש",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "שירות של אחסון ותחזוקה שוטפת לאורך כל חיי הקמפיין",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים שלנו ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta business, gtm, רימרקטינג",
+      icon: true,
+    },
+  ];
+  const wordpress = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne:
+        "אתר תדמית וורדפרס עד 6-8 עמודים כולל עמוד צור קשר, אודות, שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים ",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "SEO טכני בלבד!",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta business, gtm, רימרקטינג, סארצ' קונסול",
+      icon: true,
+    },
+  ];
+  const react = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne:
+        "אתר תדמית בריאקט עד 6-8 עמודים כולל עמוד צור קשר, אודות, שירותים, מותאם להכנה לקידום אורגני כולל אזור בלוג פוסטים ",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne: "SEO טכני בלבד!",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta business, gtm, רימרקטינג, סארצ' קונסול",
+      icon: true,
+    },
+  ];
+  const milkAll = [
+    {
+      include: "עיצוב",
+      textOne: "עיצוב חדש ובהתאמה אישית ללקוח כולל קבצי figma",
+      icon: true,
+    },
+    {
+      include: "סוג אתר",
+      textOne: "אתר מתקדם מותאם לאתרי חנויות גדולים / saas",
+      icon: true,
+    },
+    {
+      include: "שיווק",
+      textOne:
+        "חבילת שיווק מלאה: SEO מלא! כולל שוטף ( תוכן וקישורים), קמפיין ממומן גוגל אדס ברשת המדיה כולל עיצוב באנרים , חבילת שיווק בפייסבוק",
+      icon: true,
+    },
+    {
+      include: "תחזוקה",
+      textOne: "אחסון ותחזוקה, ניהול מלא של צד שרת",
+      icon: true,
+    },
+    {
+      include: "crm ",
+      textOne: "חיבור למערכת לידים ושיקוף הנתונים ללקוח",
+      icon: true,
+    },
+    {
+      include: "מעקב ומדידה",
+      textOne:
+        "חיבור כל כלי גוגל וכל אמצעי המעקב: גוגל אנליטיקס, meta business, gtm, רימרקטינג, סארצ' קונסול, מערכת למעקב מיקומים se ranking",
+      icon: true,
+    },
   ];
 
   const testimonials = [
@@ -143,25 +263,25 @@ const DevelopmentPage = () => {
           <CardPrice
             price="1000"
             textBase="בסיס"
-            serviceList={serviceOne}
+            serviceList={takeOff}
             background="white"
           />
           <CardPrice
             price="2500"
             textBase="מקצועי"
-            serviceList={serviceOne}
+            serviceList={wordpress}
             background="white"
           />
           <CardPrice
             price="7500"
             textBase="הכי משתלם"
-            serviceList={serviceOne}
+            serviceList={react}
             background="blue"
           />
           <CardPrice
             price="12500"
             textBase="הכל כלול"
-            serviceList={serviceOne}
+            serviceList={milkAll}
             background="white"
           />
         </div>
