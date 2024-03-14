@@ -355,7 +355,7 @@
 
 .intern::before {
   content: "100%";
-  animation: percent 5s ease-in-out infinite;
+  animation: percent 4s ease-in-out infinite;
   color: #4b4bff;
   font-size: 25px;
 }
