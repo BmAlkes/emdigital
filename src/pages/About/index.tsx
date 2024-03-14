@@ -192,7 +192,7 @@ const AboutPage = () => {
                 חנויות מקוונות ופתרונות Saas.
               </p>
               <div className="">
-                <Link to="server">
+                <Link to="/server">
                   <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px]  text-white font-semibold rounded p-[1px] md:block  mr-auto">
                     <span className=" w-full bg-[#030B0F] text-white rounded py-[8px] px-[14px]  flex ">
                       עמוד שירות
