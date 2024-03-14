@@ -164,7 +164,12 @@ const Services = () => {
         </div>
       </section>
       <section className=" flex min-h-screen flex-col items-center bg-[#F4F4F4] ">
-        <div className="flex lg:flex-row flex-wrap lg:container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-200px] md:mt-[-400px] mt-[-500px] mb-16">
+        <div
+          className="flex lg:flex-row flex-wrap lg:container lg:flex-nowrap items-center justify-center  lg:gap-[24px] lg:mt-[-200px] md:mt-[-400px] mt-[-500px] mb-16"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <CardPrice
             price=""
             textBase="Take off"

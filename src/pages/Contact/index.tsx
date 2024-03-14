@@ -61,14 +61,24 @@ const Contact = () => {
     >
       <section className=" lg:pt-5  lg:h-screen h-full bg-[#030B0F] relative py-16 lg:py-0 mt-[96px] lg:mt-0  ">
         <div className="container h-full  mx-auto flex lg:flex-row-reverse flex-col-reverse items-center lg:justify-between justify-center z-10">
-          <div className="flex items-center justify-center w-full">
+          <div
+            className="flex items-center justify-center w-full"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <img
               src={Secimg}
               alt=""
               className="w-full max-w-[500px] lg:h-[500px] object-cover  rounded-3xl "
             />
           </div>
-          <div className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start">
+          <div
+            className="text-[#F4F4F4] max-w-[500px] flex flex-col lg:justify-end justify-center items-center lg:items-start"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+          >
             <h3 className="text-[#6FCFED] lg:text-2xl md:text-lg text-sm">
               Differeacting
             </h3>
@@ -89,7 +99,12 @@ const Contact = () => {
       </section>
       <section>
         <div className="bg-[#030B0F] pb-16">
-          <div className="max-w-6xl mx-auto  font-[sans-serif] container ">
+          <div
+            className="max-w-6xl mx-auto  font-[sans-serif] container"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <div className="text-center px-6">
               <h2 className="lg:text-6xl md:text-3xl text-xl text-[#6FCFED] font-semibold text-center lg:text-center">
                 צרו קשר

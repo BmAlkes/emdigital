@@ -11,8 +11,13 @@ const FAQ = () => {
           </p>
           <div className="container">
             <div className="mx-auto lg:w-[1280px] md:w-[660px] w-72 mt-24">
-              <div className="divide-y divide-[#E7E7E7]">
-                <details className="group" open>
+              <div
+                className="divide-y divide-[#E7E7E7]"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                     האם יש ניסיון חינם?
                     <div>

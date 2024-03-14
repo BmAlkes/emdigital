@@ -180,7 +180,12 @@ const DigitalPage = () => {
       }}
     >
       <section className=" bg-[#030B0F] lg:h-screen h-full mt-[96px] relative">
-        <div className="container h-full flex flex-col lg:flex-row items-center lg:justify-between  gap-[80px] ">
+        <div
+          className="container h-full flex flex-col lg:flex-row items-center lg:justify-between  gap-[80px] "
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <img
             src={bg}
             alt=""
@@ -259,7 +264,12 @@ const DigitalPage = () => {
         </div>
       </section>
       <section className="w-full  h-full flex flex-col items-center">
-        <div className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px]   mb-16 mt-9 lg:mt-0">
+        <div
+          className="flex lg:flex-row flex-wrap container lg:flex-nowrap items-center justify-center  lg:gap-[24px]   mb-16 mt-9 lg:mt-0"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <CardPrice
             price=""
             textBase="בסיס"
@@ -326,13 +336,23 @@ const DigitalPage = () => {
         </div>
       </section>
       <section className="bg-[#111111] w-full lg:h-[702px] h-full flex flex-col  justify-center items-center">
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <h3 className="text-[#F4F4F4] lg:text-6xl text-3xl mt-8 lg:mt-0 text-center">
             הלקוחות שלנו אומרים עלינו שאנחנו
           </h3>
         </div>
 
-        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div
+          className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
             {testimonials.map((text) => (
               <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">

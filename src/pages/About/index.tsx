@@ -31,7 +31,12 @@ const AboutPage = () => {
       }}
     >
       <section className=" bg-[#030B0F] lg:h-screen h-[600px] mt-[96px]">
-        <div className="flex items-center justify-center h-full relative">
+        <div
+          className="flex items-center justify-center h-full relative"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <h2 className="text-[#f4f4f4] lg:text-[102px] md:text-5xl text-3xl  text-center font-bold z-10 ">
             עושים את זה מדהים
           </h2>
@@ -57,7 +62,12 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="container my-8">
+        <div
+          className="container my-8"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <img src={picOne} alt="" />
         </div>
         <div className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10">
@@ -71,7 +81,12 @@ const AboutPage = () => {
               מטרה: לידים, מכירות, השקת מוצר חדש או מערכת.
             </p>
           </div>
-          <div className="container my-8 flex-1">
+          <div
+            className="container my-8 flex-1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <img
               src={picThree}
               alt=""
@@ -92,11 +107,21 @@ const AboutPage = () => {
               אתרים.
             </p>
           </div>
-          <div className="container my-8 flex-1">
+          <div
+            className="container my-8 flex-1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <img src={picTwo} alt="" className=" rounded-[30px] ml-auto" />
           </div>
         </div>
-        <div className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10">
+        <div
+          className="text-[#f4f4f4] container flex lg:flex-row flex-col justify-between items-center   gap-8 my-10"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <div className="">
             <p className="text-justify lg:text-2xl md:text-xl mt-4 max-w-[570px] ">
               הצטרפו אלינו למסע דיגיטלי שישנה את האופן בו אתם חושבים על הפרסום
@@ -104,7 +129,12 @@ const AboutPage = () => {
               מגשימים.
             </p>
           </div>
-          <div className="container my-8 flex-1">
+          <div
+            className="container my-8 flex-1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000"
+          >
             <img
               src={picFour}
               alt=""
@@ -114,7 +144,12 @@ const AboutPage = () => {
         </div>
       </section>
       <section className=" bg-[#030B0F] full-h ">
-        <div className="container flex flex-col lg:flex-row gap-[138px] justify-center  h-full lg:pt-56 pt-28">
+        <div
+          className="container flex flex-col lg:flex-row gap-[138px] justify-center  h-full lg:pt-56 pt-28"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <div className="lg:max-w-[411px]">
             <h3 className="lg:text-6xl text-4xl text-center text-[#f4f4f4] lg:text-right font-bold">
               שירותים שאנחנו יכולים לעזור בהם

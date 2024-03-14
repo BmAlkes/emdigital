@@ -14,7 +14,7 @@ const Steps = ({
   smallText: string;
 }) => {
   return (
-    <section className="bg-[#030B0F]  lg:h-[800px] md:h-[800px] h-screen">
+    <section className="bg-[#030B0F] lg:h-screen  h-[700px]">
       <div className="h-full flex flex-col lg:flex-row  lg:justify-between justify-center container items-center">
         <div>
           <span className="text-sm text-[#f4f4f4]">{smallText}</span>
@@ -24,7 +24,7 @@ const Steps = ({
         <div>
           <ScrollArea className="lg:h-[700px] md:h-[500px] h-[400px] max-w-[727px] rounded  color-[##6FCFED] p-2">
             <div className="p-4">
-              <p className="text-[#f4f4f4] lg:text-3xl md:text-2xl text-base lg:text-right text-justify">
+              <p className="text-[#f4f4f4] lg:text-4xl md:text-2xl text-base lg:text-right text-justify">
                 {text1}
               </p>
               <br />

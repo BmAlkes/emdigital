@@ -20,7 +20,12 @@ const Hero = () => {
   return (
     <section className=" bg-[#030B0F] md:h-screen h:full  mt-[96px]">
       <div className="flex flex-col lg:flex-row h-full container w-full mx-auto">
-        <div className="w-full h-full flex flex-col justify-center z-20 mt-8 md:mt-5  ">
+        <div
+          className="w-full h-full flex flex-col justify-center z-20 mt-8 md:mt-5"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="3000"
+        >
           <p className="text-[#6FCFED] lg:text-2xl text-lg">
             אנחנו פה בשביל לעזור לעסק שלך לצמוח
           </p>
@@ -50,7 +55,11 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <img
             src="https://res.cloudinary.com/landingpage2/image/upload/v1710178428/Graphic_for_header_1_1_zry1wr.png"
             alt="background hero"
