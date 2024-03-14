@@ -3,7 +3,7 @@
 }
 .btnWhatapp {
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 20px;
   z-index: 50;
   background-color: rgb(33, 154, 33);
