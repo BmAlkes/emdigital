@@ -17,31 +17,46 @@ import DigitalPage from "./pages/DigitalPage";
 import GraphicPage from "./pages/GraphicPage";
 import DevelopmentPage from "./pages/DevelopmentPage";
 import ServerPage from "./pages/ServerPage";
+import { useEffect, useState } from "react";
+import Loader from "./components/loader";
 
 AOS.init();
 
 function App() {
+  const [loading, setLoading] = useState(true);
   const { i18n } = useTranslation();
   document.body.dir = i18n.dir();
   const location = useLocation();
 
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 10000);
+  }, []);
+
   return (
-    <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/digital" element={<DigitalPage />} />
-          <Route path="/development" element={<DevelopmentPage />} />
-          <Route path="/design" element={<GraphicPage />} />
-          <Route path="/server" element={<ServerPage />} />
-        </Route>
-      </Routes>
-    </AnimatePresence>
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Layout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="*" element={<NotFound />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/digital" element={<DigitalPage />} />
+              <Route path="/development" element={<DevelopmentPage />} />
+              <Route path="/design" element={<GraphicPage />} />
+              <Route path="/server" element={<ServerPage />} />
+            </Route>
+          </Routes>
+        </AnimatePresence>
+      )}
+    </>
   );
 }
 

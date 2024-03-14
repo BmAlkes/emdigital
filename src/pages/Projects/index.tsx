@@ -3,7 +3,7 @@ import OpenCards from "../../components/openCards";
 import ScrollUp from "../../components/scrollup";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import projects from "../../assets/rockettwo.jpg";
+import projects from "../../assets/rockettw.jpg";
 
 const Projects = () => {
   const { pathname } = useLocation();
@@ -25,7 +25,7 @@ const Projects = () => {
         <img
           src={projects}
           alt=""
-          className="w-full lg:h-[1000px] object-cover"
+          className="w-full lg:h-[500px] object-center object-cover"
         />
       </section>
       <section className="bg-[#030B0F] h-full pt-8 ">

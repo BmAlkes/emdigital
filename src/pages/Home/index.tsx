@@ -15,6 +15,7 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
