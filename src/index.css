@@ -343,7 +343,7 @@
   box-shadow: 0.5em 0.5em 3em #ff53eb, -0.5em 0.5em 3em #4b4bff,
     0.5em -0.5em 3em #5de7ff;
   z-index: 999;
-  animation: rotate 3s linear infinite;
+  animation: rotate 2s linear infinite;
   background-color: #212121;
 }
 
@@ -355,7 +355,7 @@
 
 .intern::before {
   content: "100%";
-  animation: percent 4s ease-in-out infinite;
+  animation: percent 2s ease-in-out infinite;
   color: #4b4bff;
   font-size: 25px;
 }

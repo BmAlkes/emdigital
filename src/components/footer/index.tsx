@@ -96,6 +96,7 @@ const Reccomend = () => {
                   <p className="text-gray-500">Senior Product Designer</p>
                 </div>
               </div>
+
               <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className="h-full text-center">
                   <img
@@ -116,6 +117,7 @@ const Reccomend = () => {
                   <p className="text-gray-500">קונווייזור דיגיטל</p>
                 </div>
               </div>
+
               <div className="lg:w-1/3 lg:mb-0 p-4">
                 <div className="h-full text-center">
                   <img
