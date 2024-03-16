@@ -353,12 +353,12 @@
   z-index: 9999;
 }
 
-.intern::before {
+/* .intern::before {
   content: "100%";
   animation: percent 2s ease-in-out infinite;
   color: #4b4bff;
   font-size: 25px;
-}
+} */
 
 @keyframes rotate {
   0% {
