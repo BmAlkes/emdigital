@@ -39,10 +39,10 @@ const Hero = () => {
             כגון:Wordpress, React, Google Analytics
           </p> */}
           <div className="flex gap-7 mt-[30px]">
-            <Link to="/about" className="p-0 m-0">
+            <Link to="/projects" className="p-0 m-0">
               <button className=" button bg-gradient-to-r from-[#6FCFED] to-[#C96CBE] py-[2px] px-[2px] text-white font-semibold rounded-xl p-[1px] ">
                 <span className="flex w-full bg-[#030B0F] text-white rounded py-[10px] md:px-[14px] px-[4px] hover:bg-gradient-to-r from-[#6FCFED] to-[#C96CBE]">
-                  גלו עלינו עוד
+                  פרויקטים
                 </span>
               </button>
             </Link>

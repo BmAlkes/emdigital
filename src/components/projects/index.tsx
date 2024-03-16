@@ -1,4 +1,4 @@
-import { ArrowLeftCircle } from "lucide-react";
+import { IoArrowBack } from "react-icons/io5";
 import vetor from "../../assets/svg/Vector 18.svg";
 import { Link } from "react-router-dom";
 
@@ -7,15 +7,20 @@ const Projects = () => {
     <section className="w-full h-full   bg-[#030B0F]  text-[#D1D1D1] flex flex-col justify-center relative ">
       <img src={vetor} alt="" className="absolute left-0 top-[-300px]" />
       <div className="container">
-        <div className="flex justify-between container px-11">
+        <div className="flex lg:flex-row flex-col gap-5 justify-between items-center container px-11">
           <div>
             <h2 className="md:text-6xl text-3xl text-center lg:text-right font-bold max-w-[647px] pt-11">
               כמה מהעבודות הטובות ביותר שלנו
             </h2>
-            <p className="font-normal text-lg mt-7">צפו בכמה מהפרויקטים שלנו</p>
+            <p className="font-normal text-center lg:text-right text-lg mt-7">
+              צפו בכמה מהפרויקטים שלנו
+            </p>
           </div>
-          <button className="hidden">
-            <ArrowLeftCircle size={150} />
+          <button className="border rounded-full w-56 h-56 flex items-center justify-center buttongo z-50">
+            <span className="hidden text-lg w-full text-[#111111]">
+              לצפייה בשאר הפרויקטים
+            </span>
+            <IoArrowBack size={40} />
           </button>
         </div>
         <div className="flex flex-col items-center mt-10 mb-11  ">

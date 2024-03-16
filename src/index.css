@@ -395,3 +395,28 @@
     content: "99%";
   }
 }
+
+.buttongo {
+  transition: background-color 0.4s ease-in-out;
+}
+.buttongo:hover {
+  background-color: #4ac3e7 !important;
+}
+.buttongo:hover span {
+  display: block;
+  cursor: pointer;
+}
+.buttongo:hover svg {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .buttongo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .buttongo svg {
+    width: 26px;
+  }
+}
