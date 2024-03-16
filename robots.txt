@@ -1,5 +1,2 @@
 User-agent: *
-Allow:/
-Allow:/about
-Allow:/projects
-Allow:/services
+x-robots-tag: noindex
