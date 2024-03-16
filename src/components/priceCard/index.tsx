@@ -6,7 +6,7 @@ interface serviceListProps {
 
 const CardPrice = ({
   textBase,
-  price,
+  // price,
   serviceList,
   background,
 }: {

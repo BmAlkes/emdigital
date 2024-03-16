@@ -159,7 +159,7 @@ const Services = () => {
             <span className="block text-gradient">המתאימה לכם</span>
           </h2>
           <p className="text-[#F4F4F4] lg:text-[39px] text-2xl font-normal ">
-            בנינו לכם כמה מסלולים מעניינם
+            בנינו לכם כמה מסלולים מעניינים
           </p>
         </div>
       </section>
