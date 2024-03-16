@@ -16,12 +16,15 @@ const Projects = () => {
               צפו בכמה מהפרויקטים שלנו
             </p>
           </div>
-          <button className="border rounded-full w-56 h-56 flex items-center justify-center buttongo z-50">
-            <span className="hidden text-lg w-full text-[#111111]">
+          <Link
+            to="/projects"
+            className="border rounded-full w-56 h-56 flex items-center justify-center buttongo z-50"
+          >
+            <span className="hidden text-lg text-center w-full text-[#111111]">
               לצפייה בשאר הפרויקטים
             </span>
             <IoArrowBack size={40} />
-          </button>
+          </Link>
         </div>
         <div className="flex flex-col items-center mt-10 mb-11  ">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 z-50">
