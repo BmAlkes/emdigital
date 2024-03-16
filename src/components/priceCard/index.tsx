@@ -38,7 +38,7 @@ const CardPrice = ({
         >
           אידיאלי עבור אנשים שזקוקים לגישה מהירה לתכונות בסיסיות.
         </p>
-        <p className="mt-8">
+        {/* <p className="mt-8">
           <span
             className={`text-4xl font-bold tracking-tight ${
               background === "white" ? "text-[#111111]" : "text-white"
@@ -53,8 +53,8 @@ const CardPrice = ({
           >
             /לשנה
           </span>
-        </p>
-        {background === "white" ? (
+        </p> */}
+        {/* {background === "white" ? (
           <>
             <button className="bg-gradient-to-r w-full from-[#6FCFED] to-[#C96CBE] text-[#111111] font-semibold rounded-xl p-[1px]  mt-6">
               <span className="flex w-full bg-white text- rounded-xl py-[10px] px-[14px] ">
@@ -70,7 +70,7 @@ const CardPrice = ({
               </span>
             </button>
           </>
-        )}
+        )} */}
       </div>
       <div className="px-6 pt-6 pb-8">
         {serviceList.map((service) => (
