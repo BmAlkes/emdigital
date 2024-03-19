@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import ScrollUp from "../../components/scrollup";
 import FAQ from "../../components/FAQ";
+import WhatsApp from "../../components/whatsappscroll";
 
 const Services = () => {
   const { pathname } = useLocation();
@@ -199,6 +200,7 @@ const Services = () => {
       <FAQ />
 
       <ScrollUp />
+      <WhatsApp />
     </motion.div>
   );
 };

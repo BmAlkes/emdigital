@@ -14,6 +14,7 @@ import picFour from "../../assets/4931.jpg";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import WhatsApp from "../../components/whatsappscroll";
 
 const AboutPage = () => {
   const { pathname } = useLocation();
@@ -266,6 +267,7 @@ const AboutPage = () => {
 
       <Reccomend />
       <ScrollUp />
+      <WhatsApp />
     </motion.div>
   );
 };

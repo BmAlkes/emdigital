@@ -4,6 +4,7 @@ import ScrollUp from "../../components/scrollup";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import projects from "../../assets/rockettw.jpg";
+import WhatsApp from "../../components/whatsappscroll";
 
 const Projects = () => {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ const Projects = () => {
         </div>
       </section>
       <ScrollUp />
+      <WhatsApp />
     </motion.div>
   );
 };

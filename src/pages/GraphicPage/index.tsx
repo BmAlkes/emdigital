@@ -13,6 +13,7 @@ import graphic from "../../assets/Line Chart.png";
 import FAQ from "../../components/FAQ";
 import { useEffect } from "react";
 import ScrollUp from "../../components/scrollup";
+import WhatsApp from "../../components/whatsappscroll";
 
 const GraphicPage = () => {
   const { pathname } = useLocation();
@@ -408,6 +409,7 @@ const GraphicPage = () => {
       </section>
       <FAQ />
       <ScrollUp />
+      <WhatsApp />
     </motion.div>
   );
 };

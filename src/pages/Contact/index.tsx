@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { useLocation } from "react-router-dom";
 import ScrollUp from "../../components/scrollup";
 import { motion } from "framer-motion";
+import WhatsApp from "../../components/whatsappscroll";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -79,20 +80,22 @@ const Contact = () => {
             data-aos-easing="linear"
             data-aos-duration="2500"
           >
-            <h3 className="text-[#6FCFED] lg:text-2xl md:text-lg text-sm">
+            <h2 className="lg:text-6xl text-[#6FCFED] md:text-3xl text-xl font-semibold text-center lg:text-right">
               Differeacting
-            </h3>
-            <h2 className="lg:text-6xl md:text-3xl text-xl font-semibold text-center lg:text-right">
-              הבית של האיכות והחדשנות בעיצוב ופיתוח
             </h2>
-            <p className="text-base  my-5  text-justify ">
-              בסטודיו שלנו, אנו מתחייבים להיות עמכם מהצעד הראשון, מבטיחים שכל
-              פרויקט יהיה לא רק מרהיב ומתקדם, אלא גם מסודר ומאורגן להפליא. כל
-              פרויקט ב-Differeacting מתחיל באפיון ועיצוב מדויק, כאשר אנו מתמקדים
-              בכל פרט ופרט כדי להבטיח שהמוצר הסופי יעמוד בציפיות הגבוהות שלנו
-              ושלכם. אחרי העיצוב, אנחנו עוברים לשלב הפיתוח, שבו מופעלות
-              הטכנולוגיות המתקדמות ביותר כדי להבטיח שאתרכם יהיה לא רק יפה, אלא
-              גם חזק ובעל ביצועים גבוהים.
+            <p className="text-base   my-5  text-justify ">
+              אנו ב- <span className="text-[#6FCFED] ">Differeacting</span>{" "}
+              מאמינים בתקשורת פתוחה וישירה עם לקוחותינו. אנו כאן כדי לענות על כל
+              שאלה, לספק מידע נוסף על השירותים והמוצרים שלנו, או לקבל ממך משוב
+              כדי לשפר את השירות שלנו.
+            </p>
+            <p className="text-base   my-5  text-justify ">
+              אתה מוזמן ליצור קשר באחת מהדרכים הבאות, ונחזור אליך בהקדם: טלפון.
+              דוא"ל. וואטסאפ. שעות פעילות שלנו הן:
+              <br /> ימים א'-ה': 09:00 - 18:00 תוכלו גם למלא את טופס צור קשר
+              שלהלן, ואנו נחזור בהקדם האפשרי: אנו מחויבים לספק לך שירות מצוין
+              ולהיות זמינים לכל שאלה או בקשה. תודה שבחרת ב-
+              <span className="text-[#6FCFED] ">Differeacting.</span>
             </p>
           </div>
         </div>
@@ -418,6 +421,7 @@ const Contact = () => {
         </div>
       </section>
       <ScrollUp />
+      <WhatsApp />
     </motion.div>
   );
 };
